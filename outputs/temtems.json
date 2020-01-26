@@ -1010,9 +1010,7 @@
   {
     "id": 91,
     "name": "Raignet",
-    "types": [
-      "Temtem"
-    ],
+    "types": [],
     "evolves_from": "Unknown",
     "evolves_to": [],
     "traits": [],
