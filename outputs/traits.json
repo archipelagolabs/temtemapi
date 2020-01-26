@@ -1,14 +1,14 @@
 [
   {
     "name": "Aerobic",
-    "effect": "When attacking with  Wind, gets SPDEF- and SPD +.",
+    "effect": "When attacking with Wind, gets SPDEF- and SPD +.",
     "learned_by": [
       "Volarend"
     ]
   },
   {
     "name": "Air Specialist",
-    "effect": "+15% damage with  Wind techniques.",
+    "effect": "+15% damage with Wind techniques.",
     "learned_by": [
       "Saku",
       "Barnshe",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Amphibian",
-    "effect": "When attacked with a  Water technique, increases SPD by 1 stage.",
+    "effect": "When attacked with a Water technique, increases SPD by 1 stage.",
     "learned_by": [
       "Fomu",
       "Saipat",
@@ -35,7 +35,7 @@
   },
   {
     "name": "Apothecary",
-    "effect": "When attacking with a special technique, the target gets Poisoned  Status condition for 1 turn if it's a rival or Regenerate  Status condition for 1 turn if it's an ally.",
+    "effect": "When attacking with a special technique, the target gets Poisoned Status condition for 1 turn if it's a rival or Regenerate Status condition for 1 turn if it's an ally.",
     "learned_by": [
       "Orphyll"
     ]
@@ -56,7 +56,7 @@
   },
   {
     "name": "Botanist",
-    "effect": "+15% damage with  Nature techniques.",
+    "effect": "+15% damage with Nature techniques.",
     "learned_by": [
       "Loali",
       "Hidody",
@@ -92,7 +92,7 @@
   },
   {
     "name": "Caffeinated",
-    "effect": "Prevents the Asleep  Status condition.",
+    "effect": "Prevents the Asleep Status condition.",
     "learned_by": [
       "Paharac",
       "Kaku",
@@ -128,7 +128,7 @@
   },
   {
     "name": "Cold-Natured",
-    "effect": "Instead of getting  Cold, the Temtem gets  Frozen.",
+    "effect": "Instead of getting Cold, the Temtem gets Frozen.",
     "learned_by": [
       "Ganki"
     ]
@@ -160,7 +160,7 @@
   },
   {
     "name": "Energy Reserve",
-    "effect": "If HP is below 25% by the end of the turn, gets  Vigorized for 2 turns.",
+    "effect": "If HP is below 25% by the end of the turn, gets Vigorized for 2 turns.",
     "learned_by": [
       "Piraniant"
     ]
@@ -213,21 +213,21 @@
   },
   {
     "name": "Guardian",
-    "effect": "Prevents the   cold,   burned,   poisoned and   doomed Status condition on the ally.",
+    "effect": "Prevents the cold, burned, poisoned and doomed Status condition on the ally.",
     "learned_by": [
       "Shuine"
     ]
   },
   {
     "name": "Hover",
-    "effect": "When attacked with an  Earth technique, reduces damage by 50%.",
+    "effect": "When attacked with an Earth technique, reduces damage by 50%.",
     "learned_by": [
       "Paharo"
     ]
   },
   {
     "name": "Hydrologist",
-    "effect": "+15% damage with  Water techniques.",
+    "effect": "+15% damage with Water techniques.",
     "learned_by": [
       "Fomu",
       "Pewki",
@@ -269,7 +269,7 @@
   },
   {
     "name": "Mental Alliance",
-    "effect": "Increases SPATK by 15% if an ally is  Mental.",
+    "effect": "Increases SPATK by 15% if an ally is Mental.",
     "learned_by": [
       "Houchic"
     ]
@@ -286,7 +286,7 @@
   },
   {
     "name": "Mithridatism",
-    "effect": "Prevents the Poisoned  Status condition.",
+    "effect": "Prevents the Poisoned Status condition.",
     "learned_by": [
       "Swali",
       "Kaku",
@@ -304,7 +304,7 @@
   },
   {
     "name": "Mucous",
-    "effect": "Resists damage from [[Electric Type|Electric]] techniques and prevents the \u00a0 cold and  burned\u00a0Status condition.",
+    "effect": "Resists damage from [[Electric Type|Electric]] techniques and prevents the cold and burned Status condition.",
     "learned_by": [
       "Babawa"
     ]
@@ -341,7 +341,7 @@
   },
   {
     "name": "Power Nap",
-    "effect": "At the start of the turn, restores 15% of max HP of an Asleep  Temtem.",
+    "effect": "At the start of the turn, restores 15% of max HP of an Asleep Temtem.",
     "learned_by": [
       "Toxolotl"
     ]
@@ -369,7 +369,7 @@
   },
   {
     "name": "Punching Bag",
-    "effect": "Damage taken from  Melee techniques is reduced by 30%",
+    "effect": "Damage taken from Melee techniques is reduced by 30%",
     "learned_by": [
       "Goolder"
     ]
@@ -383,7 +383,7 @@
   },
   {
     "name": "Pyromaniac",
-    "effect": "+15% damage with  Fire techniques.",
+    "effect": "+15% damage with Fire techniques.",
     "learned_by": [
       "Banapi",
       "Vulor",
@@ -468,7 +468,7 @@
   },
   {
     "name": "Soft Touch",
-    "effect": "When attacking an Asleep  Status condition target, it won't wake up.",
+    "effect": "When attacking an Asleep Status condition target, it won't wake up.",
     "learned_by": [
       "Tateru",
       "Houchic"
@@ -497,7 +497,7 @@
   },
   {
     "name": "Thick Skin",
-    "effect": "When attacked by a  Fire technique, reduces damage by 50%.",
+    "effect": "When attacked by a Fire technique, reduces damage by 50%.",
     "learned_by": [
       "Magmis"
     ]
@@ -521,7 +521,7 @@
   },
   {
     "name": "Toxic Farewell",
-    "effect": "When knocked-out, the attacker gets the  Poisoned  Status condition for 3 turns.",
+    "effect": "When knocked-out, the attacker gets the Poisoned Status condition for 3 turns.",
     "learned_by": [
       "Loali",
       "Taifu",
@@ -531,7 +531,7 @@
   },
   {
     "name": "Toxic Skin",
-    "effect": "When attacked with a physical technique, the attacker gets \u00a0Poisoned  Status condition for 2 turns.",
+    "effect": "When attacked with a physical technique, the attacker gets Poisoned Status condition for 2 turns.",
     "learned_by": [
       "Noxolotl",
       "Blooze",
@@ -540,7 +540,7 @@
   },
   {
     "name": "Trance",
-    "effect": "When attacked, gets \u00a0asleep  Status condition for 2 turns, SPATK +2 and SPDEF +2 if HP is below 30%.",
+    "effect": "When attacked, gets asleep Status condition for 2 turns, SPATK +2 and SPDEF +2 if HP is below 30%.",
     "learned_by": [
       "Noxolotl"
     ]
@@ -554,7 +554,7 @@
   },
   {
     "name": "Tri-Apothecary",
-    "effect": "When attacking with a special technique, the target gets \u00a0poisoned  for 3 turns if it's a rival or \u00a0regenerating  for 3 turns if it's an ally.",
+    "effect": "When attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally.",
     "learned_by": [
       "Nidrasil"
     ]
@@ -568,7 +568,7 @@
   },
   {
     "name": "Warm-Blooded",
-    "effect": "Prevents the   cold \u00a0Status condition.",
+    "effect": "Prevents the cold Status condition.",
     "learned_by": [
       "Bigu",
       "Occlura",
@@ -584,7 +584,7 @@
   },
   {
     "name": "Withdrawal",
-    "effect": "When resting, restores 15% of max HP and removes the asleep  Status condition.",
+    "effect": "When resting, restores 15% of max HP and removes the asleep Status condition.",
     "learned_by": [
       "Babawa"
     ]

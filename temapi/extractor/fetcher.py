@@ -77,7 +77,6 @@ def save(entities, filename):
 
 def run():
     names = fetch_temtem_name_list()
-
     temtems = [fetch_temtem(name) for name in names]
     for t in temtems:
         print(t)
