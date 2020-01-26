@@ -61,7 +61,7 @@ def fetch_temtem(name):
 
 
 def save(temtems):
-    project_root = Path(__file__).parent.parent.absolute()
+    project_root = Path(__file__).parent.parent.parent.absolute()
     with (project_root / 'outputs/temtems.json').open('w+') as f:
         json.dump([t._asdict() for t in temtems], f, indent=2)
 
