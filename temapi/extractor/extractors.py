@@ -86,3 +86,18 @@ def extract_trait(sel: parsel.Selector):
         effect=effect,
         learned_by=learned_by,
     )
+
+# Items
+
+def extract_item_property_directly(sel: parsel.Selector):
+    return sel.xpath('.//text()').get().strip()
+
+def string_to_bool(string):
+    if string == 'Yes':
+        return True
+    if string == 'No':
+        return False
+
+def extract_item_string_to_bool(sel: parsel.Selector):
+    string = sel.xpath('.//text()').get().strip()
+    return string_to_bool(string)
