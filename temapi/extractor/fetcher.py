@@ -159,14 +159,14 @@ def save(entities, filename):
 
 
 def run():
-    # names = fetch_temtem_name_list()
-    # temtems = [fetch_temtem(name) for name in names]
-    # for t in temtems:
-    #     print(t)
-    # save(temtems, 'temtems.json')
+    names = fetch_temtem_name_list()
+    temtems = [fetch_temtem(name) for name in names]
+    for t in temtems:
+        print(t)
+    save(temtems, 'temtems.json')
 
-    # traits = fetch_traits()
-    # save(traits, 'traits.json')
+    traits = fetch_traits()
+    save(traits, 'traits.json')
 
     names = fetch_item_name_list()
     items = []

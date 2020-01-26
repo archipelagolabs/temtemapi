@@ -107,4 +107,4 @@ def extract_item_string_to_int(sel: parsel.Selector):
     try:
         return int(value)
     except ValueError:
-        return '???'
+        return None
