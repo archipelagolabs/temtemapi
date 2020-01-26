@@ -16,7 +16,6 @@ class Temtem(NamedTuple):
 
 
 class Technique(NamedTuple):
-    id: int
     name: str
     description: str
     type: str  # TemtemType
@@ -29,10 +28,15 @@ class Technique(NamedTuple):
 
 
 class Item(NamedTuple):
-    id: int
     name: str
     effect: str
     consumable: bool
+
+
+class Trait(NamedTuple):
+    name: str
+    effect: str
+    learned_by: List[str]
 
 
 class TemtemType(Enum):

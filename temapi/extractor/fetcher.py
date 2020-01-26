@@ -1,11 +1,11 @@
-import requests
 import json
-from pathlib import Path
 
+import requests
 from parsel import Selector
 
-from temapi.extractor import extractors
 from temapi.commons.models import Temtem
+from temapi.commons.paths import OUTPUTS_DIR
+from temapi.extractor import extractors
 
 
 def fetch_temtem_name_list():
@@ -13,9 +13,7 @@ def fetch_temtem_name_list():
 
     sel = Selector(text=response.text)
 
-    a = sel.css('table.wikitable > tbody > tr').xpath('.//td[2]/a/@title').getall()
-
-    return a
+    return sel.css('table.wikitable > tbody > tr').xpath('.//td[2]/a/@title').getall()
 
 
 extractors_map = {
@@ -60,19 +58,30 @@ def fetch_temtem(name):
     )
 
 
-def save(temtems):
-    project_root = Path(__file__).parent.parent.parent.absolute()
-    with (project_root / 'outputs/temtems.json').open('w+') as f:
-        json.dump([t._asdict() for t in temtems], f, indent=2)
+def fetch_traits():
+    print(f'Getting traits')
+    response = requests.get('https://temtem.gamepedia.com/Traits')
+
+    sel = Selector(text=response.text)
+    table = sel.css('#mw-content-text > div > table > tbody > tr')
+
+    # skip header
+    for s in table[1:]:
+        yield extractors.extract_trait(s)
+
+
+def save(entities, filename):
+    with (OUTPUTS_DIR / filename).open('w+') as f:
+        json.dump([e._asdict() for e in entities], f, indent=2)
 
 
 def run():
-    from pprint import pprint
-
     names = fetch_temtem_name_list()
-    pprint(list(enumerate(names)))
 
     temtems = [fetch_temtem(name) for name in names]
     for t in temtems:
         print(t)
-    save(temtems)
+    save(temtems, 'temtems.json')
+
+    traits = fetch_traits()
+    save(traits, 'traits.json')

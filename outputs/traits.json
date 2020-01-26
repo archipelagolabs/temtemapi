@@ -1,0 +1,606 @@
+[
+  {
+    "name": "Aerobic",
+    "effect": "When attacking with  Wind, gets SPDEF- and SPD +.",
+    "learned_by": [
+      "Volarend"
+    ]
+  },
+  {
+    "name": "Air Specialist",
+    "effect": "+15% damage with  Wind techniques.",
+    "learned_by": [
+      "Saku",
+      "Barnshe",
+      "Zephyruff"
+    ]
+  },
+  {
+    "name": "Amphibian",
+    "effect": "When attacked with a  Water technique, increases SPD by 1 stage.",
+    "learned_by": [
+      "Fomu",
+      "Saipat",
+      "Crystle",
+      "Platypet",
+      "Bigu"
+    ]
+  },
+  {
+    "name": "Anaerobic",
+    "effect": "When attacking with Toxic, gets SPDEF+ and SPATK-.",
+    "learned_by": [
+      "Volarend"
+    ]
+  },
+  {
+    "name": "Apothecary",
+    "effect": "When attacking with a special technique, the target gets Poisoned  Status condition for 1 turn if it's a rival or Regenerate  Status condition for 1 turn if it's an ally.",
+    "learned_by": [
+      "Orphyll"
+    ]
+  },
+  {
+    "name": "Avenger",
+    "effect": "When an ally is knocked-out, increases SPATK and SPD by 1 stage.",
+    "learned_by": [
+      "Tental"
+    ]
+  },
+  {
+    "name": "Benefactor",
+    "effect": "When an ally is damaged, restores 10% of max HP.",
+    "learned_by": [
+      "Kinu"
+    ]
+  },
+  {
+    "name": "Botanist",
+    "effect": "+15% damage with  Nature techniques.",
+    "learned_by": [
+      "Loali",
+      "Hidody",
+      "Saku",
+      "Spriole"
+    ]
+  },
+  {
+    "name": "Botanophobia",
+    "effect": "When attacked with a Nature technique, increases damage by 50%.",
+    "learned_by": [
+      "Ganki",
+      "Kalabyss"
+    ]
+  },
+  {
+    "name": "Brawny",
+    "effect": "Physical techniques do 20% more damage.",
+    "learned_by": [
+      "Skunch",
+      "Baboong"
+    ]
+  },
+  {
+    "name": "Bully",
+    "effect": "While allies outnumber rivals, techniques inflict +30% damage.",
+    "learned_by": [
+      "Granpah",
+      "Skunch",
+      "Mastione",
+      "Blooze"
+    ]
+  },
+  {
+    "name": "Caffeinated",
+    "effect": "Prevents the Asleep  Status condition.",
+    "learned_by": [
+      "Paharac",
+      "Kaku",
+      "Magmis",
+      "Umishi",
+      "Vulvir",
+      "Bunbun"
+    ]
+  },
+  {
+    "name": "Callosity",
+    "effect": "When attacked by a physical technique, increases DEF by 1 stage.",
+    "learned_by": [
+      "Cerneaf"
+    ]
+  },
+  {
+    "name": "Camaraderie",
+    "effect": "When attacked, reduces 50% damage if both allies are part of the same evolutionary line.",
+    "learned_by": [
+      "Paharac",
+      "Raiber",
+      "Spriole",
+      "Vulvir"
+    ]
+  },
+  {
+    "name": "Channeler",
+    "effect": "Damage done with Special techniques is increased by 25%.",
+    "learned_by": [
+      "Zenoreth"
+    ]
+  },
+  {
+    "name": "Cold-Natured",
+    "effect": "Instead of getting  Cold, the Temtem gets  Frozen.",
+    "learned_by": [
+      "Ganki"
+    ]
+  },
+  {
+    "name": "Demoralize",
+    "effect": "When entering the battlefield, decreases enemy team SPD by 1 stage.",
+    "learned_by": [
+      "Raize"
+    ]
+  },
+  {
+    "name": "Determined",
+    "effect": "Prevents negative stat stage changes.",
+    "learned_by": [
+      "Platimous",
+      "Valash",
+      "Tuvine"
+    ]
+  },
+  {
+    "name": "Electric Synthesize",
+    "effect": "When attacked with an Electric technique, restores HP instead of receiving damage.",
+    "learned_by": [
+      "Hidody",
+      "Nessla",
+      "Lapinite"
+    ]
+  },
+  {
+    "name": "Energy Reserve",
+    "effect": "If HP is below 25% by the end of the turn, gets  Vigorized for 2 turns.",
+    "learned_by": [
+      "Piraniant"
+    ]
+  },
+  {
+    "name": "Fainted Curse",
+    "effect": "When knocked-out, the attacker loses 40% of max HP.",
+    "learned_by": [
+      "Pigepic",
+      "Azuroc"
+    ]
+  },
+  {
+    "name": "Fast Charge",
+    "effect": "When a Digital ally enters the battlefield, gets SPD +2.",
+    "learned_by": [
+      "Gazuma"
+    ]
+  },
+  {
+    "name": "Fever Rush",
+    "effect": "When getting a Status condition, increases ATK by 1 stage.",
+    "learned_by": [
+      "Smazee"
+    ]
+  },
+  {
+    "name": "Flawed Crystal",
+    "effect": "When attacked by a Mental, Toxic, or Electric Technique, increases damage by 50%.",
+    "learned_by": [
+      "Anahir"
+    ]
+  },
+  {
+    "name": "Friendship",
+    "effect": "Immune to ally's offensive techniques.",
+    "learned_by": [
+      "Paharo",
+      "Pigepic",
+      "Smazee"
+    ]
+  },
+  {
+    "name": "Furor",
+    "effect": "When HP is below 33%, techniques do 33% more damage.",
+    "learned_by": [
+      "Raize",
+      "Skail"
+    ]
+  },
+  {
+    "name": "Guardian",
+    "effect": "Prevents the   cold,   burned,   poisoned and   doomed Status condition on the ally.",
+    "learned_by": [
+      "Shuine"
+    ]
+  },
+  {
+    "name": "Hover",
+    "effect": "When attacked with an  Earth technique, reduces damage by 50%.",
+    "learned_by": [
+      "Paharo"
+    ]
+  },
+  {
+    "name": "Hydrologist",
+    "effect": "+15% damage with  Water techniques.",
+    "learned_by": [
+      "Fomu",
+      "Pewki",
+      "Ukama",
+      "Oceara",
+      "Nessla",
+      "Kalazu"
+    ]
+  },
+  {
+    "name": "Immunity",
+    "effect": "Resists damage from Toxic techniques.",
+    "learned_by": [
+      "Shuine"
+    ]
+  },
+  {
+    "name": "Individualist",
+    "effect": "Techniques targeting the ally will fail.",
+    "learned_by": [
+      "Vulor"
+    ]
+  },
+  {
+    "name": "Last Rush",
+    "effect": "Increases ATK, SPATK and SPD by 50% while being the last standing allied Temtem.",
+    "learned_by": [
+      "Granpah",
+      "Capyre",
+      "Sparzy"
+    ]
+  },
+  {
+    "name": "Loneliness",
+    "effect": "Synergies won't work on both allies.",
+    "learned_by": [
+      "Kalabyss"
+    ]
+  },
+  {
+    "name": "Mental Alliance",
+    "effect": "Increases SPATK by 15% if an ally is  Mental.",
+    "learned_by": [
+      "Houchic"
+    ]
+  },
+  {
+    "name": "Mirroring",
+    "effect": "When attacked with a Special technique, the attacker gets 20% knockback damage.",
+    "learned_by": [
+      "Sherald",
+      "Hocus",
+      "Azuroc",
+      "Gyalis"
+    ]
+  },
+  {
+    "name": "Mithridatism",
+    "effect": "Prevents the Poisoned  Status condition.",
+    "learned_by": [
+      "Swali",
+      "Kaku",
+      "Deendre",
+      "Oceara",
+      "Kalazu"
+    ]
+  },
+  {
+    "name": "Motivator",
+    "effect": "At the start of the turn, allies restore 10% of STA.",
+    "learned_by": [
+      "Raican"
+    ]
+  },
+  {
+    "name": "Mucous",
+    "effect": "Resists damage from [[Electric Type|Electric]] techniques and prevents the \u00a0 cold and  burned\u00a0Status condition.",
+    "learned_by": [
+      "Babawa"
+    ]
+  },
+  {
+    "name": "Neutrality",
+    "effect": "Prevents all Status Conditions.",
+    "learned_by": [
+      "Barnshe"
+    ]
+  },
+  {
+    "name": "Parrier",
+    "effect": "Damage taken from physical techniques is reduced by 30%.",
+    "learned_by": [
+      "Mushook"
+    ]
+  },
+  {
+    "name": "Patient",
+    "effect": "Restores 10% of max STA when using a Hold technique.",
+    "learned_by": [
+      "Wiplump",
+      "Piraniant"
+    ]
+  },
+  {
+    "name": "Plethoric",
+    "effect": "Temtem has 30% more SPD when HP is full.",
+    "learned_by": [
+      "Wiplump",
+      "Ukama"
+    ]
+  },
+  {
+    "name": "Power Nap",
+    "effect": "At the start of the turn, restores 15% of max HP of an Asleep  Temtem.",
+    "learned_by": [
+      "Toxolotl"
+    ]
+  },
+  {
+    "name": "Prideful",
+    "effect": "When attacking, gets ATK+, SPATK+ and SPD+ if the target gets knocked-out.",
+    "learned_by": [
+      "Raican"
+    ]
+  },
+  {
+    "name": "Protector",
+    "effect": "When entering the battlefield, the ally gets DEF+ and SDPEF+.",
+    "learned_by": [
+      "Kinu"
+    ]
+  },
+  {
+    "name": "Provident",
+    "effect": "When attacked by a Fire, Earth, or Melee technique, increases SPDEF by 1 Stage.",
+    "learned_by": [
+      "Sherald"
+    ]
+  },
+  {
+    "name": "Punching Bag",
+    "effect": "Damage taken from  Melee techniques is reduced by 30%",
+    "learned_by": [
+      "Goolder"
+    ]
+  },
+  {
+    "name": "Puppet Master",
+    "effect": "While HP is below 40%, received rival techniques get redirected to the ally.",
+    "learned_by": [
+      "Myx"
+    ]
+  },
+  {
+    "name": "Pyromaniac",
+    "effect": "+15% damage with  Fire techniques.",
+    "learned_by": [
+      "Banapi",
+      "Vulor",
+      "Mastione"
+    ]
+  },
+  {
+    "name": "Receptive",
+    "effect": "When getting a favorable status condition, increases its turns by 1.",
+    "learned_by": [
+      "Mudrid",
+      "Gazuma",
+      "Tuvine",
+      "Vulcrane"
+    ]
+  },
+  {
+    "name": "Rejuvenate",
+    "effect": "When attacking with a physcal technique, restore 15% of max HP.",
+    "learned_by": [
+      "Myx"
+    ]
+  },
+  {
+    "name": "Resilient",
+    "effect": "Cannot be knocked-out due to overexertion.",
+    "learned_by": [
+      "Tateru",
+      "Taifu",
+      "Capyre",
+      "Tuwai",
+      "Platox",
+      "Bunbun",
+      "Mushi"
+    ]
+  },
+  {
+    "name": "Resistant",
+    "effect": "When getting a negative status condition, decreases its turns by 1.",
+    "learned_by": [
+      "Platox",
+      "Mudrid",
+      "Gyalis",
+      "Mushi"
+    ]
+  },
+  {
+    "name": "Rested",
+    "effect": "Increases ATK and SPATK by 30% during the first 2 turns the Temtem is on the battlefield.",
+    "learned_by": [
+      "Raiber",
+      "Pewki",
+      "Crystle"
+    ]
+  },
+  {
+    "name": "Scavenger",
+    "effect": "Restores 15% of max HP if another Temtem is knocked-out.",
+    "learned_by": [
+      "Skail",
+      "Lapinite",
+      "Valash",
+      "Occlura"
+    ]
+  },
+  {
+    "name": "Settling",
+    "effect": "Increases ATK by 8% for each turn the Temtem stays on the battlefield.",
+    "learned_by": [
+      "Banapi",
+      "Deendre",
+      "Cerneaf"
+    ]
+  },
+  {
+    "name": "Shared Pain",
+    "effect": "When receiving a consecutive attack in the same turn, the technique gets redirected to the ally.",
+    "learned_by": [
+      "Swali",
+      "Umishi"
+    ]
+  },
+  {
+    "name": "Soft Touch",
+    "effect": "When attacking an Asleep  Status condition target, it won't wake up.",
+    "learned_by": [
+      "Tateru",
+      "Houchic"
+    ]
+  },
+  {
+    "name": "Spoilsport",
+    "effect": "+25% damage with multi-target techniques.",
+    "learned_by": [
+      "Tuwai"
+    ]
+  },
+  {
+    "name": "Strong Liver",
+    "effect": "When attacked with a Toxic techniques, restores HP instead of receiving damage.",
+    "learned_by": [
+      "Goolder"
+    ]
+  },
+  {
+    "name": "Synergy Master",
+    "effect": "Damage done with synergy techniques is increased by 25% while the Temtem participate in the synergy.",
+    "learned_by": [
+      "Adoroboros"
+    ]
+  },
+  {
+    "name": "Thick Skin",
+    "effect": "When attacked by a  Fire technique, reduces damage by 50%.",
+    "learned_by": [
+      "Magmis"
+    ]
+  },
+  {
+    "name": "Tireless",
+    "effect": "Prevents the overexertion turn penalization.",
+    "learned_by": [
+      "Mushook"
+    ]
+  },
+  {
+    "name": "Toxic Affinity",
+    "effect": "Toxic techniques get a damage boost of the same type.",
+    "learned_by": [
+      "Saipat",
+      "Platypet",
+      "Orphyll",
+      "Zephyruff"
+    ]
+  },
+  {
+    "name": "Toxic Farewell",
+    "effect": "When knocked-out, the attacker gets the  Poisoned  Status condition for 3 turns.",
+    "learned_by": [
+      "Loali",
+      "Taifu",
+      "Nidrasil",
+      "Toxolotl"
+    ]
+  },
+  {
+    "name": "Toxic Skin",
+    "effect": "When attacked with a physical technique, the attacker gets \u00a0Poisoned  Status condition for 2 turns.",
+    "learned_by": [
+      "Noxolotl",
+      "Blooze",
+      "Adoroboros"
+    ]
+  },
+  {
+    "name": "Trance",
+    "effect": "When attacked, gets \u00a0asleep  Status condition for 2 turns, SPATK +2 and SPDEF +2 if HP is below 30%.",
+    "learned_by": [
+      "Noxolotl"
+    ]
+  },
+  {
+    "name": "Trauma",
+    "effect": "Decreases DEF by 1 stage if hit by a physical technique, and decreases SPDEF by 1 stage if hit by a special technique.",
+    "learned_by": [
+      "Anahir"
+    ]
+  },
+  {
+    "name": "Tri-Apothecary",
+    "effect": "When attacking with a special technique, the target gets \u00a0poisoned  for 3 turns if it's a rival or \u00a0regenerating  for 3 turns if it's an ally.",
+    "learned_by": [
+      "Nidrasil"
+    ]
+  },
+  {
+    "name": "Vigorous",
+    "effect": "Damage done when overexerting is increased by 50%.",
+    "learned_by": [
+      "Vulcrane"
+    ]
+  },
+  {
+    "name": "Warm-Blooded",
+    "effect": "Prevents the   cold \u00a0Status condition.",
+    "learned_by": [
+      "Bigu",
+      "Occlura",
+      "Baboong"
+    ]
+  },
+  {
+    "name": "Water Affinity",
+    "effect": "Water techniques get a damage boost of the same type.",
+    "learned_by": [
+      "Tental"
+    ]
+  },
+  {
+    "name": "Withdrawal",
+    "effect": "When resting, restores 15% of max HP and removes the asleep  Status condition.",
+    "learned_by": [
+      "Babawa"
+    ]
+  },
+  {
+    "name": "Wrecked Farewell",
+    "effect": "When kocked-out by overexting damage, every Temtem loses 25% of max HP.",
+    "learned_by": [
+      "Zenoreth"
+    ]
+  },
+  {
+    "name": "Zen",
+    "effect": "When getting the Asleep status condition, gets DEF +1 and SPDEF +1.",
+    "learned_by": [
+      "Platimous"
+    ]
+  }
+]

@@ -1,6 +1,10 @@
 import re
 
 import parsel
+from w3lib import html
+
+# Temtems
+from temapi.commons.models import Trait
 
 re_height = re.compile(r'(\d+([.]\d+)?)cm')
 re_weight = re.compile(r'(\d+([.]\d+)?)kg')
@@ -58,3 +62,19 @@ def extract_weight(sel: parsel.Selector):
 
 def extract_cry(sel: parsel.Selector):
     return sel.xpath('.//span/audio/@src').get()
+
+
+# Traits
+
+def extract_trait(sel: parsel.Selector):
+    name_sel, effect_sel, learned_by_sel = sel.xpath('.//td')
+
+    name = name_sel.xpath('.//a/text()').get()
+    effect = html.remove_tags(effect_sel.get()).strip()
+    learned_by = learned_by_sel.xpath('.//a/text()').getall()
+
+    return Trait(
+        name=name,
+        effect=effect,
+        learned_by=learned_by,
+    )
