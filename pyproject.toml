@@ -5,9 +5,9 @@ description = ""
 authors = ["Joao Vitor Maia <joaocampo2@hotmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-bs4 = "^0.0.1"
+python = "^3.7"
 requests = "^2.22.0"
+parsel = "^1.5.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

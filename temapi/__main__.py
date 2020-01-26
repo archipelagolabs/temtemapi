@@ -1,7 +1,9 @@
-from .extractor import run
+from temapi.fetcher import run
 
-if __name__ == "__main__":
-    main()
 
 def main():
     run()
+
+
+if __name__ == '__main__':
+    main()
