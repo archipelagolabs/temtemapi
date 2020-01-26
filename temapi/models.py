@@ -10,8 +10,8 @@ class Temtem(NamedTuple):
     evolves_to: List[str]
     traits: List[str]
     tv_yield: str
-    height: int
-    weight: int
+    height: float
+    weight: float
     cry: str
 
 

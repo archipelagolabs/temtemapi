@@ -3,7 +3,6 @@ import re
 import requests
 import json
 from pathlib import Path
-from bs4 import BeautifulSoup
 
 from parsel import Selector
 
@@ -59,19 +58,23 @@ def fetch_temtem(name):
         tv_yield=data['TV Yield'],
         height=data['Height'],
         weight=data['Weight'],
-        cry=data['Cry'],
+        cry=data.get('Cry'),
     )
 
 
 def save(temtems):
     project_root = Path(__file__).parent.parent.absolute()
     with (project_root / 'outputs/temtems.json').open('w+') as f:
-        json.dump([t._asdict() for t in temtems], f)
+        json.dump([t._asdict() for t in temtems], f, indent=2)
 
 
 def run():
+    from pprint import pprint
+
     names = fetch_temtem_name_list()
-    temtems = [fetch_temtem(name) for name in names[:5]]
+    pprint(list(enumerate(names)))
+
+    temtems = [fetch_temtem(name) for name in names]
     for t in temtems:
         print(t)
     save(temtems)

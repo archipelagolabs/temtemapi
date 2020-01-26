@@ -2,8 +2,8 @@ import re
 
 import parsel
 
-re_height = re.compile(r'(\d+)cm')
-re_weight = re.compile(r'(\d+)kg')
+re_height = re.compile(r'(\d+([.]\d+)?)cm')
+re_weight = re.compile(r'(\d+([.]\d+)?)kg')
 
 
 def extract_id(sel: parsel.Selector):
@@ -39,15 +39,21 @@ def extract_tv_yield(sel: parsel.Selector):
 
 
 def extract_height(sel: parsel.Selector):
-    height_str = sel.xpath('.//text()').get()
+    height_str = sel.xpath('.//text()').get().strip()
+    if height_str == '?':
+        return None
+
     height = re_height.match(height_str).group(1)
-    return int(height)
+    return float(height)
 
 
 def extract_weight(sel: parsel.Selector):
-    weight_str = sel.xpath('.//text()').get()
+    weight_str = sel.xpath('.//text()').get().strip()
+    if weight_str == '?':
+        return None
+
     weight = re_weight.match(weight_str).group(1)
-    return int(weight)
+    return float(weight)
 
 
 def extract_cry(sel: parsel.Selector):

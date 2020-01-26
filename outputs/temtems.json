@@ -1,1 +1,1547 @@
-[{"id": 2, "name": "Oree", "types": ["Digital"], "evolves_from": null, "evolves_to": ["Zaobian"], "traits": [], "tv_yield": "STA +1", "height": 128, "weight": 43, "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/3c/VO_02_Intro.wav"}, {"id": 3, "name": "Zaobian", "types": ["Digital"], "evolves_from": "Oree", "evolves_to": [], "traits": [], "tv_yield": "ATK +1, STA +2", "height": 213, "weight": 93, "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/f/f7/VO_003_Intro.wav"}, {"id": 7, "name": "Platypet", "types": ["Water", "Toxic"], "evolves_from": null, "evolves_to": ["Platox"], "traits": ["Toxic Affinity", "Amphibian"], "tv_yield": "SPATK +1", "height": 85, "weight": 48, "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/86/007_intro.mp3"}, {"id": 8, "name": "Platox", "types": ["Water", "Toxic"], "evolves_from": "Platypet", "evolves_to": ["Platimous"], "traits": ["Resistant", "Resilient"], "tv_yield": "SPD +1, SPATK +1", "height": 140, "weight": 70, "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/24/008_intro.mp3"}, {"id": 9, "name": "Platimous", "types": ["Water", "Toxic"], "evolves_from": "Platox", "evolves_to": [], "traits": ["Zen", "Determined"], "tv_yield": "SPD +2, SPATK +2", "height": 190, "weight": 107, "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/de/009_intro.mp3"}]
+[
+  {
+    "id": 2,
+    "name": "Oree",
+    "types": [
+      "Digital"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Zaobian"
+    ],
+    "traits": [],
+    "tv_yield": "STA +1",
+    "height": 128.0,
+    "weight": 43.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/3c/VO_02_Intro.wav"
+  },
+  {
+    "id": 3,
+    "name": "Zaobian",
+    "types": [
+      "Digital"
+    ],
+    "evolves_from": "Oree",
+    "evolves_to": [],
+    "traits": [],
+    "tv_yield": "ATK +1, STA +2",
+    "height": 213.0,
+    "weight": 93.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/f/f7/VO_003_Intro.wav"
+  },
+  {
+    "id": 7,
+    "name": "Platypet",
+    "types": [
+      "Water",
+      "Toxic"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Platox"
+    ],
+    "traits": [
+      "Toxic Affinity",
+      "Amphibian"
+    ],
+    "tv_yield": "SPATK +1",
+    "height": 85.0,
+    "weight": 48.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/86/007_intro.mp3"
+  },
+  {
+    "id": 8,
+    "name": "Platox",
+    "types": [
+      "Water",
+      "Toxic"
+    ],
+    "evolves_from": "Platypet",
+    "evolves_to": [
+      "Platimous"
+    ],
+    "traits": [
+      "Resistant",
+      "Resilient"
+    ],
+    "tv_yield": "SPD +1, SPATK +1",
+    "height": 140.0,
+    "weight": 70.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/24/008_intro.mp3"
+  },
+  {
+    "id": 9,
+    "name": "Platimous",
+    "types": [
+      "Water",
+      "Toxic"
+    ],
+    "evolves_from": "Platox",
+    "evolves_to": [],
+    "traits": [
+      "Zen",
+      "Determined"
+    ],
+    "tv_yield": "SPD +2, SPATK +2",
+    "height": 190.0,
+    "weight": 107.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/de/009_intro.mp3"
+  },
+  {
+    "id": 10,
+    "name": "Swali",
+    "types": [
+      "Nature"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Loali"
+    ],
+    "traits": [
+      "Shared Pain",
+      "Mithridatism"
+    ],
+    "tv_yield": "STA +1",
+    "height": 82.0,
+    "weight": 18.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/3a/VO_10_Intro.wav"
+  },
+  {
+    "id": 11,
+    "name": "Loali",
+    "types": [
+      "Nature",
+      "Wind"
+    ],
+    "evolves_from": "Swali",
+    "evolves_to": [],
+    "traits": [
+      "Botanist",
+      "Toxic Farewell"
+    ],
+    "tv_yield": "SPD +1 STA +1",
+    "height": 60.0,
+    "weight": 14.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/13/VO_11_Intro.wav"
+  },
+  {
+    "id": 12,
+    "name": "Tateru",
+    "types": [
+      "Neutral"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Soft Touch",
+      "Resilient"
+    ],
+    "tv_yield": "STA +2",
+    "height": 145.0,
+    "weight": 61.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/ee/VO_12_Intro.wav"
+  },
+  {
+    "id": 16,
+    "name": "Paharo",
+    "types": [
+      "Wind"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Paharac"
+    ],
+    "traits": [
+      "Hover",
+      "Friendship"
+    ],
+    "tv_yield": "HP +1",
+    "height": 75.0,
+    "weight": 8.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/bf/VO_16_Intro.wav"
+  },
+  {
+    "id": 17,
+    "name": "Paharac",
+    "types": [
+      "Wind"
+    ],
+    "evolves_from": "Paharo",
+    "evolves_to": [
+      "Granpah"
+    ],
+    "traits": [
+      "Caffeinated",
+      "Camaraderie"
+    ],
+    "tv_yield": "HP +1 SPD +1",
+    "height": 125.0,
+    "weight": 24.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/1a/VO_17_Intro.wav"
+  },
+  {
+    "id": 18,
+    "name": "Granpah",
+    "types": [
+      "Wind"
+    ],
+    "evolves_from": "Paharac",
+    "evolves_to": [],
+    "traits": [
+      "Last Rush",
+      "Bully"
+    ],
+    "tv_yield": "SPDEF +1",
+    "height": 186.0,
+    "weight": 45.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/d6/018_intro.mp3"
+  },
+  {
+    "id": 19,
+    "name": "Ampling",
+    "types": [
+      "Electric"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Amphatyr"
+    ],
+    "traits": [],
+    "tv_yield": "?",
+    "height": null,
+    "weight": null,
+    "cry": null
+  },
+  {
+    "id": 20,
+    "name": "Amphatyr",
+    "types": [
+      "Electric",
+      "Nature"
+    ],
+    "evolves_from": "Ampling",
+    "evolves_to": [],
+    "traits": [],
+    "tv_yield": "?",
+    "height": null,
+    "weight": null,
+    "cry": null
+  },
+  {
+    "id": 21,
+    "name": "Bunbun",
+    "types": [
+      "Earth",
+      "Crystal"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Mudrid"
+    ],
+    "traits": [
+      "Caffeinated",
+      "Resilient"
+    ],
+    "tv_yield": "SPD +2",
+    "height": 55.0,
+    "weight": 18.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/7e/021_intro.mp3"
+  },
+  {
+    "id": 22,
+    "name": "Mudrid",
+    "types": [
+      "Earth",
+      "Crystal"
+    ],
+    "evolves_from": "Bunbun",
+    "evolves_to": [],
+    "traits": [
+      "Receptive",
+      "Resistant"
+    ],
+    "tv_yield": "SPD +3",
+    "height": 150.0,
+    "weight": 75.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/9/9c/022_intro.mp3"
+  },
+  {
+    "id": 23,
+    "name": "Hidody",
+    "types": [
+      "Nature"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Taifu"
+    ],
+    "traits": [
+      "Electric Synthesize",
+      "Botanist"
+    ],
+    "tv_yield": "STA +2",
+    "height": 100.0,
+    "weight": 12.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/ea/VO_23_Intro.wav"
+  },
+  {
+    "id": 24,
+    "name": "Taifu",
+    "types": [
+      "Nature"
+    ],
+    "evolves_from": "Hidody",
+    "evolves_to": [],
+    "traits": [
+      "Toxic Farewell",
+      "Resilient"
+    ],
+    "tv_yield": "SPATK +1, STA +2",
+    "height": 180.0,
+    "weight": 72.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/d7/024_intro.mp3"
+  },
+  {
+    "id": 25,
+    "name": "Fomu",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Wiplump"
+    ],
+    "traits": [
+      "Amphibian",
+      "Hydrologist"
+    ],
+    "tv_yield": "SPDEF +2",
+    "height": 58.0,
+    "weight": 12.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4c/VO_25_Intro.wav"
+  },
+  {
+    "id": 26,
+    "name": "Wiplump",
+    "types": [
+      "Water",
+      "Wind"
+    ],
+    "evolves_from": "Fomu",
+    "evolves_to": [],
+    "traits": [
+      "Plethoric",
+      "Patient"
+    ],
+    "tv_yield": "SPATK +2",
+    "height": 125.0,
+    "weight": 28.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/89/VO_26_Intro.wav"
+  },
+  {
+    "id": 27,
+    "name": "Skail",
+    "types": [
+      "Neutral"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Skunch"
+    ],
+    "traits": [
+      "Furor",
+      "Scavenger"
+    ],
+    "tv_yield": "SPD +1",
+    "height": 80.0,
+    "weight": 26.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/6/67/VO_27_Intro.wav"
+  },
+  {
+    "id": 28,
+    "name": "Skunch",
+    "types": [
+      "Neutral",
+      "Melee"
+    ],
+    "evolves_from": "Skail",
+    "evolves_to": [],
+    "traits": [
+      "Brawny",
+      "Bully"
+    ],
+    "tv_yield": "HP +1 SPD +1",
+    "height": 150.0,
+    "weight": 36.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e4/VO_28_Intro.wav"
+  },
+  {
+    "id": 32,
+    "name": "Houchic",
+    "types": [
+      "Mental"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Tental"
+    ],
+    "traits": [
+      "Mental Alliance",
+      "Soft Touch"
+    ],
+    "tv_yield": "SPATK +1",
+    "height": 110.0,
+    "weight": 24.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/1c/VO_32_Intro.wav"
+  },
+  {
+    "id": 33,
+    "name": "Tental",
+    "types": [
+      "Mental"
+    ],
+    "evolves_from": "Houchic",
+    "evolves_to": [],
+    "traits": [
+      "Water Affinity",
+      "Avenger"
+    ],
+    "tv_yield": "SPATK +2",
+    "height": 160.0,
+    "weight": 58.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/00/033_intro.mp3"
+  },
+  {
+    "id": 35,
+    "name": "Orphyll",
+    "types": [
+      "Nature",
+      "Toxic"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Nidrasil"
+    ],
+    "traits": [
+      "Toxic Affinity",
+      "Apothecary"
+    ],
+    "tv_yield": "2 SPD",
+    "height": 117.0,
+    "weight": 110.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/3a/035_intro.mp3"
+  },
+  {
+    "id": 36,
+    "name": "Nidrasil",
+    "types": [
+      "Nature",
+      "Toxic"
+    ],
+    "evolves_from": "Orphyll",
+    "evolves_to": [],
+    "traits": [
+      "Toxic Farewell",
+      "Tri-Apothecary"
+    ],
+    "tv_yield": "ATK +3",
+    "height": 178.0,
+    "weight": 330.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/ba/036_intro.mp3"
+  },
+  {
+    "id": 37,
+    "name": "Banapi",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Capyre"
+    ],
+    "traits": [
+      "Pyromaniac",
+      "Settling"
+    ],
+    "tv_yield": "SPD +2",
+    "height": 90.0,
+    "weight": 45.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/f/f7/037_intro.mp3"
+  },
+  {
+    "id": 38,
+    "name": "Capyre",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Banapi",
+    "evolves_to": [],
+    "traits": [
+      "Last Rush",
+      "Resilient"
+    ],
+    "tv_yield": "SPD +2 ATK +1",
+    "height": 150.0,
+    "weight": 67.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/f/f9/038_intro.mp3"
+  },
+  {
+    "id": 39,
+    "name": "Lapinite",
+    "types": [
+      "Crystal"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Azuroc"
+    ],
+    "traits": [
+      "Scavenger",
+      "Electric Synthesize"
+    ],
+    "tv_yield": "DEF 2",
+    "height": 90.0,
+    "weight": 47.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/79/039_intro.mp3"
+  },
+  {
+    "id": 40,
+    "name": "Azuroc",
+    "types": [
+      "Crystal"
+    ],
+    "evolves_from": "Lapinite",
+    "evolves_to": [
+      "Zenoreth"
+    ],
+    "traits": [
+      "Mirroring",
+      "Fainted Curse"
+    ],
+    "tv_yield": "DEF 3",
+    "height": 203.0,
+    "weight": 95.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/0c/040_intro.mp3"
+  },
+  {
+    "id": 41,
+    "name": "Zenoreth",
+    "types": [
+      "Crystal"
+    ],
+    "evolves_from": "Azuroc",
+    "evolves_to": [],
+    "traits": [
+      "Channeler",
+      "Wrecked Farewell"
+    ],
+    "tv_yield": "HP +2, DEF +2",
+    "height": 310.0,
+    "weight": 220.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/9/91/041_intro.mp3"
+  },
+  {
+    "id": 44,
+    "name": "Bigu",
+    "types": [
+      "Nature"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Babawa"
+    ],
+    "traits": [
+      "Warm-Blooded",
+      "Amphibian"
+    ],
+    "tv_yield": "STA +2",
+    "height": 113.0,
+    "weight": 113.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/6/6e/044_intro.mp3"
+  },
+  {
+    "id": 45,
+    "name": "Babawa",
+    "types": [
+      "Nature",
+      "Water"
+    ],
+    "evolves_from": "Bigu",
+    "evolves_to": [],
+    "traits": [
+      "Mucous",
+      "Withdrawal"
+    ],
+    "tv_yield": "STA +4",
+    "height": 226.0,
+    "weight": 340.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/48/045_intro.mp3"
+  },
+  {
+    "id": 48,
+    "name": "Kaku",
+    "types": [
+      "Nature"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Saku"
+    ],
+    "traits": [
+      "Caffeinated",
+      "Mithridatism"
+    ],
+    "tv_yield": "HP +1",
+    "height": 54.0,
+    "weight": 29.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/8b/VO_48_Intro.wav"
+  },
+  {
+    "id": 49,
+    "name": "Saku",
+    "types": [
+      "Nature",
+      "Wind"
+    ],
+    "evolves_from": "Kaku",
+    "evolves_to": [],
+    "traits": [
+      "Air Specialist",
+      "Botanist"
+    ],
+    "tv_yield": "HP +2",
+    "height": 92.0,
+    "weight": 44.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/1f/VO_49_Intro.wav"
+  },
+  {
+    "id": 50,
+    "name": "Valash",
+    "types": [
+      "Neutral",
+      "Crystal"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Scavenger",
+      "Determined"
+    ],
+    "tv_yield": "SPATK +2, ATK +2",
+    "height": 185.0,
+    "weight": 84.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/dc/050_intro.mp3"
+  },
+  {
+    "id": 53,
+    "name": "Barnshe",
+    "types": [
+      "Mental",
+      "Wind"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Neutrality",
+      "Air Specialist"
+    ],
+    "tv_yield": "SPATK +1",
+    "height": 171.0,
+    "weight": 59.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/8a/VO_53_Intro.wav"
+  },
+  {
+    "id": 54,
+    "name": "Gyalis",
+    "types": [
+      "Crystal",
+      "Melee"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Mirroring",
+      "Resistant"
+    ],
+    "tv_yield": "SPD +4",
+    "height": 204.0,
+    "weight": 53.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/5/5b/054_intro.mp3"
+  },
+  {
+    "id": 55,
+    "name": "Occlura",
+    "types": [
+      "Crystal"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Myx"
+    ],
+    "traits": [
+      "Warm-Blooded",
+      "Scavenger"
+    ],
+    "tv_yield": "HP +1, SPDEF +1",
+    "height": 137.0,
+    "weight": 79.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/8c/055_intro.mp3"
+  },
+  {
+    "id": 56,
+    "name": "Myx",
+    "types": [
+      "Crystal",
+      "Mental"
+    ],
+    "evolves_from": "Occlura",
+    "evolves_to": [],
+    "traits": [
+      "Puppet Master",
+      "Rejuvenate"
+    ],
+    "tv_yield": "SPATK +3",
+    "height": 243.0,
+    "weight": 145.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/b7/056_intro.mp3"
+  },
+  {
+    "id": 57,
+    "name": "Raiber",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Raize"
+    ],
+    "traits": [
+      "Camaraderie",
+      "Rested"
+    ],
+    "tv_yield": "DEF +1",
+    "height": 95.0,
+    "weight": 28.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/b2/057_intro.mp3"
+  },
+  {
+    "id": 58,
+    "name": "Raize",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Raiber",
+    "evolves_to": [
+      "Raican"
+    ],
+    "traits": [
+      "Furor",
+      "Demoralize"
+    ],
+    "tv_yield": "DEF +2",
+    "height": 160.0,
+    "weight": 70.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/a/a2/058_intro.mp3"
+  },
+  {
+    "id": 59,
+    "name": "Raican",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Raize",
+    "evolves_to": [],
+    "traits": [
+      "Prideful",
+      "Motivator"
+    ],
+    "tv_yield": "+2 DEF, +2 SPATK",
+    "height": 195.0,
+    "weight": 125.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/f/ff/059_intro.mp3"
+  },
+  {
+    "id": 60,
+    "name": "Pewki",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Piraniant"
+    ],
+    "traits": [
+      "Hydrologist",
+      "Rested"
+    ],
+    "tv_yield": "HP +1",
+    "height": 60.0,
+    "weight": 15.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/3e/VO_60_Intros.wav"
+  },
+  {
+    "id": 61,
+    "name": "Piraniant",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Pewki",
+    "evolves_to": [],
+    "traits": [
+      "Patient",
+      "Energy Reserves"
+    ],
+    "tv_yield": "HP +2",
+    "height": 200.0,
+    "weight": 230.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/df/VO_61_Intros.wav"
+  },
+  {
+    "id": 69,
+    "name": "Saipat",
+    "types": [
+      "Water",
+      "Melee"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Amphibian",
+      "Toxic Affinity"
+    ],
+    "tv_yield": "HP +3",
+    "height": 100.0,
+    "weight": 50.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/00/VO_69_Intro.wav"
+  },
+  {
+    "id": 72,
+    "name": "Crystle",
+    "types": [
+      "Crystal"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Sherald"
+    ],
+    "traits": [
+      "Amphibian",
+      "Rested"
+    ],
+    "tv_yield": "DEF +2",
+    "height": 60.0,
+    "weight": 48.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4f/VO_72_Intro.wav"
+  },
+  {
+    "id": 73,
+    "name": "Sherald",
+    "types": [
+      "Crystal"
+    ],
+    "evolves_from": "Crystle",
+    "evolves_to": [],
+    "traits": [
+      "Mirroring",
+      "Provident"
+    ],
+    "tv_yield": "DEF +3",
+    "height": 120.0,
+    "weight": 150.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/7c/073_intro.mp3"
+  },
+  {
+    "id": 79,
+    "name": "Hocus",
+    "types": [
+      "Mental"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Pocus"
+    ],
+    "traits": [
+      "Mirroring"
+    ],
+    "tv_yield": "SPD +1",
+    "height": 115.0,
+    "weight": 31.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/3f/VO_79_Intro.wav"
+  },
+  {
+    "id": 80,
+    "name": "Pocus",
+    "types": [
+      "Mental"
+    ],
+    "evolves_from": "Hocus",
+    "evolves_to": [],
+    "traits": [],
+    "tv_yield": "SPD +2, SPATK +1",
+    "height": 190.0,
+    "weight": 82.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/b3/080_intro.mp3"
+  },
+  {
+    "id": 82,
+    "name": "Sparzy",
+    "types": [
+      "Electric"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Last Rush"
+    ],
+    "tv_yield": "ATK +2",
+    "height": 160.0,
+    "weight": 73.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/85/VO_82_Intro.wav"
+  },
+  {
+    "id": 84,
+    "name": "Mushi",
+    "types": [
+      "Toxic"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Mushook"
+    ],
+    "traits": [
+      "Resistant",
+      "Resilient"
+    ],
+    "tv_yield": "SPD +2",
+    "height": 100.0,
+    "weight": 45.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/c/c2/084_intro.mp3"
+  },
+  {
+    "id": 85,
+    "name": "Mushook",
+    "types": [
+      "Toxic",
+      "Melee"
+    ],
+    "evolves_from": "Mushi",
+    "evolves_to": [],
+    "traits": [
+      "Parrier",
+      "Tireless"
+    ],
+    "tv_yield": "SPD +2 ATK +2",
+    "height": 210.0,
+    "weight": 95.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/0e/085_intro.mp3"
+  },
+  {
+    "id": 86,
+    "name": "Magmis",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Mastione"
+    ],
+    "traits": [
+      "Caffeinated",
+      "Thick Skin"
+    ],
+    "tv_yield": "ATK +2",
+    "height": 115.0,
+    "weight": 26.5,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/9/97/086_intro.mp3"
+  },
+  {
+    "id": 87,
+    "name": "Mastione",
+    "types": [
+      "Fire"
+    ],
+    "evolves_from": "Magmis",
+    "evolves_to": [],
+    "traits": [
+      "Bully",
+      "Pyromaniac"
+    ],
+    "tv_yield": "ATK +3",
+    "height": 240.0,
+    "weight": 180.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/de/087_intro.mp3"
+  },
+  {
+    "id": 88,
+    "name": "Umishi",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Ukama"
+    ],
+    "traits": [
+      "Shared Pain",
+      "Caffeinated"
+    ],
+    "tv_yield": "SPD +1",
+    "height": 95.0,
+    "weight": 21.5,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/73/VO_88_Intro.wav"
+  },
+  {
+    "id": 89,
+    "name": "Ukama",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": "Umishi",
+    "evolves_to": [],
+    "traits": [
+      "Hydrologist",
+      "Plethoric"
+    ],
+    "tv_yield": "SPD +2 STA +1",
+    "height": 140.0,
+    "weight": 27.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/27/VO_89_Intro.wav"
+  },
+  {
+    "id": 91,
+    "name": "Raignet",
+    "types": [
+      "Temtem"
+    ],
+    "evolves_from": "Unknown",
+    "evolves_to": [],
+    "traits": [],
+    "tv_yield": "?",
+    "height": null,
+    "weight": null,
+    "cry": null
+  },
+  {
+    "id": 92,
+    "name": "Smazee",
+    "types": [
+      "Melee"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Baboong"
+    ],
+    "traits": [
+      "Fever Rush",
+      "Friendship"
+    ],
+    "tv_yield": "ATK +2",
+    "height": 96.0,
+    "weight": 24.5,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e0/VO_92_Intro.wav"
+  },
+  {
+    "id": 93,
+    "name": "Baboong",
+    "types": [
+      "Melee"
+    ],
+    "evolves_from": "Smazee",
+    "evolves_to": [],
+    "traits": [
+      "Brawny",
+      "Warm-Blooded"
+    ],
+    "tv_yield": "ATK +3",
+    "height": 160.0,
+    "weight": 53.5,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/d4/093_intro.mp3"
+  },
+  {
+    "id": 95,
+    "name": "Zizare",
+    "types": [
+      "Earth"
+    ],
+    "evolves_from": "Unknown",
+    "evolves_to": [
+      "Unknown"
+    ],
+    "traits": [],
+    "tv_yield": "?",
+    "height": null,
+    "weight": null,
+    "cry": null
+  },
+  {
+    "id": 102,
+    "name": "Spriole",
+    "types": [
+      "Nature"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Deendre"
+    ],
+    "traits": [
+      "Camaraderie",
+      "Botanist"
+    ],
+    "tv_yield": "HP +1, DEF +1",
+    "height": 74.0,
+    "weight": 20.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e7/102_intro.mp3"
+  },
+  {
+    "id": 103,
+    "name": "Deendre",
+    "types": [
+      "Nature"
+    ],
+    "evolves_from": "Spriole",
+    "evolves_to": [
+      "Cerneaf"
+    ],
+    "traits": [
+      "Mithridatism",
+      "Settling"
+    ],
+    "tv_yield": "HP +2, SPD +1, DEF +1",
+    "height": 120.0,
+    "weight": 42.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e9/103_intro.mp3"
+  },
+  {
+    "id": 104,
+    "name": "Cerneaf",
+    "types": [
+      "Nature"
+    ],
+    "evolves_from": "Deendre",
+    "evolves_to": [],
+    "traits": [
+      "Callosity",
+      "Settling"
+    ],
+    "tv_yield": "HP +2, DEF +2",
+    "height": 210.0,
+    "weight": 94.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/a/ab/104_intro.mp3"
+  },
+  {
+    "id": 105,
+    "name": "Toxolotl",
+    "types": [
+      "Toxic"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Noxolotl"
+    ],
+    "traits": [
+      "Power Nap",
+      "Toxic Farewell"
+    ],
+    "tv_yield": "SPATK +2",
+    "height": 106.0,
+    "weight": 55.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/33/105_intro.mp3"
+  },
+  {
+    "id": 106,
+    "name": "Noxolotl",
+    "types": [
+      "Toxic"
+    ],
+    "evolves_from": "Toxolotl",
+    "evolves_to": [],
+    "traits": [
+      "Trance",
+      "Toxic Skin"
+    ],
+    "tv_yield": "SPATK +2 SPDEF +2",
+    "height": 177.0,
+    "weight": 122.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/2b/106_intro.mp3"
+  },
+  {
+    "id": 107,
+    "name": "Blooze",
+    "types": [
+      "Toxic"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Goolder"
+    ],
+    "traits": [
+      "Toxic Skin",
+      "Bully"
+    ],
+    "tv_yield": "HP +2",
+    "height": 178.0,
+    "weight": 180.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/da/107_intro.mp3"
+  },
+  {
+    "id": 108,
+    "name": "Goolder",
+    "types": [
+      "Toxic"
+    ],
+    "evolves_from": "Blooze",
+    "evolves_to": [],
+    "traits": [
+      "Strong Liver",
+      "Punching Bag"
+    ],
+    "tv_yield": "HP +4",
+    "height": 222.0,
+    "weight": 1700.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/04/108_intro.mp3"
+  },
+  {
+    "id": 109,
+    "name": "Zephyruff",
+    "types": [
+      "Toxic",
+      "Wind"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Volarend"
+    ],
+    "traits": [
+      "Toxic Affinity",
+      "Air Specialist"
+    ],
+    "tv_yield": "SPD +1",
+    "height": 92.0,
+    "weight": 37.5,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4a/109_intro.mp3"
+  },
+  {
+    "id": 110,
+    "name": "Volarend",
+    "types": [
+      "Toxic",
+      "Wind"
+    ],
+    "evolves_from": "Zephyruff",
+    "evolves_to": [],
+    "traits": [
+      "Aerobic",
+      "Anaerobic"
+    ],
+    "tv_yield": "+3 SPDEF",
+    "height": 205.0,
+    "weight": 92.5,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/5/59/110_intro.mp3"
+  },
+  {
+    "id": 113,
+    "name": "Ganki",
+    "types": [
+      "Electric",
+      "Wind"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Gazuma"
+    ],
+    "traits": [
+      "Botanophobia",
+      "Cold-Natured"
+    ],
+    "tv_yield": "ATK +1",
+    "height": 105.0,
+    "weight": 14.5,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4c/VO_113_Intro.wav"
+  },
+  {
+    "id": 114,
+    "name": "Gazuma",
+    "types": [
+      "Electric",
+      "Wind"
+    ],
+    "evolves_from": "Ganki",
+    "evolves_to": [],
+    "traits": [
+      "Receptive",
+      "Fast Charge"
+    ],
+    "tv_yield": "ATK +2",
+    "height": 145.0,
+    "weight": 28.7,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/d0/114_intro.mp3"
+  },
+  {
+    "id": 115,
+    "name": "Oceara",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Hydrologist",
+      "Mithridatism"
+    ],
+    "tv_yield": "SPD +1 SPATK +2",
+    "height": 222.0,
+    "weight": 68.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/a/af/VO_115_Intro.wav"
+  },
+  {
+    "id": 122,
+    "name": "Shuine",
+    "types": [
+      "Crystal",
+      "Water"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Immunity",
+      "Guardian"
+    ],
+    "tv_yield": "STA +3",
+    "height": 250.0,
+    "weight": 68.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e7/122_intro.mp3"
+  },
+  {
+    "id": 123,
+    "name": "Nessla",
+    "types": [
+      "Water",
+      "Electric"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Electric Synthesize",
+      "Hydrologist"
+    ],
+    "tv_yield": "SPDEF +2",
+    "height": 190.0,
+    "weight": 65.5,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4e/VO_123_Intro.wav"
+  },
+  {
+    "id": 124,
+    "name": "Valiar",
+    "types": [
+      "Mental"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [],
+    "tv_yield": "?",
+    "height": null,
+    "weight": null,
+    "cry": null
+  },
+  {
+    "id": 127,
+    "name": "Kalazu",
+    "types": [
+      "Water"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Kalabyss"
+    ],
+    "traits": [
+      "Mithridatism",
+      "Hydrologist"
+    ],
+    "tv_yield": "DEF +1",
+    "height": 114.0,
+    "weight": 52.3,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/43/VO_127_Intro.wav"
+  },
+  {
+    "id": 128,
+    "name": "Kalabyss",
+    "types": [
+      "Water",
+      "Toxic"
+    ],
+    "evolves_from": "Kalazu",
+    "evolves_to": [],
+    "traits": [
+      "Botanophobia",
+      "Loneliness"
+    ],
+    "tv_yield": "DEF +2",
+    "height": 170.0,
+    "weight": 163.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/a/ad/VO_128_Intro.wav"
+  },
+  {
+    "id": 129,
+    "name": "Adoroboros",
+    "types": [
+      "Toxic",
+      "Mental"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Synergy Master",
+      "Toxic Skin"
+    ],
+    "tv_yield": "SPDEF +4",
+    "height": 88.0,
+    "weight": 14.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/44/129_intro.mp3"
+  },
+  {
+    "id": 130,
+    "name": "Tuwai",
+    "types": [
+      "Wind"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Spoilsport",
+      "Resilient"
+    ],
+    "tv_yield": "ATK +1",
+    "height": 106.0,
+    "weight": 23.8,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/0d/VO_130_Intro.wav"
+  },
+  {
+    "id": 133,
+    "name": "Tuvine",
+    "types": [
+      "Wind",
+      "Crystal"
+    ],
+    "evolves_from": "Tuwai",
+    "evolves_to": [],
+    "traits": [
+      "Receptive",
+      "Determined"
+    ],
+    "tv_yield": "DEF +4",
+    "height": 172.0,
+    "weight": 87.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/71/133_intro.mp3"
+  },
+  {
+    "id": 137,
+    "name": "Kinu",
+    "types": [
+      "Nature",
+      "Mental"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Protector",
+      "Benefactor"
+    ],
+    "tv_yield": "STA +4",
+    "height": 93.0,
+    "weight": 16.8,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/83/137_intro.mp3"
+  },
+  {
+    "id": 138,
+    "name": "Vulvir",
+    "types": [
+      "Fire",
+      "Earth"
+    ],
+    "evolves_from": null,
+    "evolves_to": [
+      "Vulor"
+    ],
+    "traits": [
+      "Camaraderie",
+      "Caffeinated"
+    ],
+    "tv_yield": "HP +1",
+    "height": 76.0,
+    "weight": 45.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/c/cc/138_intro.mp3"
+  },
+  {
+    "id": 139,
+    "name": "Vulor",
+    "types": [
+      "Fire",
+      "Earth"
+    ],
+    "evolves_from": "Vulvir",
+    "evolves_to": [
+      "Vulcrane"
+    ],
+    "traits": [
+      "Pyromaniac",
+      "Individualist"
+    ],
+    "tv_yield": "HP +1, DEF +1",
+    "height": 163.0,
+    "weight": 94.5,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/22/139_intro.mp3"
+  },
+  {
+    "id": 140,
+    "name": "Vulcrane",
+    "types": [
+      "Fire",
+      "Earth"
+    ],
+    "evolves_from": "Vulor",
+    "evolves_to": [],
+    "traits": [
+      "Receptive",
+      "Vigorous"
+    ],
+    "tv_yield": "+1 HP, +2 DEF",
+    "height": 233.0,
+    "weight": 142.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/da/140_intro.mp3"
+  },
+  {
+    "id": 141,
+    "name": "Pigepic",
+    "types": [
+      "Wind"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Friendship",
+      "Fainted Curse"
+    ],
+    "tv_yield": "SPDEF +1 STA +1",
+    "height": 69.0,
+    "weight": 64.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/26/VO_141_Intro.wav"
+  },
+  {
+    "id": 161,
+    "name": "Anahir",
+    "types": [
+      "Crystal",
+      "Fire"
+    ],
+    "evolves_from": null,
+    "evolves_to": [],
+    "traits": [
+      "Trauma",
+      "Flawed Crystal"
+    ],
+    "tv_yield": "SPDEF +2 DEF +2",
+    "height": 152.0,
+    "weight": 172.0,
+    "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/1a/161_intro.mp3"
+  }
+]
