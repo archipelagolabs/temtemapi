@@ -1,45 +1,10 @@
 from enum import Enum
-from typing import NamedTuple, List, Optional
+from typing import List, Optional
+
+from pydantic import BaseModel
 
 
-class Temtem(NamedTuple):
-    id: int
-    name: str
-    types: List[str]  # TemtemType
-    evolves_from: str
-    evolves_to: List[str]
-    traits: List[str]
-    tv_yield: str
-    height: float
-    weight: float
-    cry: str
-
-
-class Technique(NamedTuple):
-    name: str
-    description: str
-    type: str  # TemtemType
-    category: str  # MoveCategory
-    damage: int
-    stamina_cost: int
-    hold: int
-    priority: int  # 🤔
-    synergy: Optional[str]  # TemtemType
-
-
-class Item(NamedTuple):
-    name: str
-    effect: str
-    consumable: bool
-
-
-class Trait(NamedTuple):
-    name: str
-    effect: str
-    learned_by: List[str]
-
-
-class TemtemType(Enum):
+class TemtemType(str, Enum):
     NEUTRAL = 'Neutral'
     FIRE = 'Fire'
     NATURE = 'Nature'
@@ -58,3 +23,40 @@ class TechniqueCategory(Enum):
     PHYSICAL = 'Physical'
     SPECIAL = 'Special'
     STATUS = 'Status'
+
+
+class Temtem(BaseModel):
+    id: int
+    name: str
+    types: List[TemtemType]
+    evolves_from: Optional[str]
+    evolves_to: List[str]
+    traits: List[str]
+    tv_yield: str
+    height: Optional[float]
+    weight: Optional[float]
+    cry: Optional[str]
+
+
+class Technique(BaseModel):
+    name: str
+    description: str
+    type: TemtemType
+    category: TechniqueCategory
+    damage: int
+    stamina_cost: int
+    hold: int
+    priority: int  # 🤔
+    synergy: Optional[TemtemType]
+
+
+class Item(BaseModel):
+    name: str
+    effect: str
+    consumable: bool
+
+
+class Trait(BaseModel):
+    name: str
+    effect: str
+    learned_by: List[str]

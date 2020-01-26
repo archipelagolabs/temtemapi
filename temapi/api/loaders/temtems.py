@@ -1,6 +1,7 @@
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 
 from temapi.api.loaders.loader import Loader
+from temapi.commons.models import Temtem
 
 
 class TemtemLoader(Loader):
@@ -19,15 +20,15 @@ class TemtemLoader(Loader):
         )
 
         self.by_name = dict(
-            (temtem['name'], temtem)
+            (temtem['name'].lower(), temtem)
             for temtem in temtems
         )
 
-    def get_by_id(self, _id):
-        return self.by_id.get(_id)
+    def get_by_id(self, tid) -> Optional[Temtem]:
+        return self.by_id.get(tid)
 
-    def get_by_name(self, name):
-        return self.by_name.get(name)
+    def get_by_name(self, name) -> Optional[Temtem]:
+        return self.by_name.get(name.lower())
 
-    def list(self):
+    def all(self) -> List[Temtem]:
         return self.temtems
