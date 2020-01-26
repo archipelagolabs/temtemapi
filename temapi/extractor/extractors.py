@@ -20,12 +20,15 @@ def extract_id(sel: parsel.Selector):
 
 
 def extract_types(sel: parsel.Selector):
-    types = sel.xpath('.//a/@title').getall()
+    types_sel = sel.xpath('.//a/@title').getall()
 
-    return [
+    types = [
         t.split()[0]
-        for t in types
+        for t in types_sel
     ]
+
+    # 🩹 for unknown type Temtems
+    return [t for t in types if t != 'Temtem']
 
 
 def extract_evolves_from(sel: parsel.Selector):
@@ -87,6 +90,7 @@ def extract_trait(sel: parsel.Selector):
         learned_by=learned_by,
     )
 
+
 # Items
 
 def extract_item_string_directly(sel: parsel.Selector):
@@ -108,3 +112,67 @@ def extract_item_string_to_int(sel: parsel.Selector):
         return int(value)
     except ValueError:
         return None
+
+
+# Techniques
+
+def extract_technique_link(sel: parsel.Selector):
+    return sel.css('a::attr(href)').get()
+
+
+def extract_technique_name(sel: parsel.Selector):
+    return sel.css('a::text').get()
+
+
+def extract_technique_type(sel: parsel.Selector):
+    return sel.css('a::attr(title)').get()
+
+
+def extract_technique_class(sel: parsel.Selector):
+    return sel.css('a::attr(title)').get()
+
+
+def extract_technique_damage(sel: parsel.Selector):
+    if sel.xpath('text()').get().strip() == '-' or sel.xpath('text()').get().strip() == '':
+        return None
+    else:
+        return sel.xpath('text()').get().strip()
+
+
+def extract_technique_stamina(sel: parsel.Selector):
+    if sel.xpath('text()').get().strip() == '-' or sel.xpath('text()').get().strip() == '?':
+        return None
+    else:
+        return sel.xpath('text()').get().strip()
+
+
+def extract_technique_hold(sel: parsel.Selector):
+    if sel.xpath('text()').get().strip() == '?' or sel.xpath('text()').get().strip() == '':
+        return None
+    else:
+        return sel.xpath('text()').get().strip()
+
+
+def extract_technique_priority(sel: parsel.Selector):
+    try:
+        return sel.css('a::attr(title)').get()[0]
+    except TypeError:
+        return None
+
+
+def extract_technique_targets(sel: parsel.Selector):
+    return sel.css('a::text').get()
+
+
+def extract_technique_synergy(sel: parsel.Selector):
+    if sel.css('a::attr(title)').get() == 'Temtem Types':
+        return None
+    else:
+        return sel.css('a::attr(title)').get()
+
+
+def extract_technique_synergy_effect(sel: parsel.Selector):
+    if sel.xpath('text()').get().strip() == '-':
+        return None
+    else:
+        return sel.xpath('text()').get().strip()
