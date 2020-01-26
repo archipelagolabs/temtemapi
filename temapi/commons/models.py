@@ -47,7 +47,9 @@ class Technique(BaseModel):
     stamina_cost: int
     hold: int
     priority: int  # 🤔
-    synergy: Optional[TemtemType]
+    targets: str
+    synergy: Optional[str]  # TemtemType
+    synergy_effect: Optional[str]
 
 
 class Item(BaseModel):
