@@ -1,1 +1,1 @@
-web: uvicorn temapi.api:app --port $PORT
+web: uvicorn temapi.api:app --host=0.0.0.0 --port $PORT
