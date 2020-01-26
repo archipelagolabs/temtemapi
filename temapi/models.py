@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import NamedTuple, List
+from typing import NamedTuple, List, Optional
 
 
 class Temtem(NamedTuple):
@@ -15,14 +15,17 @@ class Temtem(NamedTuple):
     cry: str
 
 
-class Move(NamedTuple):
+class Technique(NamedTuple):
     id: int
     name: str
     description: str
     type: str  # TemtemType
     category: str  # MoveCategory
-    power: int
-    stamina: int
+    damage: int
+    stamina_cost: int
+    hold: int
+    priority: int  # ??
+    synergy: Optional[str]  # TemtemType
 
 
 class Item(NamedTuple):
@@ -47,7 +50,7 @@ class TemtemType(Enum):
     TOXIC = 'Toxic'
 
 
-class MoveCategory(Enum):
+class TechniqueCategory(Enum):
     PHYSICAL = 'Physical'
     SPECIAL = 'Special'
     STATUS = 'Status'
