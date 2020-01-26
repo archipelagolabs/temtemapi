@@ -6,7 +6,7 @@
     "limited_quantity": true,
     "purchasable": false,
     "buy_price": null,
-    "sell_price": "20",
+    "sell_price": 20,
     "description": "Scintillating dust. Sparkly, sparkly! Can be sold at a good price."
   },
   {
@@ -16,7 +16,7 @@
     "limited_quantity": true,
     "purchasable": false,
     "buy_price": null,
-    "sell_price": "60",
+    "sell_price": 60,
     "description": "A standard-size crystal from the Quetzal mines. Can be sold at a good price."
   },
   {
@@ -25,8 +25,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "60",
-    "sell_price": "41",
+    "buy_price": 60,
+    "sell_price": 41,
     "description": "Eau de Pas-Tem. Sweet lavander notes with a warm black peppercorn heart. For some reason Temtem don't like it... Reduces untamed encounters for a while"
   },
   {
@@ -36,7 +36,7 @@
     "limited_quantity": true,
     "purchasable": false,
     "buy_price": null,
-    "sell_price": "300",
+    "sell_price": 300,
     "description": "A fistful of fine \"flor de sal\" from the Turquesa salterns. These delicate and crumbly flakes are a universal seasoning. Can be sold at a good price. "
   },
   {
@@ -46,7 +46,7 @@
     "limited_quantity": true,
     "purchasable": false,
     "buy_price": null,
-    "sell_price": "39",
+    "sell_price": 39,
     "description": "Bits and pieces of silicon, in high demand in Cipanku. Can be sold at a good price."
   },
   {
@@ -56,7 +56,7 @@
     "limited_quantity": false,
     "purchasable": false,
     "buy_price": null,
-    "sell_price": "299",
+    "sell_price": 299,
     "description": "A standard-size piece of raw silicon, according to Nanto Labs specifications.. Can be sold at a good price."
   },
   {
@@ -65,8 +65,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "120",
-    "sell_price": "83",
+    "buy_price": 120,
+    "sell_price": 83,
     "description": "The best-loved Cipanki firework. The puff of smoke allows you to get back to the last visited Temporium or safe place."
   },
   {
@@ -75,8 +75,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "15",
-    "sell_price": "10",
+    "buy_price": 15,
+    "sell_price": 10,
     "description": "A card-like device used to capture and transport Temtem."
   },
   {
@@ -85,8 +85,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "80",
-    "sell_price": "55",
+    "buy_price": 80,
+    "sell_price": 55,
     "description": "A high-end version of the TemCard, boasting an increased catch rate."
   },
   {
@@ -95,8 +95,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "80",
-    "sell_price": "55",
+    "buy_price": 80,
+    "sell_price": 55,
     "description": "A balm made using a blend of Deizan healing herbs. Restores 25 HP."
   },
   {
@@ -105,8 +105,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "325",
-    "sell_price": "227",
+    "buy_price": 325,
+    "sell_price": 227,
     "description": "The traditional Omninesian healing salve, made of jungle roots. Restores 70 HP."
   },
   {
@@ -115,8 +115,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "150",
-    "sell_price": "104",
+    "buy_price": 150,
+    "sell_price": 104,
     "description": "An apple a day keeps the Temtem vet away! Restores 25%"
   },
   {
@@ -125,8 +125,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "350",
-    "sell_price": "244",
+    "buy_price": 350,
+    "sell_price": 244,
     "description": "This spiky delight has an... interesting smell Restores 50%"
   },
   {
@@ -135,8 +135,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "100",
-    "sell_price": "69",
+    "buy_price": 100,
+    "sell_price": 69,
     "description": "The basic Stamina booster, popular Archipelago-wide. Restores 20 STA."
   },
   {
@@ -145,8 +145,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "300",
-    "sell_price": "209",
+    "buy_price": 300,
+    "sell_price": 209,
     "description": "\"ConcentrEther\", a more potent formula. Restores 45 STA."
   },
   {
@@ -155,8 +155,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "150",
-    "sell_price": "104",
+    "buy_price": 150,
+    "sell_price": 104,
     "description": "Delicious Omninesian kiwis! Furry little bites of sweetness. Restores 25% STA."
   },
   {
@@ -165,8 +165,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "250",
-    "sell_price": "174",
+    "buy_price": 250,
+    "sell_price": 174,
     "description": "Delicious Omninesian kiwis! Furry little bites of sweetness. Restores 50% STA."
   },
   {
@@ -175,8 +175,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "80",
-    "sell_price": "55",
+    "buy_price": 80,
+    "sell_price": 55,
     "description": "Although many Arburians use it as a mixer, it is actually a Kisiwan medicine. Restores 15 HP and 12 STA."
   },
   {
@@ -185,8 +185,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "350",
-    "sell_price": "244",
+    "buy_price": 350,
+    "sell_price": 244,
     "description": "\"A tonic, but even more so.\" Restores 42 HP and 27 STA."
   },
   {
@@ -195,8 +195,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "350",
-    "sell_price": "244",
+    "buy_price": 350,
+    "sell_price": 244,
     "description": "These round golden beauties are packed with flavour. Restores 40% HP and 40% STA."
   },
   {
@@ -205,8 +205,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "500",
-    "sell_price": "349",
+    "buy_price": 500,
+    "sell_price": 349,
     "description": "Miracle potion, potent enough to bring back a knocked out Temtem. Revives with  50% HP and STA."
   },
   {
@@ -215,8 +215,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "700",
-    "sell_price": "489",
+    "buy_price": 700,
+    "sell_price": 489,
     "description": "Boost your Temtem's energy for the decisive final blow!. Revives with  25% HP and 100% STA."
   },
   {
@@ -225,8 +225,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "120",
-    "sell_price": "83",
+    "buy_price": 120,
+    "sell_price": 83,
     "description": "ALLERGY WARNING: Crystal dust, Gluten, Kalabyss feces. Heals a Poisoned Temtem."
   },
   {
@@ -235,8 +235,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "120",
-    "sell_price": "83",
+    "buy_price": 120,
+    "sell_price": 83,
     "description": "Ding-a-ling! Ding-a-ling! This handbell can wake up a rock! Heals an Asleep Temtem."
   },
   {
@@ -245,8 +245,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "200",
-    "sell_price": "193",
+    "buy_price": 200,
+    "sell_price": 193,
     "description": "When you want to chill and be cool at the same time. Heals a Burned Temtem."
   },
   {
@@ -256,7 +256,7 @@
     "limited_quantity": true,
     "purchasable": false,
     "buy_price": null,
-    "sell_price": "139",
+    "sell_price": 139,
     "description": "Note: as of the current alpha (0.2.7) you can only obtain 2 Heater per play-through."
   },
   {
@@ -265,8 +265,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "500",
-    "sell_price": "349",
+    "buy_price": 500,
+    "sell_price": 349,
     "description": "Fresh, sweet and crunchy, these are a mainstay of the Nangui diet. Adds 20 TV to HP."
   },
   {
@@ -275,8 +275,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "500",
-    "sell_price": "349",
+    "buy_price": 500,
+    "sell_price": 349,
     "description": "Nothing beats a cool slice of watermelon on a hot day! Adds 20 TV to STA."
   },
   {
@@ -285,8 +285,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "500",
-    "sell_price": "349",
+    "buy_price": 500,
+    "sell_price": 349,
     "description": "Ah, the cherry season has arrived! Adds 20 TV to SPD."
   },
   {
@@ -295,8 +295,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "500",
-    "sell_price": "349",
+    "buy_price": 500,
+    "sell_price": 349,
     "description": "Velvety and smooth, these are a true temptation. Adds 20 TV to ATK."
   },
   {
@@ -305,8 +305,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "500",
-    "sell_price": "349",
+    "buy_price": 500,
+    "sell_price": 349,
     "description": "Hard to crack but sweet inside, just like a Crystle! Adds 20 TV to DEF."
   },
   {
@@ -315,8 +315,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "500",
-    "sell_price": "349",
+    "buy_price": 500,
+    "sell_price": 349,
     "description": "Soft and ripe, grown all along the Canopath. Adds 20 TV to SPATK."
   },
   {
@@ -325,8 +325,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "500",
-    "sell_price": "349",
+    "buy_price": 500,
+    "sell_price": 349,
     "description": "A native species of Ulterior Omninesia, now widely farmed. Adds 20 TV to SPDEF."
   },
   {
@@ -335,8 +335,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "400",
-    "sell_price": "279",
+    "buy_price": 400,
+    "sell_price": 279,
     "description": "These creamy delights make the best salads. Adds 50 TV to a random stat below 500 TV."
   },
   {
@@ -345,8 +345,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "750",
-    "sell_price": "524",
+    "buy_price": 750,
+    "sell_price": 524,
     "description": "Satisfyingly tart in lemonade, sorbet or on its own. Substracts 20 TV from HP."
   },
   {
@@ -355,8 +355,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "750",
-    "sell_price": "524",
+    "buy_price": 750,
+    "sell_price": 524,
     "description": "Widely grown both for fruit and wine. Substracts 20 TV from STA."
   },
   {
@@ -365,8 +365,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "750",
-    "sell_price": "524",
+    "buy_price": 750,
+    "sell_price": 524,
     "description": "Juicy and scrumptious, harvested near Mokupuni. Substracts 20 TV from SPD."
   },
   {
@@ -375,8 +375,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "750",
-    "sell_price": "524",
+    "buy_price": 750,
+    "sell_price": 524,
     "description": "Originally from Cipanku, now grown in every Denizan orchard. Substracts 20 TV from ATK."
   },
   {
@@ -385,8 +385,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "750",
-    "sell_price": "524",
+    "buy_price": 750,
+    "sell_price": 524,
     "description": "Refreshingly zesty and citrusy! Substracts 20 TV from DEF."
   },
   {
@@ -395,8 +395,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "750",
-    "sell_price": "524",
+    "buy_price": 750,
+    "sell_price": 524,
     "description": "One of the main exports from the Myrisles. Substracts 20 TV from SPATK."
   },
   {
@@ -405,8 +405,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "750",
-    "sell_price": "524",
+    "buy_price": 750,
+    "sell_price": 524,
     "description": "Surely the best-loved Kisiwan produce! Substracts 20 TV from SPDEF."
   },
   {
@@ -415,8 +415,8 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "600",
-    "sell_price": "419",
+    "buy_price": 600,
+    "sell_price": 419,
     "description": "A delicate jewel of Cipanki cuisine. Substracts 50 TV from a random stat over 0 TV."
   },
   {
@@ -476,7 +476,7 @@
     "limited_quantity": null,
     "purchasable": null,
     "buy_price": "???",
-    "sell_price": "4900",
+    "sell_price": 4900,
     "description": "This experimental genefix alters chromosomes in the Temtem DNA, adding 1 SV to SPATK."
   },
   {
@@ -715,7 +715,7 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "1000",
+    "buy_price": 1000,
     "sell_price": null,
     "description": "NEEDS DESCRIPTION "
   },
@@ -725,7 +725,7 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "10",
+    "buy_price": 10,
     "sell_price": null,
     "description": "NEEDS DESCRIPTION "
   },
@@ -735,7 +735,7 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "10",
+    "buy_price": 10,
     "sell_price": null,
     "description": "NEEDS DESCRIPTION "
   },
@@ -745,7 +745,7 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "10",
+    "buy_price": 10,
     "sell_price": null,
     "description": "NEEDS DESCRIPTION "
   },
@@ -755,7 +755,7 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "10",
+    "buy_price": 10,
     "sell_price": null,
     "description": "NEEDS DESCRIPTION "
   },
@@ -765,7 +765,7 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "10",
+    "buy_price": 10,
     "sell_price": null,
     "description": "NEEDS DESCRIPTION "
   },
@@ -775,7 +775,7 @@
     "consumable": true,
     "limited_quantity": false,
     "purchasable": true,
-    "buy_price": "10",
+    "buy_price": 10,
     "sell_price": null,
     "description": "NEEDS DESCRIPTION "
   },

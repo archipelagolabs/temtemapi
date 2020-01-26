@@ -90,13 +90,13 @@ def fetch_traits():
 # Items
 
 item_extractors_map = {
-    'Category': extractors.extract_item_property_directly,
+    'Category': extractors.extract_item_string_directly,
     'Consumable': extractors.extract_item_string_to_bool,
     'Limited Quantity': extractors.extract_item_string_to_bool,
     'Purchasable': extractors.extract_item_string_to_bool,
-    'Buy Price': extractors.extract_item_property_directly,
-    'Sell Price': extractors.extract_item_property_directly,
-    'Restore Amount': extractors.extract_item_property_directly,
+    'Buy Price': extractors.extract_item_string_to_int,
+    'Sell Price': extractors.extract_item_string_to_int,
+    'Restore Amount': extractors.extract_item_string_directly,
 }
 
 def fetch_item_name_list():
@@ -146,9 +146,9 @@ def fetch_item(name):
         category=data['Category'],
         consumable=data['Consumable'],
         limited_quantity=data['Limited Quantity'],
-        purchasable=data['Purchasable'],
-        buy_price=data['Buy Price'],
-        sell_price=data['Sell Price'],
+        purchasable=data.get('Purchasable'),
+        buy_price=data.get('Buy Price'),
+        sell_price=data.get('Sell Price'),
         description=description,
     )
 
@@ -159,14 +159,14 @@ def save(entities, filename):
 
 
 def run():
-    names = fetch_temtem_name_list()
-    temtems = [fetch_temtem(name) for name in names]
-    for t in temtems:
-        print(t)
-    save(temtems, 'temtems.json')
+    # names = fetch_temtem_name_list()
+    # temtems = [fetch_temtem(name) for name in names]
+    # for t in temtems:
+    #     print(t)
+    # save(temtems, 'temtems.json')
 
-    traits = fetch_traits()
-    save(traits, 'traits.json')
+    # traits = fetch_traits()
+    # save(traits, 'traits.json')
 
     names = fetch_item_name_list()
     items = []
