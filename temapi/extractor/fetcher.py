@@ -1,13 +1,11 @@
-import re
-
 import requests
 import json
 from pathlib import Path
 
 from parsel import Selector
 
-from temapi import extractors
-from temapi.models import Temtem
+from temapi.extractor import extractors
+from temapi.commons.models import Temtem
 
 
 def fetch_temtem_name_list():

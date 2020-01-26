@@ -1,4 +1,4 @@
-from temapi.fetcher import run
+from temapi.extractor.fetcher import run
 
 
 def main():

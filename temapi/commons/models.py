@@ -24,7 +24,7 @@ class Technique(NamedTuple):
     damage: int
     stamina_cost: int
     hold: int
-    priority: int  # ??
+    priority: int  # 🤔
     synergy: Optional[str]  # TemtemType
 
 
