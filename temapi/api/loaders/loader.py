@@ -1,6 +1,6 @@
 import json
 
-from temapi.api.loaders.utils import OUTPUTS_DIR
+from temapi.commons.paths import OUTPUTS_DIR
 
 
 class Loader:

@@ -10,6 +10,7 @@ requests = "^2.22.0"
 parsel = "^1.5.2"
 fastapi = "^0.47.1"
 uvicorn = "^0.11.2"
+w3lib = "^1.21.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

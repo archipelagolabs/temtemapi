@@ -1,9 +1,15 @@
 import re
 
 import parsel
+from w3lib import html
+
+from temapi.commons.models import Trait
+
+# Temtems
 
 re_height = re.compile(r'(\d+([.]\d+)?)cm')
 re_weight = re.compile(r'(\d+([.]\d+)?)kg')
+re_multiple_spaces = re.compile(r'[ \xa0]+')
 
 
 def extract_id(sel: parsel.Selector):
@@ -58,3 +64,25 @@ def extract_weight(sel: parsel.Selector):
 
 def extract_cry(sel: parsel.Selector):
     return sel.xpath('.//span/audio/@src').get()
+
+
+# Traits
+
+def extract_effect(sel: parsel.Selector):
+    s = html.remove_tags(sel.get()).strip()
+
+    return re_multiple_spaces.sub(' ', s)
+
+
+def extract_trait(sel: parsel.Selector):
+    name_sel, effect_sel, learned_by_sel = sel.xpath('.//td')
+
+    name = name_sel.xpath('.//a/text()').get()
+    effect = extract_effect(effect_sel)
+    learned_by = learned_by_sel.xpath('.//a/text()').getall()
+
+    return Trait(
+        name=name,
+        effect=effect,
+        learned_by=learned_by,
+    )
