@@ -402,7 +402,7 @@
   },
   {
     "name": "Rejuvenate",
-    "effect": "When attacking with a physcal technique, restore 15% of max HP.",
+    "effect": "When attacking with a physical technique, restore 15% of max HP.",
     "learned_by": [
       "Myx"
     ]

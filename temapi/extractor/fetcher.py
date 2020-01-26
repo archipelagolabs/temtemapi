@@ -1,4 +1,6 @@
 import json
+import time
+from multiprocessing.pool import Pool
 
 import requests
 from parsel import Selector
@@ -72,15 +74,16 @@ def fetch_traits():
 
 def save(entities, filename):
     with (OUTPUTS_DIR / filename).open('w+') as f:
-        json.dump([e._asdict() for e in entities], f, indent=2)
+        json.dump([e.dict() for e in entities], f, indent=2)
 
 
 def run():
+    start = time.perf_counter()
     names = fetch_temtem_name_list()
-    temtems = [fetch_temtem(name) for name in names]
-    for t in temtems:
-        print(t)
+    with Pool() as p:
+        temtems = p.map(fetch_temtem, names)
     save(temtems, 'temtems.json')
+    print(f'Saved {len(temtems)} Temtems in {time.perf_counter() - start:.2f} seconds')
 
     traits = fetch_traits()
     save(traits, 'traits.json')

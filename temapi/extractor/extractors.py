@@ -20,12 +20,15 @@ def extract_id(sel: parsel.Selector):
 
 
 def extract_types(sel: parsel.Selector):
-    types = sel.xpath('.//a/@title').getall()
+    types_sel = sel.xpath('.//a/@title').getall()
 
-    return [
+    types = [
         t.split()[0]
-        for t in types
+        for t in types_sel
     ]
+
+    # 🩹 for unknown type Temtems
+    return [t for t in types if t != 'Temtem']
 
 
 def extract_evolves_from(sel: parsel.Selector):
