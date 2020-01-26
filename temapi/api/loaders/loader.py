@@ -1,6 +1,6 @@
-import ujson
+import json
 
-from temapi.api.loaders.utils import PROJECT_ROOT, OUTPUTS_DIR
+from temapi.api.loaders.utils import OUTPUTS_DIR
 
 
 class Loader:
@@ -12,7 +12,7 @@ class Loader:
         _file = OUTPUTS_DIR / self.file
 
         with _file.open() as f:
-            data = ujson.load(f)
+            data = json.load(f)
 
         self.setup(data)
 

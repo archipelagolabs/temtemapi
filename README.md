@@ -34,3 +34,5 @@ $ poetry run uvicorn temapi.api:app --reload
 ```
 
 The API will be available at http://localhost:8000/ and the docs at http://localhost:8000/redoc
+
+Example URL: http://localhost:8000/temtems/72
