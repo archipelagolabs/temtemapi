@@ -90,6 +90,30 @@ def extract_trait(sel: parsel.Selector):
         learned_by=learned_by,
     )
 
+
+# Items
+
+def extract_item_string_directly(sel: parsel.Selector):
+    return sel.xpath('.//text()').get().strip()
+
+def string_to_bool(string):
+    if string == 'Yes':
+        return True
+    if string == 'No':
+        return False
+
+def extract_item_string_to_bool(sel: parsel.Selector):
+    string = sel.xpath('.//text()').get().strip()
+    return string_to_bool(string)
+
+def extract_item_string_to_int(sel: parsel.Selector):
+    value = sel.xpath('.//text()').get().strip()
+    try:
+        return int(value)
+    except ValueError:
+        return None
+
+
 # Techniques
 
 def extract_technique_link(sel: parsel.Selector):

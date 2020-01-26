@@ -1,0 +1,1022 @@
+[
+  {
+    "name": "Tiny Crystal",
+    "category": "General",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": 20,
+    "description": "Scintillating dust. Sparkly, sparkly! Can be sold at a good price."
+  },
+  {
+    "name": "Average Crystal",
+    "category": "General",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": 60,
+    "description": "A standard-size crystal from the Quetzal mines. Can be sold at a good price."
+  },
+  {
+    "name": "Scent",
+    "category": "General",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 60,
+    "sell_price": 41,
+    "description": "Eau de Pas-Tem. Sweet lavander notes with a warm black peppercorn heart. For some reason Temtem don't like it... Reduces untamed encounters for a while"
+  },
+  {
+    "name": "Sea Salt",
+    "category": "General",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": 300,
+    "description": "A fistful of fine \"flor de sal\" from the Turquesa salterns. These delicate and crumbly flakes are a universal seasoning. Can be sold at a good price. "
+  },
+  {
+    "name": "Silicon Fragment",
+    "category": "General",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": 39,
+    "description": "Bits and pieces of silicon, in high demand in Cipanku. Can be sold at a good price."
+  },
+  {
+    "name": "Silicon Shard",
+    "category": "General",
+    "consumable": false,
+    "limited_quantity": false,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": 299,
+    "description": "A standard-size piece of raw silicon, according to Nanto Labs specifications.. Can be sold at a good price."
+  },
+  {
+    "name": "Smoke Bomb",
+    "category": "General",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 120,
+    "sell_price": 83,
+    "description": "The best-loved Cipanki firework. The puff of smoke allows you to get back to the last visited Temporium or safe place."
+  },
+  {
+    "name": "TemCard",
+    "category": "Capture",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 15,
+    "sell_price": 10,
+    "description": "A card-like device used to capture and transport Temtem."
+  },
+  {
+    "name": "TemCard+",
+    "category": "Capture",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 80,
+    "sell_price": 55,
+    "description": "A high-end version of the TemCard, boasting an increased catch rate."
+  },
+  {
+    "name": "Balm",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 80,
+    "sell_price": 55,
+    "description": "A balm made using a blend of Deizan healing herbs. Restores 25 HP."
+  },
+  {
+    "name": "Balm+",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 325,
+    "sell_price": 227,
+    "description": "The traditional Omninesian healing salve, made of jungle roots. Restores 70 HP."
+  },
+  {
+    "name": "Vital Apple",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 150,
+    "sell_price": 104,
+    "description": "An apple a day keeps the Temtem vet away! Restores 25%"
+  },
+  {
+    "name": "Vital Durian",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 350,
+    "sell_price": 244,
+    "description": "This spiky delight has an... interesting smell Restores 50%"
+  },
+  {
+    "name": "Ether",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 100,
+    "sell_price": 69,
+    "description": "The basic Stamina booster, popular Archipelago-wide. Restores 20 STA."
+  },
+  {
+    "name": "Ether+",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 300,
+    "sell_price": 209,
+    "description": "\"ConcentrEther\", a more potent formula. Restores 45 STA."
+  },
+  {
+    "name": "Energetic Kiwi",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 150,
+    "sell_price": 104,
+    "description": "Delicious Omninesian kiwis! Furry little bites of sweetness. Restores 25% STA."
+  },
+  {
+    "name": "Energetic Banana",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 250,
+    "sell_price": 174,
+    "description": "Delicious Omninesian kiwis! Furry little bites of sweetness. Restores 50% STA."
+  },
+  {
+    "name": "Tonic",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 80,
+    "sell_price": 55,
+    "description": "Although many Arburians use it as a mixer, it is actually a Kisiwan medicine. Restores 15 HP and 12 STA."
+  },
+  {
+    "name": "Tonic+",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 350,
+    "sell_price": 244,
+    "description": "\"A tonic, but even more so.\" Restores 42 HP and 27 STA."
+  },
+  {
+    "name": "Vigorous Loquat",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 350,
+    "sell_price": 244,
+    "description": "These round golden beauties are packed with flavour. Restores 40% HP and 40% STA."
+  },
+  {
+    "name": "Revive",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 500,
+    "sell_price": 349,
+    "description": "Miracle potion, potent enough to bring back a knocked out Temtem. Revives with  50% HP and STA."
+  },
+  {
+    "name": "Power Revive",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 700,
+    "sell_price": 489,
+    "description": "Boost your Temtem's energy for the decisive final blow!. Revives with  25% HP and 100% STA."
+  },
+  {
+    "name": "Antidote",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 120,
+    "sell_price": 83,
+    "description": "ALLERGY WARNING: Crystal dust, Gluten, Kalabyss feces. Heals a Poisoned Temtem."
+  },
+  {
+    "name": "Awakener",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 120,
+    "sell_price": 83,
+    "description": "Ding-a-ling! Ding-a-ling! This handbell can wake up a rock! Heals an Asleep Temtem."
+  },
+  {
+    "name": "Cooler",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 200,
+    "sell_price": 193,
+    "description": "When you want to chill and be cool at the same time. Heals a Burned Temtem."
+  },
+  {
+    "name": "Heater",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": 139,
+    "description": "Note: as of the current alpha (0.2.7) you can only obtain 2 Heater per play-through."
+  },
+  {
+    "name": "Enhancer Pineapple",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 500,
+    "sell_price": 349,
+    "description": "Fresh, sweet and crunchy, these are a mainstay of the Nangui diet. Adds 20 TV to HP."
+  },
+  {
+    "name": "Enhancer Watermelon",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 500,
+    "sell_price": 349,
+    "description": "Nothing beats a cool slice of watermelon on a hot day! Adds 20 TV to STA."
+  },
+  {
+    "name": "Enhancer Cherry",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 500,
+    "sell_price": 349,
+    "description": "Ah, the cherry season has arrived! Adds 20 TV to SPD."
+  },
+  {
+    "name": "Enhancer Peach",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 500,
+    "sell_price": 349,
+    "description": "Velvety and smooth, these are a true temptation. Adds 20 TV to ATK."
+  },
+  {
+    "name": "Enhancer Coconut",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 500,
+    "sell_price": 349,
+    "description": "Hard to crack but sweet inside, just like a Crystle! Adds 20 TV to DEF."
+  },
+  {
+    "name": "Enhancer Mango",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 500,
+    "sell_price": 349,
+    "description": "Soft and ripe, grown all along the Canopath. Adds 20 TV to SPATK."
+  },
+  {
+    "name": "Enhancer Papaya",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 500,
+    "sell_price": 349,
+    "description": "A native species of Ulterior Omninesia, now widely farmed. Adds 20 TV to SPDEF."
+  },
+  {
+    "name": "Enhancer Avocado",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 400,
+    "sell_price": 279,
+    "description": "These creamy delights make the best salads. Adds 50 TV to a random stat below 500 TV."
+  },
+  {
+    "name": "Weakener Lemon",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 750,
+    "sell_price": 524,
+    "description": "Satisfyingly tart in lemonade, sorbet or on its own. Substracts 20 TV from HP."
+  },
+  {
+    "name": "Weakener Grapefruit",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 750,
+    "sell_price": 524,
+    "description": "Widely grown both for fruit and wine. Substracts 20 TV from STA."
+  },
+  {
+    "name": "Weakener Kumquat",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 750,
+    "sell_price": 524,
+    "description": "Juicy and scrumptious, harvested near Mokupuni. Substracts 20 TV from SPD."
+  },
+  {
+    "name": "Weakener Orange",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 750,
+    "sell_price": 524,
+    "description": "Originally from Cipanku, now grown in every Denizan orchard. Substracts 20 TV from ATK."
+  },
+  {
+    "name": "Weakener Lime",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 750,
+    "sell_price": 524,
+    "description": "Refreshingly zesty and citrusy! Substracts 20 TV from DEF."
+  },
+  {
+    "name": "Weakener Pomelo",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 750,
+    "sell_price": 524,
+    "description": "One of the main exports from the Myrisles. Substracts 20 TV from SPATK."
+  },
+  {
+    "name": "Weakener Tangerine",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 750,
+    "sell_price": 524,
+    "description": "Surely the best-loved Kisiwan produce! Substracts 20 TV from SPDEF."
+  },
+  {
+    "name": "Weakener Yuzu",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 600,
+    "sell_price": 419,
+    "description": "A delicate jewel of Cipanki cuisine. Substracts 50 TV from a random stat over 0 TV."
+  },
+  {
+    "name": "Growth Enhancer",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": null,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Genetic activators that speed up the growth of muscle tissue increasing a Temtem's level by 1."
+  },
+  {
+    "name": "Fertility Enhancer",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": null,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "A cocktail of cutting-edge drugs that increase a Temtem's fertility by 1."
+  },
+  {
+    "name": "Full Restore",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": null,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "The ultimate replenisher. Restores full HP, STA, and heals all Status Conditions."
+  },
+  {
+    "name": "Telomere Hack - SPD",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": null,
+    "purchasable": null,
+    "buy_price": "???",
+    "sell_price": "???",
+    "description": "This experimental genefix alters chromosomes in the Temtem DNA, adding 1 SV to SPD."
+  },
+  {
+    "name": "Telomere Hack - ATK",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": null,
+    "purchasable": null,
+    "buy_price": "???",
+    "sell_price": "???",
+    "description": "This experimental genefix alters chromosomes in the Temtem DNA, adding 1 SV to ATK."
+  },
+  {
+    "name": "Telomere Hack - SPATK",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": null,
+    "purchasable": null,
+    "buy_price": "???",
+    "sell_price": 4900,
+    "description": "This experimental genefix alters chromosomes in the Temtem DNA, adding 1 SV to SPATK."
+  },
+  {
+    "name": "Telomere Hack - SPDEF",
+    "category": "Medicine",
+    "consumable": true,
+    "limited_quantity": null,
+    "purchasable": null,
+    "buy_price": "???",
+    "sell_price": "???",
+    "description": "This experimental genefix alters chromosomes in the Temtem DNA, adding 1 SV to SPDEF."
+  },
+  {
+    "name": "Coward's Cloak",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "\"Revolutionary cogno-cloak that allows the Temtem holding it to gain experience from battle without even taking part in it.\" "
+  },
+  {
+    "name": "Decoy",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "\"Useful distraction if you want to run away.\" "
+  },
+  {
+    "name": "Fire Chip",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Damage done by Fire Techniques is increased by 10%. "
+  },
+  {
+    "name": "Four-leaf Clover",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Increases the catch percentage when facing wild Temtem. "
+  },
+  {
+    "name": "Hand Fan",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Damage done by  Wind Techniques is increased by 10%. "
+  },
+  {
+    "name": "Lightning Rod",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Damage taken from  Electric Techniques is reduced by 20%. "
+  },
+  {
+    "name": "Lure",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Untamed Temtem can't ignore this delicious Lure and are forced to target the bearer. (Equipped Temtem will be the focus of all attacks in wild encounters) "
+  },
+  {
+    "name": "Pillow",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "At the start of the turn, restores 10% of max hp of an  Asleep Temtem. "
+  },
+  {
+    "name": "Proteins",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Is obtained at the end of the Giant Banyan inside of the building. You must walk through the door. Inside are three item boxes: Proteins, a Green dye, and Lady Lottie's Diary. "
+  },
+  {
+    "name": "Pansunscreen",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Prevents the  Burned Status condition. "
+  },
+  {
+    "name": "Talisman",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "\"Prevents the Doomed Status condition.\" "
+  },
+  {
+    "name": "Umbrella",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "\"Damage taken from Water Techniques is reduced by 20%\" "
+  },
+  {
+    "name": "Ice Cube",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Energy Drink",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Rock Shield",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Reward from Find Kemal in Quetzal"
+  },
+  {
+    "name": "Squeezer",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Reward from Find Kemal in Quetzal"
+  },
+  {
+    "name": "Sweatband",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Reward from Cultist Hunt in Kupeleleza"
+  },
+  {
+    "name": "Tucma Mask",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Reward from Shipwrecked in Tucma! when first meeting Naolin"
+  },
+  {
+    "name": "Snare",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Reward from Blueprint Delivery"
+  },
+  {
+    "name": "Chamomile",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "When entering the battlefield, removes stage changes."
+  },
+  {
+    "name": "Grease",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Found at Wreck of the Narwhal"
+  },
+  {
+    "name": "Shuine's Horn",
+    "category": "Gear",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Reward from Beached Narwhal"
+  },
+  {
+    "name": "Vitality DNA Strand",
+    "category": "Gear",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 1000,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Lithe DNA Strand",
+    "category": "Gear",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 10,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Aggressive DNA Strand",
+    "category": "Gear",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 10,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Gifted DNA Strand",
+    "category": "Gear",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 10,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Endurance DNA Strand",
+    "category": "Gear",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 10,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Hardening DNA Strand",
+    "category": "Gear",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 10,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Dominant DNA Strand",
+    "category": "Gear",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": true,
+    "buy_price": 10,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Vigor DNA Strand",
+    "category": "Gear",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "This single-use DNA strand ensures the egg inherits the parent's HP and STA. "
+  },
+  {
+    "name": "Mighty DNA Strand",
+    "category": "Gear",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "This single-use DNA strand ensures the egg inherits the parent's ATK and SPATK "
+  },
+  {
+    "name": "Immunity DNA Strand",
+    "category": "Gear",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "This single-use DNA strand ensures the egg inherits the parent's DEF and SPDEF."
+  },
+  {
+    "name": "Engineered DNA Strand",
+    "category": "Gear",
+    "consumable": true,
+    "limited_quantity": false,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "This single-use DNA strand ensures the egg inherits the parent's trait slot."
+  },
+  {
+    "name": "Archipelago Map",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Surfboard",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "A fine board made by a master Denizan craftsman. Formerly Dojo Master Sophia's, now your very own."
+  },
+  {
+    "name": "Acid-proof Surfboard",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "A fine board Formerly Dojo Master Sophia's. It has been acid-proofed for use even in the most toxic of waters."
+  },
+  {
+    "name": "Crystal skates",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "A pair of crystal skates, ideal for maneuvering slippery surfaces."
+  },
+  {
+    "name": "Tempedia",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Stores the data of seen and caught Temtem"
+  },
+  {
+    "name": "Temessence phial",
+    "category": "Key",
+    "consumable": null,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "A vial of Temessence, enough to heal your whole squad. Replenish at HealTem machines and by certain characters."
+  },
+  {
+    "name": "Rock-hopping hook",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Traditionally used for Tucmani sport and art of rock-hopping"
+  },
+  {
+    "name": "Egg Timer",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Tictoc... is it already time for your Temeggs to hatch? This handy timer will let you know when the little ones arrive."
+  },
+  {
+    "name": "Lift key",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "The Elevator Key is an item obtained from Rawiri after beating him in the Mokupuni Dojo."
+  },
+  {
+    "name": "Fort Windward key",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "An ancient-looking key to the dungeons of Windward Fort. "
+  },
+  {
+    "name": "Airship ticket",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "A passenger ticket for the airship \"Narwhal\", plying the Arissola-Nanga-Uhuru route. "
+  },
+  {
+    "name": "Blueprints",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "A series of detailed schematics by Oliana of MyrEng, to be delivered to the Guildmaster of Quetzal. "
+  },
+  {
+    "name": "Signed authorisation",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Message in a bottle (Item)",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Lady Lottie's diary",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "NEEDS DESCRIPTION "
+  },
+  {
+    "name": "Water sample A",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Talk to Sugey out in the Crater, Obtain 2 Water Samples, head back into Tucma Subsurface and inside are 2 nodes where you must collect the Water Samples A &amp; B."
+  },
+  {
+    "name": "Water sample B",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "Talk to Sugey out in the Crater, Obtain 2 Water Samples, head back into Tucma Subsurface and inside are 2 nodes where you must collect the Water Samples A &amp; B."
+  },
+  {
+    "name": "Empty water sample vial A",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "This is vial A and it's empty Sugey is expecting a sample from underground waters of Tucma "
+  },
+  {
+    "name": "Empty water sample vial B",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "This is vial B and it's empty Sugey is expecting a sample from underground waters of Tucma "
+  },
+  {
+    "name": "Ancient Idol",
+    "category": "Key",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": null,
+    "description": "NEEDS INFO"
+  }
+]
