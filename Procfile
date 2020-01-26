@@ -1,0 +1,1 @@
+web: uvicorn temapi.api:app --port $PORT
