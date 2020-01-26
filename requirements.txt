@@ -20,7 +20,6 @@ pytest==5.3.4
 requests==2.22.0
 six==1.14.0
 starlette==0.12.9
--e git+git@github.com:Leviosar/temapi.git@f9d52965bab4d76499d0032a4a86b4ebafaab448#egg=temapi
 urllib3==1.25.8
 uvicorn==0.11.2
 uvloop==0.14.0
