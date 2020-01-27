@@ -69,6 +69,17 @@ def extract_cry(sel: parsel.Selector):
     return sel.xpath('.//span/audio/@src').get()
 
 
+def extract_evolve_info(sel: parsel.Selector):
+    paragraph = html.remove_tags(sel.get()).strip()
+    phrases = paragraph.split('.')
+    
+    for phrase in phrases:
+        if 'evolve' in phrase:
+            return phrase.strip()
+
+    return None
+
+
 # Traits
 
 def extract_effect(sel: parsel.Selector):
