@@ -136,32 +136,40 @@ def extract_technique_name(sel: parsel.Selector):
 
 
 def extract_technique_type(sel: parsel.Selector):
-    return sel.css('a::attr(title)').get()
+    type = sel.css('a::attr(title)').get()
+    return type.split()[0] if type != None else None
 
 
 def extract_technique_class(sel: parsel.Selector):
-    return sel.css('a::attr(title)').get()
+    class_ = sel.css('a::attr(title)').get() 
+    return class_.capitalize() if class_  != None else None
 
 
 def extract_technique_damage(sel: parsel.Selector):
-    if sel.xpath('text()').get().strip() == '-' or sel.xpath('text()').get().strip() == '':
+    damage = sel.xpath('text()').get().strip()
+    
+    try:
+        return int(damage)
+    except ValueError:
         return None
-    else:
-        return sel.xpath('text()').get().strip()
 
 
 def extract_technique_stamina(sel: parsel.Selector):
-    if sel.xpath('text()').get().strip() == '-' or sel.xpath('text()').get().strip() == '?':
+    cost = sel.xpath('text()').get().strip()
+
+    try:
+        return int(cost)
+    except ValueError:
         return None
-    else:
-        return sel.xpath('text()').get().strip()
 
 
 def extract_technique_hold(sel: parsel.Selector):
-    if sel.xpath('text()').get().strip() == '?' or sel.xpath('text()').get().strip() == '':
+    hold = sel.xpath('text()').get().strip()
+    
+    try:
+        return int(hold)
+    except ValueError:
         return None
-    else:
-        return sel.xpath('text()').get().strip()
 
 
 def extract_technique_priority(sel: parsel.Selector):
@@ -179,7 +187,10 @@ def extract_technique_synergy(sel: parsel.Selector):
     if sel.css('a::attr(title)').get() == 'Temtem Types':
         return None
     else:
-        return sel.css('a::attr(title)').get()
+        try:
+            return sel.css('a::attr(title)').get().split()[0]
+        except:
+            return None
 
 
 def extract_technique_synergy_effect(sel: parsel.Selector):
