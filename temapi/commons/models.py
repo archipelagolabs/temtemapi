@@ -19,7 +19,7 @@ class TemtemType(str, Enum):
     TOXIC = 'Toxic'
 
 
-class TechniqueCategory(Enum):
+class TechniqueCategory(str, Enum):
     PHYSICAL = 'Physical'
     SPECIAL = 'Special'
     STATUS = 'Status'
@@ -36,19 +36,20 @@ class Temtem(BaseModel):
     height: Optional[float]
     weight: Optional[float]
     cry: Optional[str]
+    evolve_info: Optional[str]
 
 
 class Technique(BaseModel):
     name: str
     description: str
-    type: TemtemType
-    category: TechniqueCategory
-    damage: int
-    stamina_cost: int
-    hold: int
-    priority: int  # 🤔
-    targets: str
-    synergy: Optional[str]  # TemtemType
+    type: Optional[TemtemType]
+    category: Optional[TechniqueCategory]
+    damage: Optional[int]
+    stamina_cost: Optional[int]
+    hold: Optional[int]
+    priority: Optional[int]  # 🤔
+    targets: Optional[str]
+    synergy: Optional[TemtemType]
     synergy_effect: Optional[str]
 
 
@@ -62,3 +63,23 @@ class Trait(BaseModel):
     name: str
     effect: str
     learned_by: List[str]
+
+
+class Item(BaseModel):
+    name: str
+    category: str
+    consumable: Optional[bool]
+    limited_quantity: Optional[bool]
+    purchasable: Optional[bool]
+    buy_price: Optional[int]
+    sell_price: Optional[int]
+    description: str
+
+
+class Medicine(Item):
+    restore_amount: str
+
+
+class ErrorItem(BaseModel):
+    name: str
+    error: str
