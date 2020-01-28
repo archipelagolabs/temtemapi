@@ -450,13 +450,21 @@
     "description": "The ultimate replenisher. Restores full HP, STA, and heals all Status Conditions."
   },
   {
+    "name": "Telomere Hack - HP (page does not exist)",
+    "error": "Page doest not exist"
+  },
+  {
+    "name": "Telomere Hack - STA (page does not exist)",
+    "error": "Page doest not exist"
+  },
+  {
     "name": "Telomere Hack - SPD",
     "category": "Medicine",
     "consumable": true,
     "limited_quantity": null,
     "purchasable": null,
-    "buy_price": "???",
-    "sell_price": "???",
+    "buy_price": null,
+    "sell_price": null,
     "description": "This experimental genefix alters chromosomes in the Temtem DNA, adding 1 SV to SPD."
   },
   {
@@ -465,9 +473,13 @@
     "consumable": true,
     "limited_quantity": null,
     "purchasable": null,
-    "buy_price": "???",
-    "sell_price": "???",
+    "buy_price": null,
+    "sell_price": null,
     "description": "This experimental genefix alters chromosomes in the Temtem DNA, adding 1 SV to ATK."
+  },
+  {
+    "name": "Telomere Hack - DEF (page does not exist)",
+    "error": "Page doest not exist"
   },
   {
     "name": "Telomere Hack - SPATK",
@@ -475,7 +487,7 @@
     "consumable": true,
     "limited_quantity": null,
     "purchasable": null,
-    "buy_price": "???",
+    "buy_price": null,
     "sell_price": 4900,
     "description": "This experimental genefix alters chromosomes in the Temtem DNA, adding 1 SV to SPATK."
   },
@@ -485,8 +497,8 @@
     "consumable": true,
     "limited_quantity": null,
     "purchasable": null,
-    "buy_price": "???",
-    "sell_price": "???",
+    "buy_price": null,
+    "sell_price": null,
     "description": "This experimental genefix alters chromosomes in the Temtem DNA, adding 1 SV to SPDEF."
   },
   {
