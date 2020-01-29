@@ -20,6 +20,16 @@
     "description": "A standard-size crystal from the Quetzal mines. Can be sold at a good price."
   },
   {
+    "name": "Huge Crystal",
+    "category": "General",
+    "consumable": false,
+    "limited_quantity": true,
+    "purchasable": false,
+    "buy_price": null,
+    "sell_price": 200,
+    "description": "A large chunk of precious minerals... Keep it away from hungry Crystal Temtem! Can be sold at a good price."
+  },
+  {
     "name": "Scent",
     "category": "General",
     "consumable": true,

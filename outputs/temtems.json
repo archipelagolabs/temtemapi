@@ -14,7 +14,17 @@
     "height": 128.0,
     "weight": 43.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/3c/VO_02_Intro.wav",
-    "evolve_info": "It evolves into Zaobian"
+    "evolve_info": "It evolves into Zaobian",
+    "status": {
+      "HP": "61",
+      "STA": "74",
+      "SPD": "35",
+      "ATK": "65",
+      "DEF": "44",
+      "SPATK": "32",
+      "SPDEF": "31",
+      "TOTAL": "342"
+    }
   },
   {
     "id": 3,
@@ -29,7 +39,17 @@
     "height": 213.0,
     "weight": 93.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/f/f7/VO_003_Intro.wav",
-    "evolve_info": "It evolves from Oree"
+    "evolve_info": "It evolves from Oree",
+    "status": {
+      "HP": "75",
+      "STA": "90",
+      "SPD": "51",
+      "ATK": "84",
+      "DEF": "50",
+      "SPATK": "42",
+      "SPDEF": "44",
+      "TOTAL": "436"
+    }
   },
   {
     "id": 7,
@@ -50,7 +70,17 @@
     "height": 85.0,
     "weight": 48.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/86/007_intro.mp3",
-    "evolve_info": "It evolves into Platox after 20 levels, which evolves into Platimous after 20 levels"
+    "evolve_info": "It evolves into Platox after 20 levels, which evolves into Platimous after 20 levels",
+    "status": {
+      "HP": "55",
+      "STA": "39",
+      "SPD": "65",
+      "ATK": "45",
+      "DEF": "31",
+      "SPATK": "67",
+      "SPDEF": "56",
+      "TOTAL": "358"
+    }
   },
   {
     "id": 8,
@@ -71,7 +101,17 @@
     "height": 140.0,
     "weight": 70.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/24/008_intro.mp3",
-    "evolve_info": "After 20 levels it evolves into Platimous and evolves from Platypet after 20 levels"
+    "evolve_info": "After 20 levels it evolves into Platimous and evolves from Platypet after 20 levels",
+    "status": {
+      "HP": "62",
+      "STA": "44",
+      "SPD": "74",
+      "ATK": "50",
+      "DEF": "35",
+      "SPATK": "76",
+      "SPDEF": "63",
+      "TOTAL": "404"
+    }
   },
   {
     "id": 9,
@@ -90,7 +130,17 @@
     "height": 190.0,
     "weight": 107.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/de/009_intro.mp3",
-    "evolve_info": "It evolves from Platox after 20 levels"
+    "evolve_info": "It evolves from Platox after 20 levels",
+    "status": {
+      "HP": "71",
+      "STA": "49",
+      "SPD": "82",
+      "ATK": "56",
+      "DEF": "39",
+      "SPATK": "90",
+      "SPDEF": "70",
+      "TOTAL": "457"
+    }
   },
   {
     "id": 10,
@@ -110,7 +160,17 @@
     "height": 82.0,
     "weight": 18.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/3a/VO_10_Intro.wav",
-    "evolve_info": "It evolves into Loali after 8 levels"
+    "evolve_info": "It evolves into Loali after 8 levels",
+    "status": {
+      "HP": "44",
+      "STA": "65",
+      "SPD": "35",
+      "ATK": "50",
+      "DEF": "40",
+      "SPATK": "55",
+      "SPDEF": "60",
+      "TOTAL": "349"
+    }
   },
   {
     "id": 11,
@@ -129,7 +189,17 @@
     "height": 60.0,
     "weight": 14.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/13/VO_11_Intro.wav",
-    "evolve_info": "It evolves from Swali"
+    "evolve_info": "It evolves from Swali",
+    "status": {
+      "HP": "55",
+      "STA": "80",
+      "SPD": "80",
+      "ATK": "60",
+      "DEF": "50",
+      "SPATK": "70",
+      "SPDEF": "90",
+      "TOTAL": "485"
+    }
   },
   {
     "id": 12,
@@ -147,7 +217,17 @@
     "height": 145.0,
     "weight": 61.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/ee/VO_12_Intro.wav",
-    "evolve_info": "It does not evolve into or from any other Temtem"
+    "evolve_info": "It does not evolve into or from any other Temtem",
+    "status": {
+      "HP": "70",
+      "STA": "90",
+      "SPD": "60",
+      "ATK": "68",
+      "DEF": "66",
+      "SPATK": "54",
+      "SPDEF": "66",
+      "TOTAL": "474"
+    }
   },
   {
     "id": 16,
@@ -167,7 +247,17 @@
     "height": 75.0,
     "weight": 8.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/bf/VO_16_Intro.wav",
-    "evolve_info": "It evolves into Paharac after 9 levels"
+    "evolve_info": "It evolves into Paharac after 9 levels",
+    "status": {
+      "HP": "48",
+      "STA": "18",
+      "SPD": "60",
+      "ATK": "40",
+      "DEF": "40",
+      "SPATK": "50",
+      "SPDEF": "50",
+      "TOTAL": "306"
+    }
   },
   {
     "id": 17,
@@ -187,7 +277,17 @@
     "height": 125.0,
     "weight": 24.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/1a/VO_17_Intro.wav",
-    "evolve_info": "It is the evolution of Paharo and evolves into Granpah after 16 levels"
+    "evolve_info": "It is the evolution of Paharo and evolves into Granpah after 16 levels",
+    "status": {
+      "HP": "60",
+      "STA": "30",
+      "SPD": "70",
+      "ATK": "50",
+      "DEF": "55",
+      "SPATK": "60",
+      "SPDEF": "60",
+      "TOTAL": "385"
+    }
   },
   {
     "id": 18,
@@ -205,7 +305,17 @@
     "height": 186.0,
     "weight": 45.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/d6/018_intro.mp3",
-    "evolve_info": "It evolves from Paharac"
+    "evolve_info": "It evolves from Paharac",
+    "status": {
+      "HP": "69",
+      "STA": "36",
+      "SPD": "78",
+      "ATK": "55",
+      "DEF": "61",
+      "SPATK": "72",
+      "SPDEF": "66",
+      "TOTAL": "437"
+    }
   },
   {
     "id": 19,
@@ -222,7 +332,17 @@
     "height": null,
     "weight": null,
     "cry": null,
-    "evolve_info": "It evolves into Amphatyr"
+    "evolve_info": "It evolves into Amphatyr",
+    "status": {
+      "HP": "?",
+      "STA": "?",
+      "SPD": "?",
+      "ATK": "?",
+      "DEF": "?",
+      "SPATK": "?",
+      "SPDEF": "?",
+      "TOTAL": "?"
+    }
   },
   {
     "id": 20,
@@ -238,7 +358,17 @@
     "height": null,
     "weight": null,
     "cry": null,
-    "evolve_info": null
+    "evolve_info": null,
+    "status": {
+      "HP": "?",
+      "STA": "?",
+      "SPD": "?",
+      "ATK": "?",
+      "DEF": "?",
+      "SPATK": "?",
+      "SPDEF": "?",
+      "TOTAL": "?"
+    }
   },
   {
     "id": 21,
@@ -259,7 +389,17 @@
     "height": 55.0,
     "weight": 18.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/7e/021_intro.mp3",
-    "evolve_info": "It evolves into Mudrid after 20 levels"
+    "evolve_info": "It evolves into Mudrid after 20 levels",
+    "status": {
+      "HP": "72",
+      "STA": "40",
+      "SPD": "69",
+      "ATK": "50",
+      "DEF": "36",
+      "SPATK": "64",
+      "SPDEF": "43",
+      "TOTAL": "374"
+    }
   },
   {
     "id": 22,
@@ -278,7 +418,17 @@
     "height": 150.0,
     "weight": 75.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/9/9c/022_intro.mp3",
-    "evolve_info": "It evolves from Bunbun after 20 levels"
+    "evolve_info": "It evolves from Bunbun after 20 levels",
+    "status": {
+      "HP": "85",
+      "STA": "44",
+      "SPD": "95",
+      "ATK": "60",
+      "DEF": "42",
+      "SPATK": "75",
+      "SPDEF": "50",
+      "TOTAL": "451"
+    }
   },
   {
     "id": 23,
@@ -298,7 +448,17 @@
     "height": 100.0,
     "weight": 12.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/ea/VO_23_Intro.wav",
-    "evolve_info": "It evolves into Taifu after 15 levels"
+    "evolve_info": "It evolves into Taifu after 15 levels",
+    "status": {
+      "HP": "49",
+      "STA": "70",
+      "SPD": "39",
+      "ATK": "42",
+      "DEF": "39",
+      "SPATK": "62",
+      "SPDEF": "55",
+      "TOTAL": "356"
+    }
   },
   {
     "id": 24,
@@ -316,7 +476,17 @@
     "height": 180.0,
     "weight": 72.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/d7/024_intro.mp3",
-    "evolve_info": "It evolves from Hidody"
+    "evolve_info": "It evolves from Hidody",
+    "status": {
+      "HP": "60",
+      "STA": "87",
+      "SPD": "45",
+      "ATK": "50",
+      "DEF": "45",
+      "SPATK": "78",
+      "SPDEF": "78",
+      "TOTAL": "443"
+    }
   },
   {
     "id": 25,
@@ -336,7 +506,17 @@
     "height": 58.0,
     "weight": 12.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4c/VO_25_Intro.wav",
-    "evolve_info": "It evolves into Wiplump after 20 levels"
+    "evolve_info": "It evolves into Wiplump after leveling up 20 times",
+    "status": {
+      "HP": "40",
+      "STA": "60",
+      "SPD": "40",
+      "ATK": "30",
+      "DEF": "35",
+      "SPATK": "65",
+      "SPDEF": "70",
+      "TOTAL": "340"
+    }
   },
   {
     "id": 26,
@@ -355,7 +535,17 @@
     "height": 125.0,
     "weight": 28.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/89/VO_26_Intro.wav",
-    "evolve_info": null
+    "evolve_info": null,
+    "status": {
+      "HP": "66",
+      "STA": "80",
+      "SPD": "70",
+      "ATK": "40",
+      "DEF": "50",
+      "SPATK": "95",
+      "SPDEF": "80",
+      "TOTAL": "481"
+    }
   },
   {
     "id": 27,
@@ -375,7 +565,17 @@
     "height": 80.0,
     "weight": 26.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/6/67/VO_27_Intro.wav",
-    "evolve_info": "It evolves into Skunch after 17 levels"
+    "evolve_info": "It evolves into Skunch by gaining 17 levels after being captured",
+    "status": {
+      "HP": "57",
+      "STA": "43",
+      "SPD": "60",
+      "ATK": "45",
+      "DEF": "50",
+      "SPATK": "32",
+      "SPDEF": "41",
+      "TOTAL": "328"
+    }
   },
   {
     "id": 28,
@@ -394,7 +594,17 @@
     "height": 150.0,
     "weight": 36.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e4/VO_28_Intro.wav",
-    "evolve_info": "It evolves from Skail, and it is not known to evolve into any other Temtem"
+    "evolve_info": "It evolves from Skail, and it is not known to evolve into any other Temtem",
+    "status": {
+      "HP": "72",
+      "STA": "62",
+      "SPD": "75",
+      "ATK": "70",
+      "DEF": "70",
+      "SPATK": "45",
+      "SPDEF": "60",
+      "TOTAL": "454"
+    }
   },
   {
     "id": 32,
@@ -414,7 +624,8 @@
     "height": 110.0,
     "weight": 24.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/1c/VO_32_Intro.wav",
-    "evolve_info": "It evolves into Tental after leveling up 29 times"
+    "evolve_info": "It evolves into Tental after leveling up 29 times",
+    "status": {}
   },
   {
     "id": 33,
@@ -432,7 +643,17 @@
     "height": 160.0,
     "weight": 58.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/00/033_intro.mp3",
-    "evolve_info": "It evolves from Houchic after 29 levels, and it evolves into\u00a0???"
+    "evolve_info": "It evolves from Houchic after 29 levels, and it evolves into\u00a0???",
+    "status": {
+      "HP": "41",
+      "STA": "51",
+      "SPD": "76",
+      "ATK": "42",
+      "DEF": "50",
+      "SPATK": "81",
+      "SPDEF": "62",
+      "TOTAL": "403"
+    }
   },
   {
     "id": 35,
@@ -453,7 +674,17 @@
     "height": 117.0,
     "weight": 110.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/3a/035_intro.mp3",
-    "evolve_info": "It evolves into Nidrasil after 22 levels"
+    "evolve_info": "It evolves into Nidrasil after 22 levels",
+    "status": {
+      "HP": "42",
+      "STA": "48",
+      "SPD": "75",
+      "ATK": "68",
+      "DEF": "64",
+      "SPATK": "27",
+      "SPDEF": "40",
+      "TOTAL": "364"
+    }
   },
   {
     "id": 36,
@@ -472,7 +703,17 @@
     "height": 178.0,
     "weight": 330.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/ba/036_intro.mp3",
-    "evolve_info": "It evolves from Orphyll after 22 levels"
+    "evolve_info": "It evolves from Orphyll after 22 levels",
+    "status": {
+      "HP": "77",
+      "STA": "52",
+      "SPD": "61",
+      "ATK": "88",
+      "DEF": "80",
+      "SPATK": "36",
+      "SPDEF": "51",
+      "TOTAL": "445"
+    }
   },
   {
     "id": 37,
@@ -492,7 +733,17 @@
     "height": 90.0,
     "weight": 45.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/f/f7/037_intro.mp3",
-    "evolve_info": "It evolves into Capyre after 17 levels"
+    "evolve_info": "It evolves into Capyre by gaining 17 levels after initially capturing the Temtem",
+    "status": {
+      "HP": "42",
+      "STA": "40",
+      "SPD": "70",
+      "ATK": "50",
+      "DEF": "50",
+      "SPATK": "40",
+      "SPDEF": "41",
+      "TOTAL": "333"
+    }
   },
   {
     "id": 38,
@@ -510,7 +761,17 @@
     "height": 150.0,
     "weight": 67.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/f/f9/038_intro.mp3",
-    "evolve_info": "It evolves from Banapi"
+    "evolve_info": "Capyre evolves from Banapi after gaining 17 levels",
+    "status": {
+      "HP": "55",
+      "STA": "55",
+      "SPD": "88",
+      "ATK": "71",
+      "DEF": "68",
+      "SPATK": "45",
+      "SPDEF": "47",
+      "TOTAL": "429"
+    }
   },
   {
     "id": 39,
@@ -530,7 +791,17 @@
     "height": 90.0,
     "weight": 47.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/79/039_intro.mp3",
-    "evolve_info": "It evolves into Azuroc after 25 levels"
+    "evolve_info": "Lapinite evolves into Azuroc by gaining 25 levels after being captured",
+    "status": {
+      "HP": "58",
+      "STA": "31",
+      "SPD": "46",
+      "ATK": "44",
+      "DEF": "63",
+      "SPATK": "55",
+      "SPDEF": "56",
+      "TOTAL": "353"
+    }
   },
   {
     "id": 40,
@@ -550,7 +821,17 @@
     "height": 203.0,
     "weight": 95.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/0c/040_intro.mp3",
-    "evolve_info": "It evolves from Lapinite and evolves into Zenoreth after 25 levels or by trading"
+    "evolve_info": "Azuroc evolves from Lapinite after gaining 25 levels, and evolves into Zenoreth by gaining 25 levels after capture or by trading with another user",
+    "status": {
+      "HP": "64",
+      "STA": "34",
+      "SPD": "50",
+      "ATK": "58",
+      "DEF": "69",
+      "SPATK": "60",
+      "SPDEF": "62",
+      "TOTAL": "397"
+    }
   },
   {
     "id": 41,
@@ -568,7 +849,17 @@
     "height": 310.0,
     "weight": 220.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/9/91/041_intro.mp3",
-    "evolve_info": "It evolves from Azuroc after 25 levels or by trading"
+    "evolve_info": "Zenoreth evolves from Azuroc after gaining 25 levels or by trading with another player",
+    "status": {
+      "HP": "71",
+      "STA": "35",
+      "SPD": "56",
+      "ATK": "67",
+      "DEF": "87",
+      "SPATK": "65",
+      "SPDEF": "69",
+      "TOTAL": "450"
+    }
   },
   {
     "id": 44,
@@ -588,7 +879,17 @@
     "height": 113.0,
     "weight": 113.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/6/6e/044_intro.mp3",
-    "evolve_info": "It evolves into Babawa after 18 levels"
+    "evolve_info": "It evolves into Babawa after 18 levels",
+    "status": {
+      "HP": "55",
+      "STA": "68",
+      "SPD": "20",
+      "ATK": "65",
+      "DEF": "38",
+      "SPATK": "41",
+      "SPDEF": "42",
+      "TOTAL": "329"
+    }
   },
   {
     "id": 45,
@@ -607,7 +908,17 @@
     "height": 226.0,
     "weight": 340.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/48/045_intro.mp3",
-    "evolve_info": "It evolves from Bigu after 18 levels"
+    "evolve_info": "It evolves from Bigu after 18 levels",
+    "status": {
+      "HP": "85",
+      "STA": "92",
+      "SPD": "40",
+      "ATK": "79",
+      "DEF": "57",
+      "SPATK": "51",
+      "SPDEF": "44",
+      "TOTAL": "448"
+    }
   },
   {
     "id": 48,
@@ -627,7 +938,17 @@
     "height": 54.0,
     "weight": 29.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/8b/VO_48_Intro.wav",
-    "evolve_info": "It evolves into Saku after 13 levels"
+    "evolve_info": "It evolves into Saku after 13 levels",
+    "status": {
+      "HP": "69",
+      "STA": "48",
+      "SPD": "35",
+      "ATK": "35",
+      "DEF": "60",
+      "SPATK": "60",
+      "SPDEF": "50",
+      "TOTAL": "357"
+    }
   },
   {
     "id": 49,
@@ -646,7 +967,17 @@
     "height": 92.0,
     "weight": 44.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/1f/VO_49_Intro.wav",
-    "evolve_info": "It evolves from Kaku"
+    "evolve_info": "It evolves from Kaku",
+    "status": {
+      "HP": "82",
+      "STA": "60",
+      "SPD": "40",
+      "ATK": "40",
+      "DEF": "62",
+      "SPATK": "66",
+      "SPDEF": "70",
+      "TOTAL": "420"
+    }
   },
   {
     "id": 50,
@@ -665,7 +996,17 @@
     "height": 185.0,
     "weight": 84.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/dc/050_intro.mp3",
-    "evolve_info": "It is not known to evolve into or from any other Temtem"
+    "evolve_info": "It is not known to evolve into or from any other Temtem",
+    "status": {
+      "HP": "58",
+      "STA": "57",
+      "SPD": "90",
+      "ATK": "74",
+      "DEF": "56",
+      "SPATK": "74",
+      "SPDEF": "56",
+      "TOTAL": "465"
+    }
   },
   {
     "id": 53,
@@ -684,7 +1025,17 @@
     "height": 171.0,
     "weight": 59.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/8a/VO_53_Intro.wav",
-    "evolve_info": "It is not known to evolve into or from any other Temtem"
+    "evolve_info": "It is not known to evolve into or from any other Temtem",
+    "status": {
+      "HP": "50",
+      "STA": "51",
+      "SPD": "65",
+      "ATK": "60",
+      "DEF": "40",
+      "SPATK": "75",
+      "SPDEF": "79",
+      "TOTAL": "420"
+    }
   },
   {
     "id": 54,
@@ -703,7 +1054,17 @@
     "height": 204.0,
     "weight": 53.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/5/5b/054_intro.mp3",
-    "evolve_info": "It is not known to evolve into or from any other Temtem"
+    "evolve_info": "It is not known to evolve into or from any other Temtem",
+    "status": {
+      "HP": "86",
+      "STA": "44",
+      "SPD": "100",
+      "ATK": "85",
+      "DEF": "61",
+      "SPATK": "23",
+      "SPDEF": "61",
+      "TOTAL": "460"
+    }
   },
   {
     "id": 55,
@@ -723,7 +1084,17 @@
     "height": 137.0,
     "weight": 79.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/8c/055_intro.mp3",
-    "evolve_info": "It evolves into Myx after 18 levels"
+    "evolve_info": "It evolves into Myx after 18 levels",
+    "status": {
+      "HP": "50",
+      "STA": "39",
+      "SPD": "50",
+      "ATK": "45",
+      "DEF": "43",
+      "SPATK": "38",
+      "SPDEF": "65",
+      "TOTAL": "330"
+    }
   },
   {
     "id": 56,
@@ -742,7 +1113,17 @@
     "height": 243.0,
     "weight": 145.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/b7/056_intro.mp3",
-    "evolve_info": "It evolves from Occlura after 18 levels"
+    "evolve_info": "It evolves from Occlura after 18 levels",
+    "status": {
+      "HP": "51",
+      "STA": "59",
+      "SPD": "65",
+      "ATK": "51",
+      "DEF": "43",
+      "SPATK": "94",
+      "SPDEF": "80",
+      "TOTAL": "443"
+    }
   },
   {
     "id": 57,
@@ -762,7 +1143,17 @@
     "height": 95.0,
     "weight": 28.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/b2/057_intro.mp3",
-    "evolve_info": "It evolves into Raize after 15 levels"
+    "evolve_info": "It evolves into Raize after 15 levels",
+    "status": {
+      "HP": "57",
+      "STA": "35",
+      "SPD": "42",
+      "ATK": "40",
+      "DEF": "61",
+      "SPATK": "59",
+      "SPDEF": "38",
+      "TOTAL": "332"
+    }
   },
   {
     "id": 58,
@@ -782,7 +1173,17 @@
     "height": 160.0,
     "weight": 70.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/a/a2/058_intro.mp3",
-    "evolve_info": "It evolves from Raiber, and evolves into Raican"
+    "evolve_info": "It evolves from Raiber, and evolves into Raican",
+    "status": {
+      "HP": "66",
+      "STA": "46",
+      "SPD": "48",
+      "ATK": "46",
+      "DEF": "74",
+      "SPATK": "69",
+      "SPDEF": "43",
+      "TOTAL": "392"
+    }
   },
   {
     "id": 59,
@@ -800,7 +1201,17 @@
     "height": 195.0,
     "weight": 125.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/f/ff/059_intro.mp3",
-    "evolve_info": null
+    "evolve_info": null,
+    "status": {
+      "HP": "77",
+      "STA": "49",
+      "SPD": "60",
+      "ATK": "77",
+      "DEF": "77",
+      "SPATK": "51",
+      "SPDEF": "50",
+      "TOTAL": "441"
+    }
   },
   {
     "id": 60,
@@ -820,7 +1231,17 @@
     "height": 60.0,
     "weight": 15.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/3e/VO_60_Intros.wav",
-    "evolve_info": "It evolves into Piraniant after 13 levels"
+    "evolve_info": "It evolves into Piraniant after 13 levels",
+    "status": {
+      "HP": "70",
+      "STA": "32",
+      "SPD": "33",
+      "ATK": "42",
+      "DEF": "45",
+      "SPATK": "31",
+      "SPDEF": "10",
+      "TOTAL": "263"
+    }
   },
   {
     "id": 61,
@@ -838,7 +1259,17 @@
     "height": 200.0,
     "weight": 230.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/df/VO_61_Intros.wav",
-    "evolve_info": "It evolves from Pewki"
+    "evolve_info": "It evolves from Pewki",
+    "status": {
+      "HP": "80",
+      "STA": "50",
+      "SPD": "55",
+      "ATK": "77",
+      "DEF": "85",
+      "SPATK": "65",
+      "SPDEF": "37",
+      "TOTAL": "449"
+    }
   },
   {
     "id": 69,
@@ -857,7 +1288,17 @@
     "height": 100.0,
     "weight": 50.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/00/VO_69_Intro.wav",
-    "evolve_info": "It is not known to evolve into or from any other Temtem"
+    "evolve_info": "It is not known to evolve into or from any other Temtem",
+    "status": {
+      "HP": "92",
+      "STA": "42",
+      "SPD": "70",
+      "ATK": "80",
+      "DEF": "50",
+      "SPATK": "70",
+      "SPDEF": "40",
+      "TOTAL": "444"
+    }
   },
   {
     "id": 72,
@@ -877,7 +1318,8 @@
     "height": 60.0,
     "weight": 48.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4f/VO_72_Intro.wav",
-    "evolve_info": "It needs to level up 30 times in order to evolve into Sherald"
+    "evolve_info": "It needs to level up 35 times in order to evolve into Sherald",
+    "status": {}
   },
   {
     "id": 73,
@@ -895,7 +1337,17 @@
     "height": 120.0,
     "weight": 150.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/7c/073_intro.mp3",
-    "evolve_info": "It evolves from Crystle, and it evolves into\u00a0???"
+    "evolve_info": "It evolves from Crystle, and it evolves into\u00a0???",
+    "status": {
+      "HP": "68",
+      "STA": "45",
+      "SPD": "43",
+      "ATK": "69",
+      "DEF": "78",
+      "SPATK": "51",
+      "SPDEF": "48",
+      "TOTAL": "402"
+    }
   },
   {
     "id": 79,
@@ -914,7 +1366,17 @@
     "height": 115.0,
     "weight": 31.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/3f/VO_79_Intro.wav",
-    "evolve_info": "It evolves to Pocus"
+    "evolve_info": "It evolves to Pocus",
+    "status": {
+      "HP": "?",
+      "STA": "?",
+      "SPD": "?",
+      "ATK": "?",
+      "DEF": "?",
+      "SPATK": "?",
+      "SPDEF": "?",
+      "TOTAL": "?"
+    }
   },
   {
     "id": 80,
@@ -929,7 +1391,17 @@
     "height": 190.0,
     "weight": 82.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/b3/080_intro.mp3",
-    "evolve_info": "It evolves from Hocus"
+    "evolve_info": "It evolves from Hocus",
+    "status": {
+      "HP": "?",
+      "STA": "?",
+      "SPD": "?",
+      "ATK": "?",
+      "DEF": "?",
+      "SPATK": "?",
+      "SPDEF": "?",
+      "TOTAL": "?"
+    }
   },
   {
     "id": 82,
@@ -940,13 +1412,24 @@
     "evolves_from": null,
     "evolves_to": [],
     "traits": [
-      "Last Rush"
+      "Last Rush",
+      "Lightning Rod"
     ],
     "tv_yield": "ATK +2",
     "height": 160.0,
     "weight": 73.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/85/VO_82_Intro.wav",
-    "evolve_info": "It evolves from an unknown Temtem and evolves into an unknown Temtem"
+    "evolve_info": "It evolves from an unknown Temtem and evolves into an unknown Temtem",
+    "status": {
+      "HP": "70",
+      "STA": "80",
+      "SPD": "85",
+      "ATK": "85",
+      "DEF": "46",
+      "SPATK": "42",
+      "SPDEF": "46",
+      "TOTAL": "454"
+    }
   },
   {
     "id": 84,
@@ -966,7 +1449,17 @@
     "height": 100.0,
     "weight": 45.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/c/c2/084_intro.mp3",
-    "evolve_info": "It evolves into Mushook after 20 levels"
+    "evolve_info": "It evolves into Mushook 20 levels after the level it was caught with",
+    "status": {
+      "HP": "48",
+      "STA": "33",
+      "SPD": "68",
+      "ATK": "48",
+      "DEF": "36",
+      "SPATK": "48",
+      "SPDEF": "29",
+      "TOTAL": "310"
+    }
   },
   {
     "id": 85,
@@ -985,7 +1478,17 @@
     "height": 210.0,
     "weight": 95.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/0e/085_intro.mp3",
-    "evolve_info": "It evolves from Mushi after 20 levels"
+    "evolve_info": "It evolves from Mushi after 20 levels",
+    "status": {
+      "HP": "67",
+      "STA": "45",
+      "SPD": "81",
+      "ATK": "81",
+      "DEF": "80",
+      "SPATK": "49",
+      "SPDEF": "41",
+      "TOTAL": "444"
+    }
   },
   {
     "id": 86,
@@ -1005,7 +1508,17 @@
     "height": 115.0,
     "weight": 26.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/9/97/086_intro.mp3",
-    "evolve_info": "It evolves into Mastione after 16 levels"
+    "evolve_info": "It evolves into Mastione after 16 levels",
+    "status": {
+      "HP": "52",
+      "STA": "51",
+      "SPD": "37",
+      "ATK": "55",
+      "DEF": "42",
+      "SPATK": "45",
+      "SPDEF": "35",
+      "TOTAL": "317"
+    }
   },
   {
     "id": 87,
@@ -1023,7 +1536,17 @@
     "height": 240.0,
     "weight": 180.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/de/087_intro.mp3",
-    "evolve_info": "It evolves from Magmis"
+    "evolve_info": "It evolves from Magmis",
+    "status": {
+      "HP": "69",
+      "STA": "62",
+      "SPD": "52",
+      "ATK": "91",
+      "DEF": "65",
+      "SPATK": "62",
+      "SPDEF": "37",
+      "TOTAL": "438"
+    }
   },
   {
     "id": 88,
@@ -1043,7 +1566,17 @@
     "height": 95.0,
     "weight": 21.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/73/VO_88_Intro.wav",
-    "evolve_info": "It evolves into Ukama after 14 levels"
+    "evolve_info": "It evolves into Ukama after 14 levels",
+    "status": {
+      "HP": "51",
+      "STA": "76",
+      "SPD": "80",
+      "ATK": "21",
+      "DEF": "34",
+      "SPATK": "63",
+      "SPDEF": "45",
+      "TOTAL": "370"
+    }
   },
   {
     "id": 89,
@@ -1061,7 +1594,17 @@
     "height": 140.0,
     "weight": 27.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/27/VO_89_Intro.wav",
-    "evolve_info": "It evolves from Umishi after 14 levels"
+    "evolve_info": "It evolves from Umishi after 14 levels",
+    "status": {
+      "HP": "68",
+      "STA": "90",
+      "SPD": "100",
+      "ATK": "34",
+      "DEF": "51",
+      "SPATK": "76",
+      "SPDEF": "54",
+      "TOTAL": "473"
+    }
   },
   {
     "id": 91,
@@ -1074,7 +1617,17 @@
     "height": null,
     "weight": null,
     "cry": null,
-    "evolve_info": "It is known to evolve from an unnamed Temtem"
+    "evolve_info": "It is known to evolve from an unnamed Temtem",
+    "status": {
+      "HP": "?",
+      "STA": "?",
+      "SPD": "?",
+      "ATK": "?",
+      "DEF": "?",
+      "SPATK": "?",
+      "SPDEF": "?",
+      "TOTAL": "?"
+    }
   },
   {
     "id": 92,
@@ -1094,7 +1647,8 @@
     "height": 96.0,
     "weight": 24.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e0/VO_92_Intro.wav",
-    "evolve_info": "It evolves into Baboong after levelling up 29 times"
+    "evolve_info": "It evolves into Baboong after levelling up 29 times",
+    "status": {}
   },
   {
     "id": 93,
@@ -1112,7 +1666,17 @@
     "height": 160.0,
     "weight": 53.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/d4/093_intro.mp3",
-    "evolve_info": "It evolves from Smazee after leveling up 29 times, and it evolves into\u00a0???"
+    "evolve_info": "It evolves from Smazee after leveling up 29 times, and it evolves into\u00a0???",
+    "status": {
+      "HP": "54",
+      "STA": "61",
+      "SPD": "75",
+      "ATK": "79",
+      "DEF": "51",
+      "SPATK": "41",
+      "SPDEF": "41",
+      "TOTAL": "402"
+    }
   },
   {
     "id": 95,
@@ -1129,7 +1693,17 @@
     "height": null,
     "weight": null,
     "cry": null,
-    "evolve_info": "It is not known to evolve into or from any other Temtem"
+    "evolve_info": "It is not known to evolve into or from any other Temtem",
+    "status": {
+      "HP": "?",
+      "STA": "?",
+      "SPD": "?",
+      "ATK": "?",
+      "DEF": "?",
+      "SPATK": "?",
+      "SPDEF": "?",
+      "TOTAL": "?"
+    }
   },
   {
     "id": 102,
@@ -1149,7 +1723,17 @@
     "height": 74.0,
     "weight": 20.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e7/102_intro.mp3",
-    "evolve_info": "It evolves into Deendre after 12 levels"
+    "evolve_info": "It evolves into Deendre after 12 levels",
+    "status": {
+      "HP": "72",
+      "STA": "38",
+      "SPD": "65",
+      "ATK": "42",
+      "DEF": "70",
+      "SPATK": "37",
+      "SPDEF": "31",
+      "TOTAL": "355"
+    }
   },
   {
     "id": 103,
@@ -1169,7 +1753,17 @@
     "height": 120.0,
     "weight": 42.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e9/103_intro.mp3",
-    "evolve_info": "It evolves from Spriole, and it evolves into Cerneaf after 25 levels"
+    "evolve_info": "It evolves from Spriole, and it evolves into Cerneaf after 25 levels",
+    "status": {
+      "HP": "80",
+      "STA": "42",
+      "SPD": "70",
+      "ATK": "48",
+      "DEF": "74",
+      "SPATK": "42",
+      "SPDEF": "35",
+      "TOTAL": "391"
+    }
   },
   {
     "id": 104,
@@ -1187,7 +1781,17 @@
     "height": 210.0,
     "weight": 94.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/a/ab/104_intro.mp3",
-    "evolve_info": "It evolves from Deendre, and is the final stage of Spriole's evolution line"
+    "evolve_info": "It evolves from Deendre, and is the final stage of Spriole's evolution line",
+    "status": {
+      "HP": "91",
+      "STA": "44",
+      "SPD": "79",
+      "ATK": "60",
+      "DEF": "88",
+      "SPATK": "43",
+      "SPDEF": "46",
+      "TOTAL": "451"
+    }
   },
   {
     "id": 105,
@@ -1207,7 +1811,17 @@
     "height": 106.0,
     "weight": 55.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/33/105_intro.mp3",
-    "evolve_info": "It evolves into Noxolotl after 30 levels"
+    "evolve_info": "It evolves into Noxolotl after 30 levels",
+    "status": {
+      "HP": "59",
+      "STA": "40",
+      "SPD": "47",
+      "ATK": "50",
+      "DEF": "64",
+      "SPATK": "65",
+      "SPDEF": "37",
+      "TOTAL": "362"
+    }
   },
   {
     "id": 106,
@@ -1219,13 +1833,23 @@
     "evolves_to": [],
     "traits": [
       "Trance",
-      "Toxic Skin"
+      "Toxic Farewell"
     ],
     "tv_yield": "SPATK +2 SPDEF +2",
     "height": 177.0,
     "weight": 122.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/2b/106_intro.mp3",
-    "evolve_info": "It evolves from Toxolotl after 30 levels"
+    "evolve_info": "It evolves from Toxolotl after 30 levels",
+    "status": {
+      "HP": "72",
+      "STA": "49",
+      "SPD": "57",
+      "ATK": "61",
+      "DEF": "78",
+      "SPATK": "79",
+      "SPDEF": "45",
+      "TOTAL": "441"
+    }
   },
   {
     "id": 107,
@@ -1245,7 +1869,17 @@
     "height": 178.0,
     "weight": 180.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/da/107_intro.mp3",
-    "evolve_info": "It evolves into Goolder after 25 levels"
+    "evolve_info": "It evolves into Goolder after 25 levels",
+    "status": {
+      "HP": "68",
+      "STA": "50",
+      "SPD": "33",
+      "ATK": "43",
+      "DEF": "52",
+      "SPATK": "46",
+      "SPDEF": "54",
+      "TOTAL": "346"
+    }
   },
   {
     "id": 108,
@@ -1263,7 +1897,17 @@
     "height": 222.0,
     "weight": 1700.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/04/108_intro.mp3",
-    "evolve_info": "It evolves from Blooze after 25 levels"
+    "evolve_info": "It evolves from Blooze after 25 levels",
+    "status": {
+      "HP": "120",
+      "STA": "70",
+      "SPD": "10",
+      "ATK": "64",
+      "DEF": "56",
+      "SPATK": "68",
+      "SPDEF": "56",
+      "TOTAL": "444"
+    }
   },
   {
     "id": 109,
@@ -1284,7 +1928,17 @@
     "height": 92.0,
     "weight": 37.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4a/109_intro.mp3",
-    "evolve_info": "It evolves into Volarend after 22 levels"
+    "evolve_info": "It evolves into Volarend after 22 levels",
+    "status": {
+      "HP": "58",
+      "STA": "34",
+      "SPD": "68",
+      "ATK": "43",
+      "DEF": "47",
+      "SPATK": "50",
+      "SPDEF": "51",
+      "TOTAL": "351"
+    }
   },
   {
     "id": 110,
@@ -1303,7 +1957,17 @@
     "height": 205.0,
     "weight": 92.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/5/59/110_intro.mp3",
-    "evolve_info": "It evolves from Zephyruff after 22 levels"
+    "evolve_info": "It evolves from Zephyruff after 22 levels",
+    "status": {
+      "HP": "69",
+      "STA": "38",
+      "SPD": "74",
+      "ATK": "51",
+      "DEF": "61",
+      "SPATK": "68",
+      "SPDEF": "96",
+      "TOTAL": "457"
+    }
   },
   {
     "id": 113,
@@ -1324,7 +1988,17 @@
     "height": 105.0,
     "weight": 14.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4c/VO_113_Intro.wav",
-    "evolve_info": "It evolves into Gazuma after 27 levels"
+    "evolve_info": "It evolves into Gazuma after 27 levels",
+    "status": {
+      "HP": "38",
+      "STA": "46",
+      "SPD": "61",
+      "ATK": "57",
+      "DEF": "38",
+      "SPATK": "62",
+      "SPDEF": "73",
+      "TOTAL": "375"
+    }
   },
   {
     "id": 114,
@@ -1343,7 +2017,17 @@
     "height": 145.0,
     "weight": 28.7,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/d0/114_intro.mp3",
-    "evolve_info": "It evolves from Ganki after 32 levels and does not evolve further"
+    "evolve_info": "It evolves from Ganki after 27 levels and does not evolve further",
+    "status": {
+      "HP": "46",
+      "STA": "53",
+      "SPD": "67",
+      "ATK": "68",
+      "DEF": "43",
+      "SPATK": "81",
+      "SPDEF": "91",
+      "TOTAL": "449"
+    }
   },
   {
     "id": 115,
@@ -1361,7 +2045,17 @@
     "height": 222.0,
     "weight": 68.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/a/af/VO_115_Intro.wav",
-    "evolve_info": "It is currently not known to evolve into or from any other Temtem"
+    "evolve_info": "It is currently not known to evolve into or from any other Temtem",
+    "status": {
+      "HP": "64",
+      "STA": "42",
+      "SPD": "100",
+      "ATK": "54",
+      "DEF": "51",
+      "SPATK": "110",
+      "SPDEF": "65",
+      "TOTAL": "486"
+    }
   },
   {
     "id": 122,
@@ -1380,7 +2074,17 @@
     "height": 250.0,
     "weight": 68.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e7/122_intro.mp3",
-    "evolve_info": "It is not known to evolve into or from any other Temtem"
+    "evolve_info": "It is not known to evolve into or from any other Temtem",
+    "status": {
+      "HP": "43",
+      "STA": "90",
+      "SPD": "81",
+      "ATK": "67",
+      "DEF": "49",
+      "SPATK": "72",
+      "SPDEF": "60",
+      "TOTAL": "462"
+    }
   },
   {
     "id": 123,
@@ -1399,7 +2103,8 @@
     "height": 190.0,
     "weight": 65.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4e/VO_123_Intro.wav",
-    "evolve_info": "It does not evolve into or from any other Temtem"
+    "evolve_info": "It does not evolve into or from any other Temtem",
+    "status": {}
   },
   {
     "id": 124,
@@ -1414,7 +2119,17 @@
     "height": null,
     "weight": null,
     "cry": null,
-    "evolve_info": "It is not known to evolve into another Temtem"
+    "evolve_info": "It is not known to evolve into another Temtem",
+    "status": {
+      "HP": "?",
+      "STA": "?",
+      "SPD": "?",
+      "ATK": "?",
+      "DEF": "?",
+      "SPATK": "?",
+      "SPDEF": "?",
+      "TOTAL": "?"
+    }
   },
   {
     "id": 127,
@@ -1434,7 +2149,17 @@
     "height": 114.0,
     "weight": 52.3,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/43/VO_127_Intro.wav",
-    "evolve_info": "It evolves into Kalabyss after 18 levels"
+    "evolve_info": "It evolves into Kalabyss after 18 levels",
+    "status": {
+      "HP": "63",
+      "STA": "24",
+      "SPD": "28",
+      "ATK": "54",
+      "DEF": "70",
+      "SPATK": "38",
+      "SPDEF": "44",
+      "TOTAL": "321"
+    }
   },
   {
     "id": 128,
@@ -1453,7 +2178,17 @@
     "height": 170.0,
     "weight": 163.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/a/ad/VO_128_Intro.wav",
-    "evolve_info": "It evolves from Kalazu after 18 levels"
+    "evolve_info": "It evolves from Kalazu after 18 levels",
+    "status": {
+      "HP": "82",
+      "STA": "35",
+      "SPD": "37",
+      "ATK": "75",
+      "DEF": "100",
+      "SPATK": "65",
+      "SPDEF": "55",
+      "TOTAL": "449"
+    }
   },
   {
     "id": 129,
@@ -1472,7 +2207,17 @@
     "height": 88.0,
     "weight": 14.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/44/129_intro.mp3",
-    "evolve_info": "It does not evolve into or from any other Temtem"
+    "evolve_info": "It does not evolve into or from any other Temtem",
+    "status": {
+      "HP": "66",
+      "STA": "66",
+      "SPD": "60",
+      "ATK": "29",
+      "DEF": "42",
+      "SPATK": "70",
+      "SPDEF": "110",
+      "TOTAL": "443"
+    }
   },
   {
     "id": 130,
@@ -1490,7 +2235,8 @@
     "height": 106.0,
     "weight": 23.8,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/0d/VO_130_Intro.wav",
-    "evolve_info": "It evolves into Tuvine by taking it to the Crystal Shrine"
+    "evolve_info": "It evolves into Tuvine by taking it to the Crystal Shrine",
+    "status": {}
   },
   {
     "id": 133,
@@ -1509,7 +2255,17 @@
     "height": 172.0,
     "weight": 87.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/71/133_intro.mp3",
-    "evolve_info": "It evolves from Tuwai"
+    "evolve_info": "It evolves from Tuwai",
+    "status": {
+      "HP": "57",
+      "STA": "47",
+      "SPD": "65",
+      "ATK": "70",
+      "DEF": "111",
+      "SPATK": "60",
+      "SPDEF": "47",
+      "TOTAL": "457"
+    }
   },
   {
     "id": 137,
@@ -1528,7 +2284,17 @@
     "height": 93.0,
     "weight": 16.8,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/83/137_intro.mp3",
-    "evolve_info": null
+    "evolve_info": null,
+    "status": {
+      "HP": "47",
+      "STA": "74",
+      "SPD": "74",
+      "ATK": "53",
+      "DEF": "41",
+      "SPATK": "69",
+      "SPDEF": "96",
+      "TOTAL": "454"
+    }
   },
   {
     "id": 138,
@@ -1549,7 +2315,17 @@
     "height": 76.0,
     "weight": 45.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/c/cc/138_intro.mp3",
-    "evolve_info": "It evolves into Vulor after 14 levels"
+    "evolve_info": "It evolves into Vulor after 14 levels",
+    "status": {
+      "HP": "59",
+      "STA": "54",
+      "SPD": "57",
+      "ATK": "47",
+      "DEF": "64",
+      "SPATK": "47",
+      "SPDEF": "31",
+      "TOTAL": "359"
+    }
   },
   {
     "id": 139,
@@ -1570,7 +2346,17 @@
     "height": 163.0,
     "weight": 94.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/22/139_intro.mp3",
-    "evolve_info": "It evolves from Vulvir and evolves into Vulcrane"
+    "evolve_info": "It evolves from Vulvir and evolves into Vulcrane",
+    "status": {
+      "HP": "65",
+      "STA": "59",
+      "SPD": "63",
+      "ATK": "49",
+      "DEF": "71",
+      "SPATK": "49",
+      "SPDEF": "32",
+      "TOTAL": "388"
+    }
   },
   {
     "id": 140,
@@ -1585,11 +2371,21 @@
       "Receptive",
       "Vigorous"
     ],
-    "tv_yield": "+1 HP, +2 DEF",
+    "tv_yield": "HP +1 DEF +2",
     "height": 233.0,
     "weight": 142.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/d/da/140_intro.mp3",
-    "evolve_info": "It evolves from Vulor after 28 levels"
+    "evolve_info": "It evolves from Vulor after leveling up 28 levels after initial capture",
+    "status": {
+      "HP": "76",
+      "STA": "65",
+      "SPD": "73",
+      "ATK": "74",
+      "DEF": "86",
+      "SPATK": "64",
+      "SPDEF": "35",
+      "TOTAL": "473"
+    }
   },
   {
     "id": 141,
@@ -1607,7 +2403,17 @@
     "height": 69.0,
     "weight": 64.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/26/VO_141_Intro.wav",
-    "evolve_info": "It does not evolve into or from any other Temtem"
+    "evolve_info": "It does not evolve into or from any other Temtem",
+    "status": {
+      "HP": "54",
+      "STA": "72",
+      "SPD": "58",
+      "ATK": "60",
+      "DEF": "72",
+      "SPATK": "45",
+      "SPDEF": "72",
+      "TOTAL": "433"
+    }
   },
   {
     "id": 161,
@@ -1626,6 +2432,16 @@
     "height": 152.0,
     "weight": 172.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/1a/161_intro.mp3",
-    "evolve_info": null
+    "evolve_info": null,
+    "status": {
+      "HP": "54",
+      "STA": "36",
+      "SPD": "31",
+      "ATK": "50",
+      "DEF": "101",
+      "SPATK": "50",
+      "SPDEF": "101",
+      "TOTAL": "423"
+    }
   }
 ]
