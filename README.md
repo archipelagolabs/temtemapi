@@ -3,6 +3,9 @@ temapi
 
 Temtem API with data extracted from Gamepedia
 
+**Live version: http://api.temtemapi.com/redoc**
+
+
 Setup
 -----
 
