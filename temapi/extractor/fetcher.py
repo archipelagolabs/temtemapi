@@ -95,6 +95,7 @@ def fetch_temtem(name):
 
     data = {}
 
+    data['Status'] = fetch_temtem_stats(sel)
     data['Evolve Info'] = extractors_map['Evolve Info'](sel.xpath('//*[@id="mw-content-text"]/div/p[1]'))
 
     for key, csel in zip(keys, infos):
@@ -111,8 +112,29 @@ def fetch_temtem(name):
         height=data['Height'],
         weight=data['Weight'],
         cry=data.get('Cry'),
-        evolve_info=data.get('Evolve Info')
+        evolve_info=data.get('Evolve Info'),
+        status=data.get('Status')
     )
+
+
+def fetch_temtem_stats(sel: Selector):
+    rows = sel.xpath('//*[@id="mw-content-text"]/div/table[1]/tbody/tr/th')
+    
+    #2: for header skip
+    keys = [
+        row.css('div:first-child > b').xpath('text()').get() 
+        for row in rows[2:]
+        if row.css('div:first-child > b').xpath('text()').get() != None
+    ]
+    keys.append('TOTAL')
+
+    values = [
+        row.css('div:last-child').xpath('text()').get() 
+        for row in rows[2:]
+        if row.css('div:last-child').xpath('text()').get() != None
+    ]
+
+    return {key: value for key, value in zip(keys, values)}
 
 
 def fetch_technique(link : str):
