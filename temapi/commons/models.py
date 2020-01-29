@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import List, Optional
+from typing import List, Optional, Dict
 
 from pydantic import BaseModel
 
@@ -37,6 +37,7 @@ class Temtem(BaseModel):
     weight: Optional[float]
     cry: Optional[str]
     evolve_info: Optional[str]
+    status: Dict
 
 
 class Technique(BaseModel):

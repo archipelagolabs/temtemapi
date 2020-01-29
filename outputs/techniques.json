@@ -1,40 +1,14 @@
 [
   {
-    "name": "Diamond Fort",
-    "description": "Harder than the hardest Crystal Temtem. Increases your own DEF and SPDEF by 2 stages.",
-    "type": "Crystal",
+    "name": "Stone Wall",
+    "description": "The best way to stonewall a Temtem, bestowing DEF +2, SDEF +1.",
+    "type": "Earth",
     "category": "Status",
     "damage": 0,
-    "stamina_cost": 26,
-    "hold": 2,
-    "priority": 1,
-    "targets": "Self",
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
-    "name": "Block",
-    "description": "Thou shall not pass! A  technique that confers DEF +2.",
-    "type": "Melee",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 15,
+    "stamina_cost": 18,
     "hold": 1,
-    "priority": 3,
-    "targets": "Self",
-    "synergy": null,
-    "synergy_effect": "?"
-  },
-  {
-    "name": "Shy Shield",
-    "description": "Some Temtem are naturally introverted and keep to themselves. DEF +1.",
-    "type": "Neutral",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 4,
-    "hold": null,
-    "priority": 3,
-    "targets": "Self",
+    "priority": 1,
+    "targets": "Single Target",
     "synergy": null,
     "synergy_effect": null
   },
@@ -52,15 +26,15 @@
     "synergy_effect": null
   },
   {
-    "name": "Antitoxins",
-    "description": "\"Advanced antitoxins that cure Poison on the inoculated target.\"",
-    "type": "Toxic",
+    "name": "Diamond Fort",
+    "description": "Harder than the hardest Crystal Temtem. Increases your own DEF and SPDEF by 2 stages.",
+    "type": "Crystal",
     "category": "Status",
     "damage": 0,
     "stamina_cost": 26,
     "hold": 2,
-    "priority": 2,
-    "targets": "Single Other Target",
+    "priority": 1,
+    "targets": "Self",
     "synergy": null,
     "synergy_effect": null
   },
@@ -104,58 +78,6 @@
     "synergy_effect": null
   },
   {
-    "name": "Flood",
-    "description": "\"Watch the opponent get all bogged down. Decreases Speed in 1 stage for whole enemy team.\"",
-    "type": "Water",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 22,
-    "hold": 1,
-    "priority": 2,
-    "targets": "Single Team",
-    "synergy": "Earth",
-    "synergy_effect": "Decreases enemy Speed 2 stages"
-  },
-  {
-    "name": "Crystallize",
-    "description": "Inspired by the ruins of the Amethyst Barrens, this crystal crust provides DEF +2 but SPD -1.",
-    "type": "Crystal",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 18,
-    "hold": 1,
-    "priority": 2,
-    "targets": "Self",
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
-    "name": "Stone Wall",
-    "description": "The best way to stonewall a Temtem, bestowing DEF +2, SDEF +1.",
-    "type": "Earth",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 18,
-    "hold": 1,
-    "priority": 1,
-    "targets": "Single Target",
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
-    "name": "Photosynthesis",
-    "description": "Nature Temtem are unique in their use of Pan-sunlight to nourish themselves (Recover 50% STA).",
-    "type": "Nature",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 7,
-    "hold": null,
-    "priority": 2,
-    "targets": null,
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
     "name": "Hypnosis",
     "description": "",
     "type": "Mental",
@@ -169,67 +91,15 @@
     "synergy_effect": null
   },
   {
-    "name": "Toxic Spores",
-    "description": "Toxic-carrying spores that inoculate with Poison for 3 turns.",
-    "type": "Toxic",
+    "name": "Crystallize",
+    "description": "Inspired by the ruins of the Amethyst Barrens, this crystal crust provides DEF +2 but SPD -1.",
+    "type": "Crystal",
     "category": "Status",
     "damage": 0,
-    "stamina_cost": 9,
-    "hold": null,
-    "priority": 1,
-    "targets": null,
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
-    "name": "Stare",
-    "description": "This Temtem's intimidating stare makes rivals feel more vulnerable (DEF -1).",
-    "type": "Mental",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 4,
-    "hold": null,
+    "stamina_cost": 18,
+    "hold": 1,
     "priority": 2,
-    "targets": "Single Other Target",
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
-    "name": "Roar",
-    "description": "A mighty roar at a crucial moment, to intimidate rivals (ATK-1).",
-    "type": "Neutral",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 10,
-    "hold": 2,
-    "priority": 2,
-    "targets": "Single Team",
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
-    "name": "King%27s Roar",
-    "description": "When the king roars, the rest run away. Decreases SPD and ATK of the other team.",
-    "type": "Neutral",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 24,
-    "hold": 3,
-    "priority": 2,
-    "targets": "Single Team",
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
-    "name": "Roots",
-    "description": "Legends tell of the Omninesian tamers who would root rivals in place (for SPD -1).",
-    "type": "Nature",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 5,
-    "hold": null,
-    "priority": 2,
-    "targets": "Single Other Target",
+    "targets": "Self",
     "synergy": null,
     "synergy_effect": null
   },
@@ -260,17 +130,17 @@
     "synergy_effect": null
   },
   {
-    "name": "Rage",
-    "description": "The red mist makes a Temtem brutal (ATK +2) but also careless (DEF -2).",
-    "type": "Melee",
+    "name": "Flood",
+    "description": "\"Watch the opponent get all bogged down. Decreases Speed in 1 stage for whole enemy team.\"",
+    "type": "Water",
     "category": "Status",
     "damage": 0,
-    "stamina_cost": 10,
+    "stamina_cost": 22,
     "hold": 1,
     "priority": 2,
-    "targets": null,
-    "synergy": null,
-    "synergy_effect": null
+    "targets": "Single Team",
+    "synergy": "Earth",
+    "synergy_effect": "Decreases enemy Speed 2 stages"
   },
   {
     "name": "Cage",
@@ -286,15 +156,54 @@
     "synergy_effect": null
   },
   {
-    "name": "Nimble",
-    "description": "Through rigorous training, Temtem can become extra fast (SPD +1).",
-    "type": "Wind",
+    "name": "Photosynthesis",
+    "description": "Nature Temtem are unique in their use of Pan-sunlight to nourish themselves (Recover 50% STA).",
+    "type": "Nature",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 7,
+    "hold": null,
+    "priority": 2,
+    "targets": null,
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
+    "name": "Roar",
+    "description": "A mighty roar at a crucial moment, to intimidate rivals (ATK-1).",
+    "type": "Neutral",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 10,
+    "hold": 2,
+    "priority": 2,
+    "targets": "Single Team",
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
+    "name": "Toxic Spores",
+    "description": "Toxic-carrying spores that inoculate with Poison for 3 turns.",
+    "type": "Toxic",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 9,
+    "hold": null,
+    "priority": 1,
+    "targets": null,
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
+    "name": "Stare",
+    "description": "This Temtem's intimidating stare makes rivals feel more vulnerable (DEF -1).",
+    "type": "Mental",
     "category": "Status",
     "damage": 0,
     "stamina_cost": 4,
     "hold": null,
     "priority": 2,
-    "targets": null,
+    "targets": "Single Other Target",
     "synergy": null,
     "synergy_effect": null
   },
@@ -325,17 +234,30 @@
     "synergy_effect": null
   },
   {
-    "name": "Meditation",
-    "description": "This technique is not learned yet by any Temtem",
-    "type": null,
-    "category": null,
-    "damage": null,
-    "stamina_cost": null,
+    "name": "Roots",
+    "description": "Legends tell of the Omninesian tamers who would root rivals in place (for SPD -1).",
+    "type": "Nature",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 5,
     "hold": null,
-    "priority": null,
+    "priority": 2,
+    "targets": "Single Other Target",
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
+    "name": "Rage",
+    "description": "The red mist makes a Temtem brutal (ATK +2) but also careless (DEF -2).",
+    "type": "Melee",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 10,
+    "hold": 1,
+    "priority": 2,
     "targets": null,
     "synergy": null,
-    "synergy_effect": "?"
+    "synergy_effect": null
   },
   {
     "name": "Turbo Choreography",
@@ -349,6 +271,32 @@
     "targets": "Single Team",
     "synergy": "Wind",
     "synergy_effect": "+2 SPD for entire team"
+  },
+  {
+    "name": "King%27s Roar",
+    "description": "When the king roars, the rest run away. Decreases SPD and ATK of the other team.",
+    "type": "Neutral",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 24,
+    "hold": 3,
+    "priority": 2,
+    "targets": "Single Team",
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
+    "name": "Nimble",
+    "description": "Through rigorous training, Temtem can become extra fast (SPD +1).",
+    "type": "Wind",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 4,
+    "hold": null,
+    "priority": 2,
+    "targets": null,
+    "synergy": null,
+    "synergy_effect": null
   },
   {
     "name": "Show Off",
@@ -377,6 +325,45 @@
     "synergy_effect": "?"
   },
   {
+    "name": "Sacrifice",
+    "description": "A Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF++ and SPDEF++.",
+    "type": "Neutral",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 0,
+    "hold": 1,
+    "priority": 3,
+    "targets": "Single Other Target",
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
+    "name": "Meditation",
+    "description": "This technique is not learned yet by any Temtem",
+    "type": null,
+    "category": null,
+    "damage": null,
+    "stamina_cost": null,
+    "hold": null,
+    "priority": null,
+    "targets": null,
+    "synergy": null,
+    "synergy_effect": "?"
+  },
+  {
+    "name": "Extinction",
+    "description": "\"Look up! See that cool meteorite... Extinction gives 4 turns of Doomed to everyone on the battlefield.\"",
+    "type": "Fire",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 32,
+    "hold": 2,
+    "priority": 2,
+    "targets": "All",
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
     "name": "Paralysing Poison",
     "description": "This strong venom traps and poisons the target for 2 turns.",
     "type": "Toxic",
@@ -390,17 +377,56 @@
     "synergy_effect": "+2 turn Poison"
   },
   {
-    "name": "Sacrifice",
-    "description": "A Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF++ and SPDEF++.",
+    "name": "Confiscate",
+    "description": "\"Gimme all your stuff! The target is Seized for 3 turns.\"",
     "type": "Neutral",
     "category": "Status",
     "damage": 0,
-    "stamina_cost": 0,
-    "hold": 1,
-    "priority": 3,
+    "stamina_cost": 7,
+    "hold": null,
+    "priority": 2,
     "targets": "Single Other Target",
     "synergy": null,
     "synergy_effect": null
+  },
+  {
+    "name": "Pollution",
+    "description": "Noxious fumes, almost unheard-of in the unspoilt Archipelago. They Poison the whole team for 2 turns.",
+    "type": "Toxic",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 22,
+    "hold": 2,
+    "priority": 2,
+    "targets": "Single Team",
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
+    "name": "Misogi",
+    "description": "\"The monks of Miyako developed this technique to eliminate all altered states on the temtem.\"",
+    "type": "Water",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 22,
+    "hold": 2,
+    "priority": 2,
+    "targets": "Self",
+    "synergy": "Water",
+    "synergy_effect": "3 turn"
+  },
+  {
+    "name": "Regenerate",
+    "description": "This technique is not learned yet by any Temtem",
+    "type": null,
+    "category": null,
+    "damage": null,
+    "stamina_cost": null,
+    "hold": null,
+    "priority": null,
+    "targets": null,
+    "synergy": null,
+    "synergy_effect": "?"
   },
   {
     "name": "Sparks",
@@ -416,6 +442,19 @@
     "synergy_effect": null
   },
   {
+    "name": "Bamboozle",
+    "description": "Give'em the old razzle dazzle! (Target avoids the next Technique or attack directed at it).",
+    "type": "Mental",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 16,
+    "hold": null,
+    "priority": 2,
+    "targets": null,
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
     "name": "Hallucination",
     "description": "Suggestive and  visions that exhaust the mind and  tire the target for 2 turns.",
     "type": "Toxic",
@@ -427,19 +466,6 @@
     "targets": "Single Other Target",
     "synergy": "Mental",
     "synergy_effect": "+50 Special Damage"
-  },
-  {
-    "name": "Regenerate",
-    "description": "This technique is not learned yet by any Temtem",
-    "type": null,
-    "category": null,
-    "damage": null,
-    "stamina_cost": null,
-    "hold": null,
-    "priority": null,
-    "targets": null,
-    "synergy": null,
-    "synergy_effect": "?"
   },
   {
     "name": "Heat Up",
@@ -468,17 +494,17 @@
     "synergy_effect": null
   },
   {
-    "name": "Extinction",
-    "description": "\"Look up! See that cool meteorite... Extinction gives 4 turns of Doomed to everyone on the battlefield.\"",
-    "type": "Fire",
-    "category": "Status",
+    "name": "Firewall",
+    "description": "",
+    "type": "Digital",
+    "category": null,
     "damage": 0,
-    "stamina_cost": 32,
-    "hold": 2,
-    "priority": 2,
-    "targets": "All",
+    "stamina_cost": 15,
+    "hold": 1,
+    "priority": null,
+    "targets": null,
     "synergy": null,
-    "synergy_effect": null
+    "synergy_effect": "?"
   },
   {
     "name": "Revitalize",
@@ -494,6 +520,45 @@
     "synergy_effect": "Stamina cost reduced to 11, recovers 10% of the user's HP as well"
   },
   {
+    "name": "Cooperation",
+    "description": "Team equality! This equalises all team member's STA with the team average.",
+    "type": "Neutral",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 1,
+    "hold": null,
+    "priority": 4,
+    "targets": null,
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
+    "name": "Block",
+    "description": "Thou shall not pass! A  technique that confers DEF +2.",
+    "type": "Melee",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 15,
+    "hold": 1,
+    "priority": 3,
+    "targets": "Self",
+    "synergy": null,
+    "synergy_effect": "?"
+  },
+  {
+    "name": "Shy Shield",
+    "description": "Some Temtem are naturally introverted and keep to themselves. DEF +1.",
+    "type": "Neutral",
+    "category": "Status",
+    "damage": 0,
+    "stamina_cost": 4,
+    "hold": null,
+    "priority": 3,
+    "targets": "Self",
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
     "name": "Turbo Charge",
     "description": "Turn it to eleven! Decreases the Hold level of our whole team.",
     "type": "Electric",
@@ -505,19 +570,6 @@
     "targets": "Single Team",
     "synergy": null,
     "synergy_effect": null
-  },
-  {
-    "name": "Misogi",
-    "description": "\"The monks of Miyako developed this technique to eliminate all altered states on the temtem.\"",
-    "type": "Water",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 22,
-    "hold": 2,
-    "priority": 2,
-    "targets": "Self",
-    "synergy": "Water",
-    "synergy_effect": "3 turn"
   },
   {
     "name": "Slow Down",
@@ -533,19 +585,6 @@
     "synergy_effect": "+ Sleep Status"
   },
   {
-    "name": "Confiscate",
-    "description": "\"Gimme all your stuff! The target is Seized for 3 turns.\"",
-    "type": "Neutral",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 7,
-    "hold": null,
-    "priority": 2,
-    "targets": "Single Other Target",
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
     "name": "Intimidation",
     "description": "That \"don't mess with me\" look makes the Temtem untargetable for the next turn",
     "type": "Mental",
@@ -554,32 +593,6 @@
     "stamina_cost": 12,
     "hold": 2,
     "priority": 1,
-    "targets": null,
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
-    "name": "Pollution",
-    "description": "Noxious fumes, almost unheard-of in the unspoilt Archipelago. They Poison the whole team for 2 turns.",
-    "type": "Toxic",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 22,
-    "hold": 2,
-    "priority": 2,
-    "targets": "Single Team",
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
-    "name": "Cooperation",
-    "description": "Team equality! This equalises all team member's STA with the team average.",
-    "type": "Neutral",
-    "category": "Status",
-    "damage": 0,
-    "stamina_cost": 1,
-    "hold": null,
-    "priority": 4,
     "targets": null,
     "synergy": null,
     "synergy_effect": null
@@ -598,30 +611,17 @@
     "synergy_effect": null
   },
   {
-    "name": "Bamboozle",
-    "description": "Give'em the old razzle dazzle! (Target avoids the next Technique or attack directed at it).",
-    "type": "Mental",
+    "name": "Antitoxins",
+    "description": "\"Advanced antitoxins that cure Poison on the inoculated target.\"",
+    "type": "Toxic",
     "category": "Status",
     "damage": 0,
-    "stamina_cost": 16,
-    "hold": null,
+    "stamina_cost": 26,
+    "hold": 2,
     "priority": 2,
-    "targets": null,
+    "targets": "Single Other Target",
     "synergy": null,
     "synergy_effect": null
-  },
-  {
-    "name": "Firewall",
-    "description": "",
-    "type": "Digital",
-    "category": null,
-    "damage": 0,
-    "stamina_cost": 15,
-    "hold": 1,
-    "priority": null,
-    "targets": null,
-    "synergy": null,
-    "synergy_effect": "?"
   },
   {
     "name": "Cheer Up",
@@ -988,19 +988,6 @@
     "synergy_effect": null
   },
   {
-    "name": "Martial Strike",
-    "description": "All Melee Temtem are trained to perform this basic but effective attack.",
-    "type": "Melee",
-    "category": "Special",
-    "damage": 50,
-    "stamina_cost": 5,
-    "hold": 1,
-    "priority": 2,
-    "targets": null,
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
     "name": "Toxic Plume",
     "description": "Like a faulty airship engine, this Temtem can leave a trail of toxic gas that gives Poison to the whole team for 1 turn.",
     "type": "Toxic",
@@ -1014,10 +1001,10 @@
     "synergy_effect": "-8 STA, Targets get ATK-"
   },
   {
-    "name": "Tail Strike",
-    "description": "Sweep the board at one fell swoop.",
-    "type": "Neutral",
-    "category": "Physical",
+    "name": "Martial Strike",
+    "description": "All Melee Temtem are trained to perform this basic but effective attack.",
+    "type": "Melee",
+    "category": "Special",
     "damage": 50,
     "stamina_cost": 5,
     "hold": 1,
@@ -1038,6 +1025,19 @@
     "targets": null,
     "synergy": "Fire",
     "synergy_effect": "+3 turn Burn"
+  },
+  {
+    "name": "Tail Strike",
+    "description": "Sweep the board at one fell swoop.",
+    "type": "Neutral",
+    "category": "Physical",
+    "damage": 50,
+    "stamina_cost": 5,
+    "hold": 1,
+    "priority": 2,
+    "targets": null,
+    "synergy": null,
+    "synergy_effect": null
   },
   {
     "name": "Tesla Prison",
@@ -1274,17 +1274,17 @@
     "synergy_effect": null
   },
   {
-    "name": "Tsunami",
-    "description": "\"Summon a rarely seen tidal wave that damages a whole team.\"",
-    "type": "Water",
+    "name": "Magma Cannon",
+    "description": "\"Like a surge of Anak lava to the face! Fire technique that burns for 3 turns.\"",
+    "type": "Fire",
     "category": "Special",
     "damage": 70,
-    "stamina_cost": 25,
-    "hold": 1,
-    "priority": 2,
-    "targets": "Single Team",
-    "synergy": "Wind",
-    "synergy_effect": "+10 DMG"
+    "stamina_cost": 37,
+    "hold": 3,
+    "priority": 1,
+    "targets": "Single Other Target",
+    "synergy": null,
+    "synergy_effect": null
   },
   {
     "name": "Mud Shower",
@@ -1300,17 +1300,17 @@
     "synergy_effect": null
   },
   {
-    "name": "Magma Cannon",
-    "description": "\"Like a surge of Anak lava to the face! Fire technique that burns for 3 turns.\"",
-    "type": "Fire",
+    "name": "Tsunami",
+    "description": "\"Summon a rarely seen tidal wave that damages a whole team.\"",
+    "type": "Water",
     "category": "Special",
     "damage": 70,
-    "stamina_cost": 37,
-    "hold": 3,
-    "priority": 1,
-    "targets": "Single Other Target",
-    "synergy": null,
-    "synergy_effect": null
+    "stamina_cost": 25,
+    "hold": 1,
+    "priority": 2,
+    "targets": "Single Team",
+    "synergy": "Wind",
+    "synergy_effect": "+10 DMG"
   },
   {
     "name": "Fierce Claw",
@@ -1456,19 +1456,6 @@
     "synergy_effect": null
   },
   {
-    "name": "Clinch",
-    "description": "Give me a hug, bro! Ouch... but... not... like... thaaat...",
-    "type": "Neutral",
-    "category": "Physical",
-    "damage": 85,
-    "stamina_cost": 14,
-    "hold": null,
-    "priority": 1,
-    "targets": "Single Other Target",
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
     "name": "Boomerang",
     "description": "\"Originated as an Omninesian technique to reach hanging fruit in the jungle canopy.\"",
     "type": "Wind",
@@ -1478,6 +1465,19 @@
     "hold": 1,
     "priority": 3,
     "targets": null,
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
+    "name": "Clinch",
+    "description": "Give me a hug, bro! Ouch... but... not... like... thaaat...",
+    "type": "Neutral",
+    "category": "Physical",
+    "damage": 85,
+    "stamina_cost": 14,
+    "hold": null,
+    "priority": 1,
+    "targets": "Single Other Target",
     "synergy": null,
     "synergy_effect": null
   },
@@ -1560,12 +1560,12 @@
     "synergy_effect": null
   },
   {
-    "name": "Feather Gatling",
-    "description": "\"Even the softest feather becomes potent when used wisely.\" - Miyako proverb.",
-    "type": "Wind",
-    "category": "Physical",
+    "name": "Beta Burst",
+    "description": "A mighty beta-wave surge that bombards the target with a subatomic fusillade.",
+    "type": "Mental",
+    "category": "Special",
     "damage": 100,
-    "stamina_cost": 17,
+    "stamina_cost": 23,
     "hold": null,
     "priority": 2,
     "targets": "Single Other Target",
@@ -1573,12 +1573,12 @@
     "synergy_effect": null
   },
   {
-    "name": "Beta Burst",
-    "description": "A mighty beta-wave surge that bombards the target with a subatomic fusillade.",
-    "type": "Mental",
-    "category": "Special",
+    "name": "Feather Gatling",
+    "description": "\"Even the softest feather becomes potent when used wisely.\" - Miyako proverb.",
+    "type": "Wind",
+    "category": "Physical",
     "damage": 100,
-    "stamina_cost": 23,
+    "stamina_cost": 17,
     "hold": null,
     "priority": 2,
     "targets": "Single Other Target",
@@ -1651,6 +1651,19 @@
     "synergy_effect": null
   },
   {
+    "name": "Hypoxia",
+    "description": "Watch your enemies choke as you turn around and... take their breath away.",
+    "type": "Wind",
+    "category": "Special",
+    "damage": 120,
+    "stamina_cost": 30,
+    "hold": null,
+    "priority": 2,
+    "targets": null,
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
     "name": "Crystal Spikes",
     "description": "This nana-Anak analogue tectonic effect causes crystal shards to extrude from the ground and do damage.",
     "type": "Crystal",
@@ -1675,19 +1688,6 @@
     "targets": null,
     "synergy": "Water",
     "synergy_effect": "+24 Damage"
-  },
-  {
-    "name": "Hypoxia",
-    "description": "Watch your enemies choke as you turn around and... take their breath away.",
-    "type": "Wind",
-    "category": "Special",
-    "damage": 120,
-    "stamina_cost": 30,
-    "hold": null,
-    "priority": 2,
-    "targets": null,
-    "synergy": null,
-    "synergy_effect": null
   },
   {
     "name": "Blizzard",
@@ -1716,6 +1716,19 @@
     "synergy_effect": null
   },
   {
+    "name": "Crystal Plume Gatling",
+    "description": "What's more damaging than a feather gatling? Well, a Crystal shard gatling! Worse than a broken mirror!",
+    "type": "Crystal",
+    "category": "Physical",
+    "damage": 130,
+    "stamina_cost": 24,
+    "hold": null,
+    "priority": 2,
+    "targets": "Single Other Target",
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
     "name": "Crystal Bite",
     "description": "What do  Crystal Temtem eat? Surely not other Temtem... but they can still take a vicious bite.",
     "type": "Crystal",
@@ -1724,19 +1737,6 @@
     "stamina_cost": 22,
     "hold": 1,
     "priority": 2,
-    "targets": "Single Other Target",
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
-    "name": "Held Anger",
-    "description": "\"All that suppressed rage keeps building up... until it bursts in a nova of wrath.\"",
-    "type": "Neutral",
-    "category": "Physical",
-    "damage": 130,
-    "stamina_cost": 12,
-    "hold": 3,
-    "priority": 1,
     "targets": "Single Other Target",
     "synergy": null,
     "synergy_effect": null
@@ -1768,19 +1768,6 @@
     "synergy_effect": null
   },
   {
-    "name": "Crystal Plume Gatling",
-    "description": "What's more damaging than a feather gatling? Well, a Crystal shard gatling! Worse than a broken mirror!",
-    "type": "Crystal",
-    "category": "Physical",
-    "damage": 130,
-    "stamina_cost": 24,
-    "hold": null,
-    "priority": 2,
-    "targets": "Single Other Target",
-    "synergy": null,
-    "synergy_effect": null
-  },
-  {
     "name": "Stone Ball",
     "description": "The bane of exploring archaeologists, this is a mighty Earth technique.",
     "type": "Earth",
@@ -1802,6 +1789,19 @@
     "stamina_cost": 29,
     "hold": 1,
     "priority": 3,
+    "targets": "Single Other Target",
+    "synergy": null,
+    "synergy_effect": null
+  },
+  {
+    "name": "Held Anger",
+    "description": "\"All that suppressed rage keeps building up... until it bursts in a nova of wrath.\"",
+    "type": "Neutral",
+    "category": "Physical",
+    "damage": 130,
+    "stamina_cost": 12,
+    "hold": 3,
+    "priority": 1,
     "targets": "Single Other Target",
     "synergy": null,
     "synergy_effect": null
@@ -1833,19 +1833,6 @@
     "synergy_effect": null
   },
   {
-    "name": "Turbo attack",
-    "description": "",
-    "type": "Digital",
-    "category": "Special",
-    "damage": 140,
-    "stamina_cost": 27,
-    "hold": 1,
-    "priority": 2,
-    "targets": null,
-    "synergy": "Fire",
-    "synergy_effect": "?"
-  },
-  {
     "name": "Narcoleptic Hit",
     "description": "A potent attack that exhausts the attacker's psyche, making it Asleep for 2 turns.",
     "type": "Mental",
@@ -1859,11 +1846,24 @@
     "synergy_effect": null
   },
   {
+    "name": "Turbo attack",
+    "description": "",
+    "type": "Digital",
+    "category": "Special",
+    "damage": 140,
+    "stamina_cost": 27,
+    "hold": 1,
+    "priority": 2,
+    "targets": null,
+    "synergy": "Fire",
+    "synergy_effect": "?"
+  },
+  {
     "name": "Tornado",
     "description": "A powerful wind technique, illegal to use near all airship terminals of the Archipelago.",
     "type": "Wind",
     "category": "Special",
-    "damage": 145,
+    "damage": 135,
     "stamina_cost": 31,
     "hold": 1,
     "priority": 3,
@@ -1898,12 +1898,12 @@
     "synergy_effect": null
   },
   {
-    "name": "Oshi-Dashi",
-    "description": "Going for the ring out can be a dangerous Melee move in the smallest islands.",
-    "type": "Melee",
+    "name": "Major Slash",
+    "description": "\"This blow targets the enemy's weak spot for massive damage.\"",
+    "type": "Neutral",
     "category": "Physical",
     "damage": 150,
-    "stamina_cost": 28,
+    "stamina_cost": 33,
     "hold": 1,
     "priority": 2,
     "targets": "Single Other Target",
@@ -1911,12 +1911,12 @@
     "synergy_effect": null
   },
   {
-    "name": "Major Slash",
-    "description": "\"This blow targets the enemy's weak spot for massive damage.\"",
-    "type": "Neutral",
+    "name": "Oshi-Dashi",
+    "description": "Going for the ring out can be a dangerous Melee move in the smallest islands uwu.",
+    "type": "Melee",
     "category": "Physical",
     "damage": 150,
-    "stamina_cost": 33,
+    "stamina_cost": 28,
     "hold": 1,
     "priority": 2,
     "targets": "Single Other Target",
