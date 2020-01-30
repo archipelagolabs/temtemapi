@@ -38,6 +38,7 @@ class Temtem(BaseModel):
     cry: Optional[str]
     evolve_info: Optional[str]
     status: Dict
+    image: str
 
 
 class Technique(BaseModel):

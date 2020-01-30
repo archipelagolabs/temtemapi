@@ -80,6 +80,10 @@ def extract_evolve_info(sel: parsel.Selector):
     return None
 
 
+def extract_image(sel: parsel.Selector):
+    return sel.xpath('//*[@id="ttw-temtem"]/a/img/@src').get()
+
+
 # Traits
 
 def extract_effect(sel: parsel.Selector):
