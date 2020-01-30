@@ -23,7 +23,8 @@ extractors_map = {
     'Height': extractors.extract_height,
     'Weight': extractors.extract_weight,
     'Cry': extractors.extract_cry,
-    'Evolve Info': extractors.extract_evolve_info
+    'Evolve Info': extractors.extract_evolve_info,
+    'Image': extractors.extract_image
 }
 
 
@@ -95,6 +96,7 @@ def fetch_temtem(name):
 
     data = {}
 
+    data['Image'] = extractors_map['Image'](sel)
     data['Status'] = fetch_temtem_stats(sel)
     data['Evolve Info'] = extractors_map['Evolve Info'](sel.xpath('//*[@id="mw-content-text"]/div/p[1]'))
 
@@ -113,7 +115,8 @@ def fetch_temtem(name):
         weight=data['Weight'],
         cry=data.get('Cry'),
         evolve_info=data.get('Evolve Info'),
-        status=data.get('Status')
+        status=data.get('Status'),
+        image=data.get('Image', '')
     )
 
 
