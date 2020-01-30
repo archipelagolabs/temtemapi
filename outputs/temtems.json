@@ -9,7 +9,9 @@
     "evolves_to": [
       "Zaobian"
     ],
-    "traits": [],
+    "traits": [
+      "Attack T"
+    ],
     "tv_yield": "STA +1",
     "height": 128.0,
     "weight": 43.0,
@@ -35,7 +37,9 @@
     ],
     "evolves_from": "Oree",
     "evolves_to": [],
-    "traits": [],
+    "traits": [
+      "Attack T"
+    ],
     "tv_yield": "ATK +1, STA +2",
     "height": 213.0,
     "weight": 93.0,
@@ -970,7 +974,7 @@
     "height": 54.0,
     "weight": 29.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/8b/VO_48_Intro.wav",
-    "evolve_info": "It evolves into Saku after 13 levels",
+    "evolve_info": "It evolves into Saku after gaining 13 levels",
     "status": {
       "HP": "69",
       "STA": "48",
@@ -1121,7 +1125,7 @@
     "height": 137.0,
     "weight": 79.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/8c/055_intro.mp3",
-    "evolve_info": "It evolves into Myx after 18 levels",
+    "evolve_info": "It evolves into Myx after gaining 18 levels after capturing",
     "status": {
       "HP": "50",
       "STA": "39",
@@ -1434,21 +1438,24 @@
     ],
     "evolves_from": "Hocus",
     "evolves_to": [],
-    "traits": [],
+    "traits": [
+      "Dreaded Alarm",
+      "Rejuvenate"
+    ],
     "tv_yield": "SPD +2, SPATK +1",
     "height": 190.0,
     "weight": 82.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/b3/080_intro.mp3",
     "evolve_info": "It evolves from Hocus",
     "status": {
-      "HP": "?",
-      "STA": "?",
-      "SPD": "?",
-      "ATK": "?",
-      "DEF": "?",
-      "SPATK": "?",
-      "SPDEF": "?",
-      "TOTAL": "?"
+      "HP": "60",
+      "STA": "73",
+      "SPD": "78",
+      "ATK": "69",
+      "DEF": "36",
+      "SPATK": "77",
+      "SPDEF": "38",
+      "TOTAL": "431"
     },
     "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fb/Pocus.png/250px-Pocus.png?version=7c2ab438239957313985627902ca26ce"
   },
@@ -2491,8 +2498,8 @@
       "ATK": "60",
       "DEF": "72",
       "SPATK": "45",
-      "SPDEF": "72",
-      "TOTAL": "433"
+      "SPDEF": "92",
+      "TOTAL": "453"
     },
     "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/20/Pigepic.png/250px-Pigepic.png?version=d8e3923974707a3ff5f64a5c62441ba2"
   },

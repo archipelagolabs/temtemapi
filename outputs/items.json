@@ -639,7 +639,7 @@
     "purchasable": false,
     "buy_price": null,
     "sell_price": null,
-    "description": "NEEDS DESCRIPTION "
+    "description": "Damage taken from Fire Techniques is reduced by 20%. "
   },
   {
     "name": "Energy Drink",
@@ -989,7 +989,7 @@
     "purchasable": false,
     "buy_price": null,
     "sell_price": null,
-    "description": "NEEDS DESCRIPTION "
+    "description": "Reads "
   },
   {
     "name": "Water sample A",

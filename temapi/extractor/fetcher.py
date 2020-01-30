@@ -227,7 +227,7 @@ def run():
     
     with Pool() as p:
         temtems = p.map(fetch_temtem, temtem_names)
-        techniques = p.map(fetch_technique, technique_links)
+        techniques = sorted(p.map(fetch_technique, technique_links), key=lambda t: t.name)
         items = p.map(fetch_item, item_names)
     
     save(temtems, 'temtems.json')
