@@ -24,7 +24,8 @@
       "SPATK": "32",
       "SPDEF": "31",
       "TOTAL": "342"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/99/Oree.png/250px-Oree.png?version=be49bf47c5dd84fff22f85d8154c3ffc"
   },
   {
     "id": 3,
@@ -49,7 +50,8 @@
       "SPATK": "42",
       "SPDEF": "44",
       "TOTAL": "436"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/54/Zaobian.png/250px-Zaobian.png?version=cc9cfb9398169a6ca15b2b0a5ecb3a78"
   },
   {
     "id": 7,
@@ -80,7 +82,8 @@
       "SPATK": "67",
       "SPDEF": "56",
       "TOTAL": "358"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/03/Platypet.png/250px-Platypet.png?version=c67001e7b2c9bc9d51c99a3ada63901b"
   },
   {
     "id": 8,
@@ -111,7 +114,8 @@
       "SPATK": "76",
       "SPDEF": "63",
       "TOTAL": "404"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7b/Platox.png/250px-Platox.png?version=1a591b367bd135a041bff34d1b90c89c"
   },
   {
     "id": 9,
@@ -140,7 +144,8 @@
       "SPATK": "90",
       "SPDEF": "70",
       "TOTAL": "457"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7f/Platimous.png/250px-Platimous.png?version=4d26af36afe7f53a1ac87c7bae37c16c"
   },
   {
     "id": 10,
@@ -170,7 +175,8 @@
       "SPATK": "55",
       "SPDEF": "60",
       "TOTAL": "349"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/8a/Swali.png/250px-Swali.png?version=71a390aa66be7f05d1cb833c23e3fc07"
   },
   {
     "id": 11,
@@ -199,7 +205,8 @@
       "SPATK": "70",
       "SPDEF": "90",
       "TOTAL": "485"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/0c/Loali.png/250px-Loali.png?version=d76dbe38010f6b2366b8632440487857"
   },
   {
     "id": 12,
@@ -227,7 +234,8 @@
       "SPATK": "54",
       "SPDEF": "66",
       "TOTAL": "474"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/55/Tateru.png/250px-Tateru.png?version=6bdaab87e5320c9d7836e7f20886cfc1"
   },
   {
     "id": 16,
@@ -247,7 +255,7 @@
     "height": 75.0,
     "weight": 8.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/bf/VO_16_Intro.wav",
-    "evolve_info": "It evolves into Paharac after 9 levels",
+    "evolve_info": "It evolves into Paharac by gaining 9 levels after capturing",
     "status": {
       "HP": "48",
       "STA": "18",
@@ -257,7 +265,8 @@
       "SPATK": "50",
       "SPDEF": "50",
       "TOTAL": "306"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/1c/Paharo.png/250px-Paharo.png?version=931b16b6679375fd6bee753b8ddaf0d0"
   },
   {
     "id": 17,
@@ -277,7 +286,7 @@
     "height": 125.0,
     "weight": 24.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/1a/VO_17_Intro.wav",
-    "evolve_info": "It is the evolution of Paharo and evolves into Granpah after 16 levels",
+    "evolve_info": "Paharac evolves from Paharo and evolves into Granpah by gaining 16 levels after obtaining",
     "status": {
       "HP": "60",
       "STA": "30",
@@ -287,7 +296,8 @@
       "SPATK": "60",
       "SPDEF": "60",
       "TOTAL": "385"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2c/Paharac.png/250px-Paharac.png?version=415ed2494c1c351d7d630c56ed01fc95"
   },
   {
     "id": 18,
@@ -315,7 +325,8 @@
       "SPATK": "72",
       "SPDEF": "66",
       "TOTAL": "437"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d5/Granpah.png/250px-Granpah.png?version=7145d16ca67fabd7029ce8230ba3a4d0"
   },
   {
     "id": 19,
@@ -342,7 +353,8 @@
       "SPATK": "?",
       "SPDEF": "?",
       "TOTAL": "?"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/93/Ampling.png/250px-Ampling.png?version=82167fd1b9325aec9f8813d1d95dc04b"
   },
   {
     "id": 20,
@@ -368,7 +380,8 @@
       "SPATK": "?",
       "SPDEF": "?",
       "TOTAL": "?"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a8/Amphatyr.png/205px-Amphatyr.png?version=52792cb2a13edbc2ab577f9dc5c58299"
   },
   {
     "id": 21,
@@ -399,7 +412,8 @@
       "SPATK": "64",
       "SPDEF": "43",
       "TOTAL": "374"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/38/Bunbun.png/250px-Bunbun.png?version=6e93d45b1ecbe30473c8a120ebf43edf"
   },
   {
     "id": 22,
@@ -418,7 +432,7 @@
     "height": 150.0,
     "weight": 75.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/9/9c/022_intro.mp3",
-    "evolve_info": "It evolves from Bunbun after 20 levels",
+    "evolve_info": "It evolves from Bunbun by gaining 20 levels after capture",
     "status": {
       "HP": "85",
       "STA": "44",
@@ -428,7 +442,8 @@
       "SPATK": "75",
       "SPDEF": "50",
       "TOTAL": "451"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f5/Mudrid.png/250px-Mudrid.png?version=ac895e6b3e62190ba4d4b351afed1032"
   },
   {
     "id": 23,
@@ -458,7 +473,8 @@
       "SPATK": "62",
       "SPDEF": "55",
       "TOTAL": "356"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/1a/Hidody.png/250px-Hidody.png?version=02d1797386953394720f23e14793ae1e"
   },
   {
     "id": 24,
@@ -486,7 +502,8 @@
       "SPATK": "78",
       "SPDEF": "78",
       "TOTAL": "443"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/36/Taifu.png/250px-Taifu.png?version=7f62ea46113407cad16d296efc8d567a"
   },
   {
     "id": 25,
@@ -516,7 +533,8 @@
       "SPATK": "65",
       "SPDEF": "70",
       "TOTAL": "340"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/76/Fomu.png/250px-Fomu.png?version=f26a576737492e369d78b384d64cd6d8"
   },
   {
     "id": 26,
@@ -545,7 +563,8 @@
       "SPATK": "95",
       "SPDEF": "80",
       "TOTAL": "481"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f7/Wiplump.png/250px-Wiplump.png?version=2fd95f3d8d3f574bef210d92b559ffc2"
   },
   {
     "id": 27,
@@ -575,7 +594,8 @@
       "SPATK": "32",
       "SPDEF": "41",
       "TOTAL": "328"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/77/Skail.png/250px-Skail.png?version=1c6d883d20a9324286671868b54eec02"
   },
   {
     "id": 28,
@@ -604,7 +624,8 @@
       "SPATK": "45",
       "SPDEF": "60",
       "TOTAL": "454"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4b/Skunch.png/250px-Skunch.png?version=32f8420e59a00039c6cd76f38334b226"
   },
   {
     "id": 32,
@@ -625,7 +646,8 @@
     "weight": 24.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/1c/VO_32_Intro.wav",
     "evolve_info": "It evolves into Tental after leveling up 29 times",
-    "status": {}
+    "status": {},
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/af/Houchic.png/250px-Houchic.png?version=599ba4f08db27a03e9493c73e69605cb"
   },
   {
     "id": 33,
@@ -653,7 +675,8 @@
       "SPATK": "81",
       "SPDEF": "62",
       "TOTAL": "403"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/37/Tental.png/250px-Tental.png?version=1eb805a04e3ef2bc672d89cd7ea8d0b6"
   },
   {
     "id": 35,
@@ -684,7 +707,8 @@
       "SPATK": "27",
       "SPDEF": "40",
       "TOTAL": "364"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/Orphyll.png/250px-Orphyll.png?version=80e136c8dff53c85b5cdec0b22ad5051"
   },
   {
     "id": 36,
@@ -703,7 +727,7 @@
     "height": 178.0,
     "weight": 330.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/ba/036_intro.mp3",
-    "evolve_info": "It evolves from Orphyll after 22 levels",
+    "evolve_info": "It evolves from Orphyll by gaining 22 levels after capturing",
     "status": {
       "HP": "77",
       "STA": "52",
@@ -713,7 +737,8 @@
       "SPATK": "36",
       "SPDEF": "51",
       "TOTAL": "445"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5b/Nidrasil.png/250px-Nidrasil.png?version=c5fb32d9632c9c202f77d3582f0a18d6"
   },
   {
     "id": 37,
@@ -743,7 +768,8 @@
       "SPATK": "40",
       "SPDEF": "41",
       "TOTAL": "333"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/27/Banapi.png/250px-Banapi.png?version=185bd91e665278ad4b70a6a4dc4ca42f"
   },
   {
     "id": 38,
@@ -771,7 +797,8 @@
       "SPATK": "45",
       "SPDEF": "47",
       "TOTAL": "429"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/cf/Capyre.png/250px-Capyre.png?version=d3c0bc298fa2142b5abf324b167193e4"
   },
   {
     "id": 39,
@@ -801,7 +828,8 @@
       "SPATK": "55",
       "SPDEF": "56",
       "TOTAL": "353"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/69/Lapinite.png/250px-Lapinite.png?version=a4c5c27584e856fbc34dd0d34829ce06"
   },
   {
     "id": 40,
@@ -831,7 +859,8 @@
       "SPATK": "60",
       "SPDEF": "62",
       "TOTAL": "397"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/9a/Azuroc.png/250px-Azuroc.png?version=17c1e097ac20a6cffc6789cedf8f8868"
   },
   {
     "id": 41,
@@ -859,7 +888,8 @@
       "SPATK": "65",
       "SPDEF": "69",
       "TOTAL": "450"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/22/Zenoreth.png/250px-Zenoreth.png?version=157e33919d2150667fe8eb471d1b5fee"
   },
   {
     "id": 44,
@@ -889,7 +919,8 @@
       "SPATK": "41",
       "SPDEF": "42",
       "TOTAL": "329"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/09/Bigu.png/250px-Bigu.png?version=24e2192d9bb46fc3986c8e7f2134b309"
   },
   {
     "id": 45,
@@ -918,7 +949,8 @@
       "SPATK": "51",
       "SPDEF": "44",
       "TOTAL": "448"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b9/Babawa.png/250px-Babawa.png?version=cfb16bf66dc7a09067f9ddb088855c11"
   },
   {
     "id": 48,
@@ -948,7 +980,8 @@
       "SPATK": "60",
       "SPDEF": "50",
       "TOTAL": "357"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4e/Kaku.png/250px-Kaku.png?version=621735cf3f014afa71890bbde56ec202"
   },
   {
     "id": 49,
@@ -977,7 +1010,8 @@
       "SPATK": "66",
       "SPDEF": "70",
       "TOTAL": "420"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2a/Saku.png/250px-Saku.png?version=df60d201b6ae8340edea0f7b993e3f1e"
   },
   {
     "id": 50,
@@ -1006,7 +1040,8 @@
       "SPATK": "74",
       "SPDEF": "56",
       "TOTAL": "465"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Valash.png/250px-Valash.png?version=550813faa5fe91e8e5b84ff03a525083"
   },
   {
     "id": 53,
@@ -1035,7 +1070,8 @@
       "SPATK": "75",
       "SPDEF": "79",
       "TOTAL": "420"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/6c/Barnshe.png/250px-Barnshe.png?version=50a894010b67adaf7af592db1a31802a"
   },
   {
     "id": 54,
@@ -1064,7 +1100,8 @@
       "SPATK": "23",
       "SPDEF": "61",
       "TOTAL": "460"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d6/Gyalis.png/250px-Gyalis.png?version=77871f88bf39ad1ecbcc3758613262f6"
   },
   {
     "id": 55,
@@ -1094,7 +1131,8 @@
       "SPATK": "38",
       "SPDEF": "65",
       "TOTAL": "330"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/38/Occlura.png/250px-Occlura.png?version=5569e7e9cad8354696651f36c589d165"
   },
   {
     "id": 56,
@@ -1123,7 +1161,8 @@
       "SPATK": "94",
       "SPDEF": "80",
       "TOTAL": "443"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/07/Myx.png/250px-Myx.png?version=9adf2b9fbee40af02a3cb5af3d158878"
   },
   {
     "id": 57,
@@ -1153,7 +1192,8 @@
       "SPATK": "59",
       "SPDEF": "38",
       "TOTAL": "332"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c8/Raiber.png/250px-Raiber.png?version=bed732746b7818bc495ed76f1ceac907"
   },
   {
     "id": 58,
@@ -1183,7 +1223,8 @@
       "SPATK": "69",
       "SPDEF": "43",
       "TOTAL": "392"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f4/Raize.png/250px-Raize.png?version=33bf489d7d50a5f631b6e1141989a978"
   },
   {
     "id": 59,
@@ -1211,7 +1252,8 @@
       "SPATK": "51",
       "SPDEF": "50",
       "TOTAL": "441"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Raican.png/250px-Raican.png?version=c7889fd0d01ba97db473efae862698ad"
   },
   {
     "id": 60,
@@ -1241,7 +1283,8 @@
       "SPATK": "31",
       "SPDEF": "10",
       "TOTAL": "263"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/86/Pewki.png/250px-Pewki.png?version=463f88a7398f1ec5c08aefdfb9473ba9"
   },
   {
     "id": 61,
@@ -1269,7 +1312,8 @@
       "SPATK": "65",
       "SPDEF": "37",
       "TOTAL": "449"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/01/Piraniant.png/250px-Piraniant.png?version=61c78067f3e253e320de3f185d3d5007"
   },
   {
     "id": 69,
@@ -1298,7 +1342,8 @@
       "SPATK": "70",
       "SPDEF": "40",
       "TOTAL": "444"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e3/Saipat.png/250px-Saipat.png?version=228eb2f6dc2edc1f2a8b31f3f301346e"
   },
   {
     "id": 72,
@@ -1319,7 +1364,8 @@
     "weight": 48.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4f/VO_72_Intro.wav",
     "evolve_info": "It needs to level up 35 times in order to evolve into Sherald",
-    "status": {}
+    "status": {},
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/ac/Crystle.png/250px-Crystle.png?version=7b700e68a21790e67fe5fb6edb5e7019"
   },
   {
     "id": 73,
@@ -1347,7 +1393,8 @@
       "SPATK": "51",
       "SPDEF": "48",
       "TOTAL": "402"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/ff/Sherald.png/250px-Sherald.png?version=7c0a388c556a40439425aa43f566358c"
   },
   {
     "id": 79,
@@ -1376,7 +1423,8 @@
       "SPATK": "?",
       "SPDEF": "?",
       "TOTAL": "?"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d7/Hocus.png/250px-Hocus.png?version=fef98f08c5fea97385ed36931d5b5635"
   },
   {
     "id": 80,
@@ -1401,7 +1449,8 @@
       "SPATK": "?",
       "SPDEF": "?",
       "TOTAL": "?"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fb/Pocus.png/250px-Pocus.png?version=7c2ab438239957313985627902ca26ce"
   },
   {
     "id": 82,
@@ -1429,7 +1478,8 @@
       "SPATK": "42",
       "SPDEF": "46",
       "TOTAL": "454"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Sparzy.png/250px-Sparzy.png?version=2e48ac98b1c077a9ab73f01b07365152"
   },
   {
     "id": 84,
@@ -1459,7 +1509,8 @@
       "SPATK": "48",
       "SPDEF": "29",
       "TOTAL": "310"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/78/Mushi.png/250px-Mushi.png?version=b14f77181db5677a6e9510bf09f22742"
   },
   {
     "id": 85,
@@ -1488,7 +1539,8 @@
       "SPATK": "49",
       "SPDEF": "41",
       "TOTAL": "444"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Mushook.png/250px-Mushook.png?version=ad509c17396ecc5e692f43b3c4ad18aa"
   },
   {
     "id": 86,
@@ -1518,7 +1570,8 @@
       "SPATK": "45",
       "SPDEF": "35",
       "TOTAL": "317"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5d/Magmis.png/250px-Magmis.png?version=87725b0c4699375b069ad5b21af167ad"
   },
   {
     "id": 87,
@@ -1546,7 +1599,8 @@
       "SPATK": "62",
       "SPDEF": "37",
       "TOTAL": "438"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/32/Mastione.png/250px-Mastione.png?version=cc14b00d2d3f6ea31961232acc1af16c"
   },
   {
     "id": 88,
@@ -1576,7 +1630,8 @@
       "SPATK": "63",
       "SPDEF": "45",
       "TOTAL": "370"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4f/Umishi.png/250px-Umishi.png?version=e09799f74fb9f824ad5a7c81bd9fc11b"
   },
   {
     "id": 89,
@@ -1604,7 +1659,8 @@
       "SPATK": "76",
       "SPDEF": "54",
       "TOTAL": "473"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/75/Ukama.png/250px-Ukama.png?version=cd0a61eb461f881292c89a0255e1bdbc"
   },
   {
     "id": 91,
@@ -1627,7 +1683,8 @@
       "SPATK": "?",
       "SPDEF": "?",
       "TOTAL": "?"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/250px-Raignet.png?version=837b1000e7196d236cec536883478778"
   },
   {
     "id": 92,
@@ -1648,7 +1705,8 @@
     "weight": 24.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e0/VO_92_Intro.wav",
     "evolve_info": "It evolves into Baboong after levelling up 29 times",
-    "status": {}
+    "status": {},
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f7/Smazee.png/250px-Smazee.png?version=7935f03519b742cab5db6f412b746f07"
   },
   {
     "id": 93,
@@ -1676,7 +1734,8 @@
       "SPATK": "41",
       "SPDEF": "41",
       "TOTAL": "402"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/28/Baboong.png/250px-Baboong.png?version=3089a006c1697f592a47467468b3a209"
   },
   {
     "id": 95,
@@ -1684,10 +1743,8 @@
     "types": [
       "Earth"
     ],
-    "evolves_from": "Unknown",
-    "evolves_to": [
-      "Unknown"
-    ],
+    "evolves_from": null,
+    "evolves_to": [],
     "traits": [],
     "tv_yield": "?",
     "height": null,
@@ -1703,7 +1760,8 @@
       "SPATK": "?",
       "SPDEF": "?",
       "TOTAL": "?"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fe/Zizare.png/250px-Zizare.png?version=9ac8f17d68eec44bf2c6dd677be0cfc8"
   },
   {
     "id": 102,
@@ -1733,7 +1791,8 @@
       "SPATK": "37",
       "SPDEF": "31",
       "TOTAL": "355"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Spriole.png/250px-Spriole.png?version=72b01ba26964c374ecc9b6c9d8274beb"
   },
   {
     "id": 103,
@@ -1763,7 +1822,8 @@
       "SPATK": "42",
       "SPDEF": "35",
       "TOTAL": "391"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/42/Deendre.png/250px-Deendre.png?version=d4eb283c5362a2699dae876d76d2394e"
   },
   {
     "id": 104,
@@ -1791,7 +1851,8 @@
       "SPATK": "43",
       "SPDEF": "46",
       "TOTAL": "451"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fa/Cerneaf.png/250px-Cerneaf.png?version=0eb9476fcb6fe44b4a0d708700dc74ba"
   },
   {
     "id": 105,
@@ -1821,7 +1882,8 @@
       "SPATK": "65",
       "SPDEF": "37",
       "TOTAL": "362"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4e/Toxolotl.png/250px-Toxolotl.png?version=efcfdaf33849137624965651a3ef900d"
   },
   {
     "id": 106,
@@ -1849,7 +1911,8 @@
       "SPATK": "79",
       "SPDEF": "45",
       "TOTAL": "441"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/55/Noxolotl.png/250px-Noxolotl.png?version=8e3345c350c224df38b1aa079719fa81"
   },
   {
     "id": 107,
@@ -1879,7 +1942,8 @@
       "SPATK": "46",
       "SPDEF": "54",
       "TOTAL": "346"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/ff/Blooze.png/250px-Blooze.png?version=800b800a0899827cd8f5ef022376290e"
   },
   {
     "id": 108,
@@ -1907,7 +1971,8 @@
       "SPATK": "68",
       "SPDEF": "56",
       "TOTAL": "444"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Goolder.png/250px-Goolder.png?version=f21bc7b49920b4f0743b39e465a6843b"
   },
   {
     "id": 109,
@@ -1928,7 +1993,7 @@
     "height": 92.0,
     "weight": 37.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4a/109_intro.mp3",
-    "evolve_info": "It evolves into Volarend after 22 levels",
+    "evolve_info": "Zephyruff evolves into Volarend by gaining 22 levels after it is captured",
     "status": {
       "HP": "58",
       "STA": "34",
@@ -1938,7 +2003,8 @@
       "SPATK": "50",
       "SPDEF": "51",
       "TOTAL": "351"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f7/Zephyruff.png/250px-Zephyruff.png?version=420e27d345e6f1e1834c3391443a19b1"
   },
   {
     "id": 110,
@@ -1967,7 +2033,8 @@
       "SPATK": "68",
       "SPDEF": "96",
       "TOTAL": "457"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/87/Volarend.png/250px-Volarend.png?version=c897ec310683c1e52035cbb7fdfbba54"
   },
   {
     "id": 113,
@@ -1998,7 +2065,8 @@
       "SPATK": "62",
       "SPDEF": "73",
       "TOTAL": "375"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/Ganki.png/250px-Ganki.png?version=d18706728e9cc3706caea19e24063ac4"
   },
   {
     "id": 114,
@@ -2027,7 +2095,8 @@
       "SPATK": "81",
       "SPDEF": "91",
       "TOTAL": "449"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5c/Gazuma.png/250px-Gazuma.png?version=358b25834f69fa0d65e3fa4fbc276f96"
   },
   {
     "id": 115,
@@ -2055,7 +2124,8 @@
       "SPATK": "110",
       "SPDEF": "65",
       "TOTAL": "486"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Oceara.png/250px-Oceara.png?version=2d39fe51d12d259fe1223416010943db"
   },
   {
     "id": 122,
@@ -2084,7 +2154,8 @@
       "SPATK": "72",
       "SPDEF": "60",
       "TOTAL": "462"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d9/Shuine.png/250px-Shuine.png?version=eaf40b01f6d3abacab71b426f04889ca"
   },
   {
     "id": 123,
@@ -2104,14 +2175,13 @@
     "weight": 65.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4e/VO_123_Intro.wav",
     "evolve_info": "It does not evolve into or from any other Temtem",
-    "status": {}
+    "status": {},
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/81/Nessla.png/250px-Nessla.png?version=f3f2884421cc242fa075c15059360426"
   },
   {
     "id": 124,
     "name": "Valiar",
-    "types": [
-      "Mental"
-    ],
+    "types": [],
     "evolves_from": null,
     "evolves_to": [],
     "traits": [],
@@ -2129,7 +2199,8 @@
       "SPATK": "?",
       "SPDEF": "?",
       "TOTAL": "?"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7b/Valiar.png/250px-Valiar.png?version=9e7a48bdc2aa27a198957eefd0b5c3f4"
   },
   {
     "id": 127,
@@ -2159,7 +2230,8 @@
       "SPATK": "38",
       "SPDEF": "44",
       "TOTAL": "321"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fc/Kalazu.png/250px-Kalazu.png?version=cf1db3bce51a47d2974bb53de228edcb"
   },
   {
     "id": 128,
@@ -2188,7 +2260,8 @@
       "SPATK": "65",
       "SPDEF": "55",
       "TOTAL": "449"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Kalabyss.png/250px-Kalabyss.png?version=f0f8a29fec8bbdfd9401e190524b0719"
   },
   {
     "id": 129,
@@ -2217,7 +2290,8 @@
       "SPATK": "70",
       "SPDEF": "110",
       "TOTAL": "443"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Adoroboros.png/250px-Adoroboros.png?version=b88b44f15eb65ebe8a64356b6ebabfca"
   },
   {
     "id": 130,
@@ -2236,7 +2310,8 @@
     "weight": 23.8,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/0d/VO_130_Intro.wav",
     "evolve_info": "It evolves into Tuvine by taking it to the Crystal Shrine",
-    "status": {}
+    "status": {},
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/db/Tuwai.png/250px-Tuwai.png?version=805a9cfdfcc1eda50fcb2c28b12544bc"
   },
   {
     "id": 133,
@@ -2265,7 +2340,8 @@
       "SPATK": "60",
       "SPDEF": "47",
       "TOTAL": "457"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7e/Tuvine.png/250px-Tuvine.png?version=2f3b9f3ddfd21caf0e4e7611a5e41407"
   },
   {
     "id": 137,
@@ -2294,7 +2370,8 @@
       "SPATK": "69",
       "SPDEF": "96",
       "TOTAL": "454"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/47/Kinu.png/250px-Kinu.png?version=c95a1071861eff359212a23f041a96ac"
   },
   {
     "id": 138,
@@ -2325,7 +2402,8 @@
       "SPATK": "47",
       "SPDEF": "31",
       "TOTAL": "359"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/40/Vulvir.png/250px-Vulvir.png?version=f5f2e45a794db7f97995c215897efcc4"
   },
   {
     "id": 139,
@@ -2356,7 +2434,8 @@
       "SPATK": "49",
       "SPDEF": "32",
       "TOTAL": "388"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/61/Vulor.png/250px-Vulor.png?version=90c3f46db61376a05daf98b50056546a"
   },
   {
     "id": 140,
@@ -2385,7 +2464,8 @@
       "SPATK": "64",
       "SPDEF": "35",
       "TOTAL": "473"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/Vulcrane.png/250px-Vulcrane.png?version=8f0e791f8cda4fa1c5fb998a830385b4"
   },
   {
     "id": 141,
@@ -2413,7 +2493,8 @@
       "SPATK": "45",
       "SPDEF": "72",
       "TOTAL": "433"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/20/Pigepic.png/250px-Pigepic.png?version=d8e3923974707a3ff5f64a5c62441ba2"
   },
   {
     "id": 161,
@@ -2442,6 +2523,7 @@
       "SPATK": "50",
       "SPDEF": "101",
       "TOTAL": "423"
-    }
+    },
+    "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/ea/Anahir.png/250px-Anahir.png?version=b68cc0007bc9309aadfddf4789691427"
   }
 ]
