@@ -28,17 +28,20 @@ class TechniqueCategory(str, Enum):
 class Temtem(BaseModel):
     id: int
     name: str
+    image: str
     types: List[TemtemType]
-    evolves_from: Optional[str]
-    evolves_to: List[str]
+
+    status: Dict
     traits: List[str]
     tv_yield: str
+
+    evolves_from: Optional[str]
+    evolves_to: List[str]
+    evolve_info: Optional[str]
+
     height: Optional[float]
     weight: Optional[float]
     cry: Optional[str]
-    evolve_info: Optional[str]
-    status: Dict
-    image: str
 
 
 class Technique(BaseModel):
@@ -53,12 +56,6 @@ class Technique(BaseModel):
     targets: Optional[str]
     synergy: Optional[TemtemType]
     synergy_effect: Optional[str]
-
-
-class Item(BaseModel):
-    name: str
-    effect: str
-    consumable: bool
 
 
 class Trait(BaseModel):
