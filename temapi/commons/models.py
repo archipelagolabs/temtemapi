@@ -69,13 +69,13 @@ class Trait(BaseModel):
 
 class Item(BaseModel):
     name: str
-    category: str
+    category: Optional[str]
     consumable: Optional[bool]
     limited_quantity: Optional[bool]
     purchasable: Optional[bool]
     buy_price: Optional[int]
     sell_price: Optional[int]
-    description: str
+    description: Optional[str]
 
 
 class Medicine(Item):
