@@ -6,7 +6,7 @@ from multiprocessing.pool import Pool
 import requests
 from parsel import Selector
 
-from temapi.commons.models import Technique, Item, ErrorItem, FullTemtem
+from temapi.commons.models import Technique, Item, ErrorItem, Temtem
 from temapi.commons.paths import OUTPUTS_DIR
 from temapi.extractor import extractors
 
@@ -99,7 +99,7 @@ def fetch_temtem(name):
     for key, csel in zip(keys, infos):
         data[key] = extractors_map[key](csel.css('.infobox-row-value'))
 
-    return FullTemtem(
+    return Temtem(
         id=data['No.'],
         name=name,
         types=data.get('Types') or data.get('Type'),

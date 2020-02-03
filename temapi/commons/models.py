@@ -28,7 +28,7 @@ class TechniqueCategory(str, Enum):
 class Temtem(BaseModel):
     id: int
     name: str
-    image: str
+    image: Optional[str]
     types: List[TemtemType]
 
     status: Dict
