@@ -1367,7 +1367,7 @@
     "height": 60.0,
     "weight": 48.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/4/4f/VO_72_Intro.wav",
-    "evolve_info": "It needs to level up 35 times in order to evolve into Sherald",
+    "evolve_info": "It needs to level up 30 times in order to evolve into Sherald",
     "status": {},
     "image": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/ac/Crystle.png/250px-Crystle.png?version=7b700e68a21790e67fe5fb6edb5e7019"
   },
@@ -1627,7 +1627,7 @@
     "height": 95.0,
     "weight": 21.5,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/73/VO_88_Intro.wav",
-    "evolve_info": "It evolves into Ukama after 14 levels",
+    "evolve_info": "It evolves into Ukama after gaining 14 levels after capture",
     "status": {
       "HP": "51",
       "STA": "76",
@@ -2119,7 +2119,7 @@
     ],
     "tv_yield": "SPD +1 SPATK +2",
     "height": 222.0,
-    "weight": 68.0,
+    "weight": 52.0,
     "cry": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/a/af/VO_115_Intro.wav",
     "evolve_info": "It is currently not known to evolve into or from any other Temtem",
     "status": {

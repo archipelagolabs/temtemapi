@@ -1,18 +1,17 @@
-from typing import List
-
 from fastapi import APIRouter
 
-from temapi.api.loaders.traits import TraitLoader
+from temapi.api.loaders.traits import trait_loader
+from temapi.api.models import ContentList
 from temapi.commons.models import Trait
 
 router = APIRouter()
 
-trait_loader = TraitLoader()
-
 
 @router.get(
     '/',
-    response_model=List[Trait],
+    response_model=ContentList[Trait],
 )
 def list_traits():
-    return trait_loader.traits
+    return ContentList(
+        content=trait_loader.traits,
+    )

@@ -1,26 +1,26 @@
-from typing import List, Union
+from typing import Union
 
 from fastapi import APIRouter, HTTPException
 
-from temapi.api.loaders import TemtemLoader
-from temapi.commons.models import Temtem
+from temapi.api.loaders.temtems import temtem_loader
+from temapi.api.models import ContentList, PartialTemtem, FullTemtem
 
 router = APIRouter()
-
-temtem_loader = TemtemLoader()
 
 
 @router.get(
     '/',
-    response_model=List[Temtem],
+    response_model=ContentList[PartialTemtem],
 )
 def list_temtems():
-    return temtem_loader.temtems
+    return ContentList(
+        content=temtem_loader.all(),
+    )
 
 
 @router.get(
     '/{id_or_name}',
-    response_model=Temtem,
+    response_model=FullTemtem,
 )
 def get_temtem_by_id_or_name(id_or_name: Union[int, str]):
     if isinstance(id_or_name, int):
