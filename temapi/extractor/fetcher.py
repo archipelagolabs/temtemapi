@@ -6,7 +6,7 @@ from multiprocessing.pool import Pool
 import requests
 from parsel import Selector
 
-from temapi.commons.models import Technique, Item, ErrorItem, Temtem
+from temapi.commons.models import ErrorItem, Item, Technique, Temtem
 from temapi.commons.paths import OUTPUTS_DIR
 from temapi.extractor import extractors
 
