@@ -7,8 +7,7 @@ router = APIRouter()
 
 
 @router.get(
-    '/{name}',
-    response_model=Technique,
+    '/{name}', response_model=Technique,
 )
 def get_technique(name: str):
     technique = technique_loader.get_by_name(name)

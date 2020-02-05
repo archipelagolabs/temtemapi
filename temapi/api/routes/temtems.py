@@ -9,18 +9,14 @@ router = APIRouter()
 
 
 @router.get(
-    '/',
-    response_model=ContentList[PartialTemtem],
+    '/', response_model=ContentList[PartialTemtem],
 )
 def list_temtems():
-    return ContentList(
-        content=temtem_loader.all(),
-    )
+    return ContentList(content=temtem_loader.all())
 
 
 @router.get(
-    '/{id_or_name}',
-    response_model=FullTemtem,
+    '/{id_or_name}', response_model=FullTemtem,
 )
 def get_temtem_by_id_or_name(id_or_name: Union[int, str]):
     if isinstance(id_or_name, int):

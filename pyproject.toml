@@ -15,9 +15,13 @@ w3lib = "^1.21.0"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 isort = "^4.3.21"
+black = "^19.10b0"
 
 [tool.poetry.scripts]
 extract = "temapi.extractor:main"
+
+[tool.black]
+skip-string-normalization = true
 
 [build-system]
 requires = ["poetry>=0.12"]

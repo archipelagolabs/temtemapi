@@ -34,7 +34,7 @@ technique_extractors_map = {
     'Priority': extractors.extract_technique_priority,
     'Synergy': extractors.extract_technique_synergy,
     'Synergy Effect': extractors.extract_technique_synergy_effect,
-    'Targets': extractors.extract_technique_targets
+    'Targets': extractors.extract_technique_targets,
 }
 
 item_extractors_map = {
@@ -64,17 +64,16 @@ def fetch_techniques_links():
     infos = sel.css('table.wikitable > tbody > tr')
     infos.pop(0)
 
-    return [
-        technique_extractors_map['Link'](info.css('td')[0])
-        for info in infos
-    ]
+    return [technique_extractors_map['Link'](info.css('td')[0]) for info in infos]
 
 
 def fetch_item_name_list():
     print("Getting items")
     response = requests.get('https://temtem.gamepedia.com/Items')
     sel = Selector(text=response.text)
-    all_items = sel.css('table.wikitable > tbody > tr').xpath('.//td[2]/a/@title').getall()
+    all_items = (
+        sel.css('table.wikitable > tbody > tr').xpath('.//td[2]/a/@title').getall()
+    )
 
     # TC have a different layout, so they need to be extracted separately
     return [x for x in all_items if not x.startswith('TC')]
@@ -112,7 +111,7 @@ def fetch_temtem(name):
         cry=data.get('Cry'),
         evolve_info=data.get('Evolve Info'),
         status=data.get('Status'),
-        image=data.get('Image', None)
+        image=data.get('Image', None),
     )
 
 
@@ -165,7 +164,7 @@ def fetch_technique(link: str):
         priority=data['Priority'],
         targets=data['Targets'],
         synergy=data.get('Synergy'),
-        synergy_effect=data.get('Synergy Effect')
+        synergy_effect=data.get('Synergy Effect'),
     )
 
 
@@ -185,7 +184,9 @@ def fetch_item(name):
     for key, csel in zip(keys, infos):
         data[key] = item_extractors_map[key](csel.css('.infobox-row-value'))
 
-    description_selector = sel.xpath('/html/body/div[2]/div[3]/div[1]/div[3]/div[4]/div/p[2]')
+    description_selector = sel.xpath(
+        '/html/body/div[2]/div[3]/div[1]/div[3]/div[4]/div/p[2]'
+    )
 
     # shouldn't this use w3lib.html.remove_tags?
     cleaner = re.compile('<.*?>|\n')
@@ -228,7 +229,9 @@ def run():
 
     with Pool() as p:
         temtems = p.map(fetch_temtem, temtem_names)
-        techniques = sorted(p.map(fetch_technique, technique_links), key=lambda t: t.name)
+        techniques = sorted(
+            p.map(fetch_technique, technique_links), key=lambda t: t.name
+        )
         items = p.map(fetch_item, item_names)
 
     save(temtems, 'temtems.json')
@@ -240,4 +243,5 @@ def run():
 
     print(
         f'Saved {len(temtems)} Temtems, {len(techniques)} techniques, {len(items)} items and '
-        f'{len(list(traits))} traits in {time.perf_counter() - start:.2f} seconds')
+        f'{len(list(traits))} traits in {time.perf_counter() - start:.2f} seconds'
+    )

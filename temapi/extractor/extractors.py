@@ -22,10 +22,7 @@ def extract_id(sel: parsel.Selector):
 def extract_types(sel: parsel.Selector):
     types_sel = sel.xpath('.//a/@title').getall()
 
-    types = [
-        t.split()[0]
-        for t in types_sel
-    ]
+    types = [t.split()[0] for t in types_sel]
 
     # 🩹 for unknown type Temtems
     return [t for t in types if t != 'Temtem']
@@ -72,7 +69,7 @@ def extract_cry(sel: parsel.Selector):
 def extract_evolve_info(sel: parsel.Selector):
     paragraph = html.remove_tags(sel.get()).strip()
     phrases = paragraph.split('.')
-    
+
     for phrase in phrases:
         if 'evolve' in phrase:
             return phrase.strip()
@@ -85,6 +82,7 @@ def extract_image(sel: parsel.Selector):
 
 
 # Traits
+
 
 def extract_effect(sel: parsel.Selector):
     s = html.remove_tags(sel.get()).strip()
@@ -99,17 +97,15 @@ def extract_trait(sel: parsel.Selector):
     effect = extract_effect(effect_sel)
     learned_by = learned_by_sel.xpath('.//a/text()').getall()
 
-    return Trait(
-        name=name,
-        effect=effect,
-        learned_by=learned_by,
-    )
+    return Trait(name=name, effect=effect, learned_by=learned_by,)
 
 
 # Items
 
+
 def extract_item_string_directly(sel: parsel.Selector):
     return sel.xpath('.//text()').get().strip()
+
 
 def string_to_bool(string):
     if string == 'Yes':
@@ -117,9 +113,11 @@ def string_to_bool(string):
     if string == 'No':
         return False
 
+
 def extract_item_string_to_bool(sel: parsel.Selector):
     string = sel.xpath('.//text()').get().strip()
     return string_to_bool(string)
+
 
 def extract_item_string_to_int(sel: parsel.Selector):
     value = sel.xpath('.//text()').get().strip()
@@ -130,6 +128,7 @@ def extract_item_string_to_int(sel: parsel.Selector):
 
 
 # Techniques
+
 
 def extract_technique_link(sel: parsel.Selector):
     return sel.css('a::attr(href)').get()
@@ -145,13 +144,13 @@ def extract_technique_type(sel: parsel.Selector):
 
 
 def extract_technique_class(sel: parsel.Selector):
-    class_ = sel.css('a::attr(title)').get() 
-    return class_.capitalize() if class_  != None else None
+    class_ = sel.css('a::attr(title)').get()
+    return class_.capitalize() if class_ != None else None
 
 
 def extract_technique_damage(sel: parsel.Selector):
     damage = sel.xpath('text()').get().strip()
-    
+
     try:
         return int(damage)
     except ValueError:
@@ -169,7 +168,7 @@ def extract_technique_stamina(sel: parsel.Selector):
 
 def extract_technique_hold(sel: parsel.Selector):
     hold = sel.xpath('text()').get().strip()
-    
+
     try:
         return int(hold)
     except ValueError:
