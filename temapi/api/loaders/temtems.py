@@ -14,22 +14,15 @@ class TemtemLoader(Loader):
 
     def setup(self, data):
         self.temtems = [
-            FullTemtem(**{
-                **d,
-                'traits': trait_loader.get_multiple_by_name(d['traits'])
-            })
+            FullTemtem(
+                **{**d, 'traits': trait_loader.get_multiple_by_name(d['traits'])}
+            )
             for d in data
         ]
 
-        self.by_id = dict(
-            (temtem.id, temtem)
-            for temtem in self.temtems
-        )
+        self.by_id = dict((temtem.id, temtem) for temtem in self.temtems)
 
-        self.by_name = dict(
-            (temtem.name.lower(), temtem)
-            for temtem in self.temtems
-        )
+        self.by_name = dict((temtem.name.lower(), temtem) for temtem in self.temtems)
 
     def get_by_id(self, tid) -> Optional[FullTemtem]:
         return self.by_id.get(tid)

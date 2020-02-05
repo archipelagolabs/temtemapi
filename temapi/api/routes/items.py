@@ -11,16 +11,14 @@ item_loader = ItemLoader()
 
 
 @router.get(
-    '/',
-    response_model=List[Item],
+    '/', response_model=List[Item],
 )
 def list_items():
     return item_loader.items
 
 
 @router.get(
-    '/{name}',
-    response_model=Item,
+    '/{name}', response_model=Item,
 )
 def get_item_by_name(name: str):
     item = item_loader.get_by_name(name)

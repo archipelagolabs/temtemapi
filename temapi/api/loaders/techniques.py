@@ -14,8 +14,7 @@ class TechniqueLoader(Loader):
         self.techniques = [Technique(**d) for d in data]
 
         self.by_name = dict(
-            (technique.name.lower(), technique)
-            for technique in self.techniques
+            (technique.name.lower(), technique) for technique in self.techniques
         )
 
     def get_by_name(self, name) -> Optional[Technique]:

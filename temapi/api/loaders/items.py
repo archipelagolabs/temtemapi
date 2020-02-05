@@ -12,11 +12,8 @@ class ItemLoader(Loader):
     def setup(self, data):
         self.items = [Item(**d) for d in data]
 
-        self.by_name = dict(
-            (item['name'].lower(), item)
-            for item in data
-        )
-    
+        self.by_name = dict((item['name'].lower(), item) for item in data)
+
     def get_by_name(self, name) -> Optional[Item]:
         return self.by_name.get(name.lower())
 
