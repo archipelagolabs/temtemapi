@@ -3,7 +3,7 @@ from typing import Union
 from fastapi import APIRouter, HTTPException
 
 from temapi.api.loaders.temtems import temtem_loader
-from temapi.api.models import ContentList, PartialTemtem, FullTemtem
+from temapi.api.models import ContentList, FullTemtem, PartialTemtem
 
 router = APIRouter()
 

@@ -1,4 +1,4 @@
-from typing import List, Dict
+from typing import Dict, List
 
 from temapi.api.loaders.loader import Loader
 from temapi.commons.models import Trait
