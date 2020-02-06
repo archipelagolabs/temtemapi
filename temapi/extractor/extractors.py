@@ -140,12 +140,12 @@ def extract_technique_name(sel: parsel.Selector):
 
 def extract_technique_type(sel: parsel.Selector):
     type = sel.css('a::attr(title)').get()
-    return type.split()[0] if type != None else None
+    return type.split()[0] if type is not None else None
 
 
 def extract_technique_class(sel: parsel.Selector):
     class_ = sel.css('a::attr(title)').get()
-    return class_.capitalize() if class_ != None else None
+    return class_.capitalize() if class_ is not None else None
 
 
 def extract_technique_damage(sel: parsel.Selector):
@@ -192,7 +192,7 @@ def extract_technique_synergy(sel: parsel.Selector):
     else:
         try:
             return sel.css('a::attr(title)').get().split()[0]
-        except:
+        except Exception:
             return None
 
 
