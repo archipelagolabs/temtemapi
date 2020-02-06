@@ -122,14 +122,14 @@ def fetch_temtem_stats(sel: Selector):
     keys = [
         row.css('div:first-child > b').xpath('text()').get()
         for row in rows[2:]
-        if row.css('div:first-child > b').xpath('text()').get() != None
+        if row.css('div:first-child > b').xpath('text()').get() is not None
     ]
     keys.append('TOTAL')
 
     values = [
         row.css('div:last-child').xpath('text()').get()
         for row in rows[2:]
-        if row.css('div:last-child').xpath('text()').get() != None
+        if row.css('div:last-child').xpath('text()').get() is not None
     ]
 
     return {key: value for key, value in zip(keys, values)}

@@ -23,6 +23,11 @@ def format(c):
 
 
 @task
+def flake8(c):
+    c.run(f'flake8 {PACKAGE}', warn=True),
+
+
+@task
 def lint(c):
     c.run(f'pylint --rcfile=pylintrc {PACKAGE}', warn=True),
 
