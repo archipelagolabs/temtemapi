@@ -58,7 +58,7 @@ def fetch_temtem_name_list():
 
 def fetch_techniques_links():
     print('Getting techniques')
-    response = requests.get("https://temtem.gamepedia.com/Techniques")
+    response = requests.get('https://temtem.gamepedia.com/Techniques')
 
     sel = Selector(text=response.text)
     infos = sel.css('table.wikitable > tbody > tr')
@@ -68,7 +68,7 @@ def fetch_techniques_links():
 
 
 def fetch_item_name_list():
-    print("Getting items")
+    print('Getting items')
     response = requests.get('https://temtem.gamepedia.com/Items')
     sel = Selector(text=response.text)
     all_items = (
@@ -80,7 +80,7 @@ def fetch_item_name_list():
 
 
 def fetch_temtem(name):
-    response = requests.get(f"https://temtem.gamepedia.com/{name}")
+    response = requests.get(f'https://temtem.gamepedia.com/{name}')
 
     sel = Selector(text=response.text)
     infos = sel.css('table.infobox-table > tbody > tr.infobox-row')
@@ -136,7 +136,7 @@ def fetch_temtem_stats(sel: Selector):
 
 
 def fetch_technique(link: str):
-    response = requests.get(f"https://temtem.gamepedia.com{link}")
+    response = requests.get(f'https://temtem.gamepedia.com{link}')
 
     sel = Selector(text=response.text)
     infos = sel.css('table.infobox-table > tbody > tr.infobox-row')
@@ -169,7 +169,7 @@ def fetch_technique(link: str):
 
 
 def fetch_item(name):
-    response = requests.get(f"https://temtem.gamepedia.com/{name}")
+    response = requests.get(f'https://temtem.gamepedia.com/{name}')
 
     if response.status_code != 200:
         return ErrorItem(name=name, error='Page doest not exist')
