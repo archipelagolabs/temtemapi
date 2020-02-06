@@ -23,6 +23,11 @@ def format(c):
 
 
 @task
+def lint(c):
+    c.run(f'pylint --rcfile=pylintrc {PACKAGE}', warn=True),
+
+
+@task
 def format_check(c):
     check_all(
         [
