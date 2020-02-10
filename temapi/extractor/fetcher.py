@@ -132,7 +132,7 @@ def fetch_temtem_stats(sel: Selector):
         if row.css('div:last-child').xpath('text()').get() is not None
     ]
 
-    return {key: value for key, value in zip(keys, values)}
+    return dict(zip(keys, values))
 
 
 def fetch_technique(link: str):

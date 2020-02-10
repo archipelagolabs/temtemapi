@@ -17,6 +17,7 @@ def extract_id(sel: parsel.Selector):
         c = c.strip()
         if c.isdigit():
             return int(c)
+    return None
 
 
 def extract_types(sel: parsel.Selector):
@@ -112,6 +113,7 @@ def string_to_bool(string):
         return True
     if string == 'No':
         return False
+    raise ValueError(f'Expecting "Yes"/"No", got {string}.')
 
 
 def extract_item_string_to_bool(sel: parsel.Selector):
@@ -139,8 +141,8 @@ def extract_technique_name(sel: parsel.Selector):
 
 
 def extract_technique_type(sel: parsel.Selector):
-    type = sel.css('a::attr(title)').get()
-    return type.split()[0] if type is not None else None
+    technique_type = sel.css('a::attr(title)').get()
+    return technique_type.split()[0] if type is not None else None
 
 
 def extract_technique_class(sel: parsel.Selector):
@@ -189,15 +191,17 @@ def extract_technique_targets(sel: parsel.Selector):
 def extract_technique_synergy(sel: parsel.Selector):
     if sel.css('a::attr(title)').get() == 'Temtem Types':
         return None
-    else:
-        try:
-            return sel.css('a::attr(title)').get().split()[0]
-        except Exception:
-            return None
+
+    try:
+        return sel.css('a::attr(title)').get().split()[0]
+    except AttributeError:
+        return None
 
 
 def extract_technique_synergy_effect(sel: parsel.Selector):
-    if sel.xpath('text()').get().strip() == '-':
+    result = sel.xpath('text()').get().strip()
+
+    if result == '-':
         return None
-    else:
-        return sel.xpath('text()').get().strip()
+
+    return result
